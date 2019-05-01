@@ -10,4 +10,4 @@ I work as a Software Developer Engineer within Microsoft Commercial Software Eng
 
 My first ever computer was a Spectrum 48k (yep the rubber key version), where I learn't to copy lines of code out of a book to produce non-working games with endless frustration.  Today, I still sometimes experience the same frustration coding, but the debug experience is much better :)
 
-I build stuff mostly in C#, but occassionaly work in other languages such as C, nodejs and python [GitHub](https://github.com/daltskin).
+I build stuff mostly in C#, but occassionaly work in other languages such as C, nodejs and python.

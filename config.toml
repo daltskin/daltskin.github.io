@@ -43,9 +43,9 @@ disableHugoGeneratorInject = false
 [blackfriday]
   hrefTargetBlank = true
 
-[taxonomies]
-  tag      = "tags"
-  category = ""
+#[taxonomies]
+#  tag      = "tags"
+#  category = ""
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -100,12 +100,12 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = "Jamie D`"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
   [languages.fr]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = "Jamie D"
     weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 

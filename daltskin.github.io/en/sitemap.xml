@@ -40,17 +40,17 @@
   </url>
   
   <url>
-    <loc>https://daltskin.github.io/index.html</loc>
+    <loc>https://daltskin.github.io/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://daltskin.github.io/fr/index.html"
+                href="https://daltskin.github.io/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://daltskin.github.io/index.html"
+                href="https://daltskin.github.io/categories/"
                 />
   </url>
   
