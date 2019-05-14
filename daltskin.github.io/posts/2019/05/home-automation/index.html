@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="Jamie D ">
+<meta name="description"
+    content="I&amp;rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and the development environment of their API. At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&amp;rsquo;s a labour of love. First things first - home automation is largely pointless, it&amp;rsquo;s un-necessary and will likely cause you more problems that it&amp;rsquo;s worth in the short term." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://daltskin.github.io/posts/2019/05/home-automation/" />
+
+
+<title>
+    
+    Home Automation :: Hello_world  — Jamie D`
+    
+</title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://daltskin.github.io/main.min.e38f4eb6a0e1e7198f7d21f32ba3bd18bab1b9a4e4fa30bd3cd91b54108a6f89.css">
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://daltskin.github.io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://daltskin.github.io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://daltskin.github.io/favicon-16x16.png">
+<link rel="manifest" href="https://daltskin.github.io/site.webmanifest">
+<link rel="mask-icon" href="https://daltskin.github.io/safari-pinned-tab.svg" color="#252627">
+<link rel="shortcut icon" href="https://daltskin.github.io/favicon.ico">
+<meta name="theme-color" content="#252627">
+<meta itemprop="name" content="Home Automation">
+<meta itemprop="description" content="I&rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and the development environment of their API. At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&rsquo;s a labour of love. First things first - home automation is largely pointless, it&rsquo;s un-necessary and will likely cause you more problems that it&rsquo;s worth in the short term.">
+
+
+<meta itemprop="datePublished" content="2019-05-09T19:49:05&#43;01:00" />
+<meta itemprop="dateModified" content="2019-05-09T19:49:05&#43;01:00" />
+<meta itemprop="wordCount" content="527">
+
+
+
+<meta itemprop="keywords" content="untagged," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://daltskin.github.io/"/>
+
+<meta name="twitter:title" content="Home Automation"/>
+<meta name="twitter:description" content="I&rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and the development environment of their API. At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&rsquo;s a labour of love. First things first - home automation is largely pointless, it&rsquo;s un-necessary and will likely cause you more problems that it&rsquo;s worth in the short term."/>
+
+
+
+
+<meta property="article:published_time" content="2019-05-09 19:49:05 &#43;0100 BST" />
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://daltskin.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__text">C:\Users\daltskin</span>
+            <span class="logo__mark">></span>
+            <span class="logo__cursor"></span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://daltskin.github.io/about/">About</a></li><li><a href="https://daltskin.github.io/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>3 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title"><a href="https://daltskin.github.io/posts/2019/05/home-automation/">Home Automation</a></h1>
+
+            
+
+            <div class="post-content">
+                <p>I&rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and the development environment of their API.  At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&rsquo;s a labour of love.  First things first - home automation is largely pointless, it&rsquo;s un-necessary and will likely cause you more problems that it&rsquo;s worth in the short term.  However, from a developer and technology perspective - it&rsquo;s AWESOME.  You can spend literally hours configuring devices to trigger events and turn things on/off, dim or change colour of lights etc - much to the annoyance of your partner.  Who, will mostly likey just say &ldquo;really?&rdquo; when you&rsquo;ve finally got the postbox to trigger the lamp to flash - reliably.</p>
+
+<p>The first smart device on the SmartThings ecosystem I got was a Samsung Smart Fridge.  As well as a speaker, this also has builtin sensors that report it&rsquo;s running temperature, how much energy it&rsquo;s using and whether either of the fridge/freezer doors are open/closed.  It also came with an ice dispenser, so my first challenge was to see if the sensors reported if it was dispensing ice or not (it doesn&rsquo;t).  This is where you head over to the SmartThings Live Logging feature to watch all the activity within your home automation graph.  So the fall-back plan was to play &ldquo;Ice Ice Baby&rdquo; by Vanilla Ice whenever the freezer door was opened.</p>
+
+<p>I&rsquo;m an avid Spotify user and subscribe to the Premium service, this give me access to Spotify Connect - allowing me to target individual playback devices from the application.  But crucially, Spotify has an API that allows you to control what music track gets played and on what device - also allowing you to control things such as the volume.  So, using the API you&rsquo;re able to stop and start a track on a target device.  So the next challenge was how to invoke the Spotify API from SmartThings.  I initially thought about invoking the Spotify API diretly from a custom SmartApp, however this would have involved a fair amount of code in Groovy and I didn&rsquo;t want to write sluggish code that was going to grind other SmartApps down or timeout.  Instead I went with a server-side approach, creating a lighter weight SmartApp that invokes an Azure Function which does the grunt work - automating Spotify via the API.  To make life even easier, I discovered a nuget package by Jonas Dellinger that wraps the Spotify API into a simple SDK.</p>
+
+<p>I&rsquo;ve had some fun (and tears) with this project, but it&rsquo;s amazing what automation scenarios you can achieve.  For instance - I have a &ldquo;Game&rdquo; mode for the entire house.  Using a little device from the team at <a href="https://konnected.io/" target="_blank">https://konnected.io/</a> I&rsquo;ve been able to convert all of the existing alarm sensors around the house into SmartThings sensors.  So, not only can I trigger different music from different sensors, I can choose where the music gets played, what lights to flash and so on ;)</p>
+
+<p>The full source code is available here: <a href="https://github.com/daltskin/ST-HomeAutomation" target="_blank">https://github.com/daltskin/ST-HomeAutomation</a></p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://daltskin.github.io/tags/untagged">untagged</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>527 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-05-09 19:49 &#43;0100</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+
+                    
+                        <span class="button next">
+                            <a href="https://daltskin.github.io/posts/2019/04/new-home/">
+                                <span class="button__text">New Home</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2019</span>
+            
+                <span><a href="https://daltskin.github.io/">Jamie D</a></span>
+            
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span> <a href="https://daltskin.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Content &#10084; by <a href="https://github.com/daltskin">daltskin</a></span>
+            <span><a href="https://daltskin.github.io/credits">Credits</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://daltskin.github.io/bundle.min.cf7871ed49474a80ed457154d24e61f7881adbe0f9384951a74ac46b688a39a4dbfa68bc6d37baeb058186de354ead3487d4ee7f083ea4cba860c48600b694f3.js" integrity="sha512-z3hx7UlHSoDtRXFU0k5h94ga2&#43;D5OElRp0rEa2iKOaTb&#43;mi8bTe66wWBht41Tq00h9Tufwg&#43;pMuoYMSGALaU8w=="></script>
+
+
+
+    </body>
+</html>

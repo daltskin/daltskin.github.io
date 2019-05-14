@@ -5,6 +5,8 @@ aliases = ["about-us","about-hugo","contact"]
 [ author ]
   name = "Jamie D"
 +++
+<!-- 
+<img width="250" src="/img/benny.png" alt="lego" /> -->
 
 I work as a Software Developer Engineer within Microsoft Commercial Software Engineering, helping customers and partners develop solutions based on the Microsoft Azure platform. I'm as old as I look, with over 20 years’ experience as a Microsoft software developer.  I'm passionate about the Intelligent Cloud and creating new experiences using a range of Microsoft technologies.  I have a degree from the university of life and once read some books (I also have a real degree, but have learn't far more from real industry experience).
 
