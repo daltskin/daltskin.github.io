@@ -7,7 +7,8 @@
 <meta name="author"
     content="Jamie D ">
 <meta name="description"
-    content="I&amp;rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and the development environment of their API. At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&amp;rsquo;s a labour of love. First things first - home automation is largely pointless, it&amp;rsquo;s un-necessary and will likely cause you more problems that it&amp;rsquo;s worth in the short term." />
+    content="I&amp;rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and their development environment. At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&amp;rsquo;s a labour of love.
+First things first though, home automation is largely pointless, it&amp;rsquo;s un-necessary and will likely cause you more problems than it&amp;rsquo;s worth :) However, from a developer and technology perspective - it&amp;rsquo;s AWESOME." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="https://daltskin.github.io/posts/2019/05/home-automation/" />
@@ -38,32 +39,43 @@
 <link rel="shortcut icon" href="https://daltskin.github.io/favicon.ico">
 <meta name="theme-color" content="#252627">
 <meta itemprop="name" content="Home Automation">
-<meta itemprop="description" content="I&rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and the development environment of their API. At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&rsquo;s a labour of love. First things first - home automation is largely pointless, it&rsquo;s un-necessary and will likely cause you more problems that it&rsquo;s worth in the short term.">
+<meta itemprop="description" content="I&rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and their development environment. At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&rsquo;s a labour of love.
+First things first though, home automation is largely pointless, it&rsquo;s un-necessary and will likely cause you more problems than it&rsquo;s worth :) However, from a developer and technology perspective - it&rsquo;s AWESOME.">
 
 
 <meta itemprop="datePublished" content="2019-05-09T19:49:05&#43;01:00" />
 <meta itemprop="dateModified" content="2019-05-09T19:49:05&#43;01:00" />
-<meta itemprop="wordCount" content="527">
+<meta itemprop="wordCount" content="501">
 
 
 
-<meta itemprop="keywords" content="untagged," />
+<meta itemprop="keywords" content="smarthome," />
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://daltskin.github.io/"/>
+<meta name="twitter:image" content="https://daltskin.github.io/%20"/>
 
 <meta name="twitter:title" content="Home Automation"/>
-<meta name="twitter:description" content="I&rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and the development environment of their API. At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&rsquo;s a labour of love. First things first - home automation is largely pointless, it&rsquo;s un-necessary and will likely cause you more problems that it&rsquo;s worth in the short term."/>
+<meta name="twitter:description" content="I&rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and their development environment. At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&rsquo;s a labour of love.
+First things first though, home automation is largely pointless, it&rsquo;s un-necessary and will likely cause you more problems than it&rsquo;s worth :) However, from a developer and technology perspective - it&rsquo;s AWESOME."/>
 
 
 
 
-<meta property="article:published_time" content="2019-05-09 19:49:05 &#43;0100 BST" />
+<meta property="article:published_time" content="2019-05-09 19:49:05 &#43;0100 &#43;0100" />
 
 
 
 
 
 
+    <script>
+        var appInsights=window.appInsights||function(a){
+          function b(a){c[a]=function(){var b=arguments;c.queue.push(function(){c[a].apply(c,b)})}}var c={config:a},d=document,e=window;setTimeout(function(){var b=d.createElement("script");b.src=a.url||"https://az416426.vo.msecnd.net/scripts/a/ai.0.js",d.getElementsByTagName("script")[0].parentNode.appendChild(b)});try{c.cookie=d.cookie}catch(a){}c.queue=[];for(var f=["Event","Exception","Metric","PageView","Trace","Dependency"];f.length;)b("track"+f.pop());if(b("setAuthenticatedUserContext"),b("clearAuthenticatedUserContext"),b("startTrackEvent"),b("stopTrackEvent"),b("startTrackPage"),b("stopTrackPage"),b("flush"),!a.disableExceptionTracking){f="onerror",b("_"+f);var g=e[f];e[f]=function(a,b,d,e,h){var i=g&&g(a,b,d,e,h);return!0!==i&&c["_"+f](a,b,d,e,h),i}}return c
+          }({
+              instrumentationKey:'490dec9c-4d14-4f46-9054-0d119b76a14d'
+          });
+          
+        window.appInsights=appInsights,appInsights.queue&&0===appInsights.queue.length&&appInsights.trackPageView();
+    </script>
 
     </head>
 
@@ -126,13 +138,15 @@
             
 
             <div class="post-content">
-                <p>I&rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and the development environment of their API.  At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&rsquo;s a labour of love.  First things first - home automation is largely pointless, it&rsquo;s un-necessary and will likely cause you more problems that it&rsquo;s worth in the short term.  However, from a developer and technology perspective - it&rsquo;s AWESOME.  You can spend literally hours configuring devices to trigger events and turn things on/off, dim or change colour of lights etc - much to the annoyance of your partner.  Who, will mostly likey just say &ldquo;really?&rdquo; when you&rsquo;ve finally got the postbox to trigger the lamp to flash - reliably.</p>
+                <p>I&rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and their development environment.  At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&rsquo;s a labour of love.</p>
 
-<p>The first smart device on the SmartThings ecosystem I got was a Samsung Smart Fridge.  As well as a speaker, this also has builtin sensors that report it&rsquo;s running temperature, how much energy it&rsquo;s using and whether either of the fridge/freezer doors are open/closed.  It also came with an ice dispenser, so my first challenge was to see if the sensors reported if it was dispensing ice or not (it doesn&rsquo;t).  This is where you head over to the SmartThings Live Logging feature to watch all the activity within your home automation graph.  So the fall-back plan was to play &ldquo;Ice Ice Baby&rdquo; by Vanilla Ice whenever the freezer door was opened.</p>
+<p>First things first though, home automation is largely pointless, it&rsquo;s un-necessary and will likely cause you more problems than it&rsquo;s worth :)  However, from a developer and technology perspective - it&rsquo;s AWESOME.  You can spend literally hours configuring devices to trigger events and turn things on/off, dim or change the colour of lights etc.  All at the expense of anyone else you live with, who will most likey hate it and just say &ldquo;really?&rdquo; when you&rsquo;ve finally got the postbox to make the lamp flash on/off.</p>
 
-<p>I&rsquo;m an avid Spotify user and subscribe to the Premium service, this give me access to Spotify Connect - allowing me to target individual playback devices from the application.  But crucially, Spotify has an API that allows you to control what music track gets played and on what device - also allowing you to control things such as the volume.  So, using the API you&rsquo;re able to stop and start a track on a target device.  So the next challenge was how to invoke the Spotify API from SmartThings.  I initially thought about invoking the Spotify API diretly from a custom SmartApp, however this would have involved a fair amount of code in Groovy and I didn&rsquo;t want to write sluggish code that was going to grind other SmartApps down or timeout.  Instead I went with a server-side approach, creating a lighter weight SmartApp that invokes an Azure Function which does the grunt work - automating Spotify via the API.  To make life even easier, I discovered a nuget package by Jonas Dellinger that wraps the Spotify API into a simple SDK.</p>
+<p>The first smart device on the SmartThings ecosystem I toyed with was a Samsung Smart Fridge.  As well as a touch screen and speaker, this also has builtin sensors that report it&rsquo;s running temperature, how much energy it&rsquo;s using and whether either of the fridge/freezer doors are open/closed.  It also came with an ice dispenser, so my first challenge was to see if the sensors reported if it was dispensing ice or not (unfortunately it doesn&rsquo;t).  This is where you head over to the SmartThings Live Logging feature to watch all the activity within your home automation graph.  So the fall-back plan was to play &ldquo;Ice Ice Baby&rdquo; by Vanilla Ice whenever the freezer door was opened.</p>
 
-<p>I&rsquo;ve had some fun (and tears) with this project, but it&rsquo;s amazing what automation scenarios you can achieve.  For instance - I have a &ldquo;Game&rdquo; mode for the entire house.  Using a little device from the team at <a href="https://konnected.io/" target="_blank">https://konnected.io/</a> I&rsquo;ve been able to convert all of the existing alarm sensors around the house into SmartThings sensors.  So, not only can I trigger different music from different sensors, I can choose where the music gets played, what lights to flash and so on ;)</p>
+<p>I&rsquo;m an avid Spotify user and subscribe to the Premium service, this give me access to Spotify Connect - allowing me to target individual playback devices.  Crucially, Spotify has an API that allows you to control what music track gets played and on what device, as well as controlling things such as the volume.  So the next challenge was how to invoke the Spotify API from SmartThings.  I initially thought about invoking it directly from a custom SmartApp, however this would have involved a fair amount of code in Groovy, which you have little control of where it actually runs and things like rate limits.  Instead I went with a server-side approach, creating a lightweight SmartApp that invokes an Azure Function which does the grunt work - automating Spotify via the API.  To make life even easier, I discovered a nuget package by Jonas Dellinger that wraps the Spotify API into a simple SDK.</p>
+
+<p>I&rsquo;ve had some fun (and tears) with this project, but it&rsquo;s amazing what automation scenarios you can achieve.  For instance - I now have a &ldquo;Game&rdquo; mode for the entire house.  Using a little device from the team at <a href="https://konnected.io" target="_blank">https://konnected.io</a> I&rsquo;ve been able to convert the existing alarm sensors around the house into SmartThings sensors.  So, not only can I trigger different music from different sensors, I can choose where the music gets played, what lights to flash and so on ;)</p>
 
 <p>The full source code is available here: <a href="https://github.com/daltskin/ST-HomeAutomation" target="_blank">https://github.com/daltskin/ST-HomeAutomation</a></p>
 
@@ -143,12 +157,12 @@
 
         <div class="post-info">
                 <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://daltskin.github.io/tags/untagged">untagged</a></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://daltskin.github.io/tags/smarthome">smarthome</a></span>
                 </p>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>527 Words</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>501 Words</p>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-05-09 19:49 &#43;0100</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-05-09 14:49 -0400</p>
         </div>
 
         
@@ -211,7 +225,9 @@
 
 
 
-<script type="text/javascript" src="https://daltskin.github.io/bundle.min.cf7871ed49474a80ed457154d24e61f7881adbe0f9384951a74ac46b688a39a4dbfa68bc6d37baeb058186de354ead3487d4ee7f083ea4cba860c48600b694f3.js" integrity="sha512-z3hx7UlHSoDtRXFU0k5h94ga2&#43;D5OElRp0rEa2iKOaTb&#43;mi8bTe66wWBht41Tq00h9Tufwg&#43;pMuoYMSGALaU8w=="></script>
+
+<script type="text/javascript" src="https://daltskin.github.io/bundle.min.cf7871ed49474a80ed457154d24e61f7881adbe0f9384951a74ac46b688a39a4dbfa68bc6d37baeb058186de354ead3487d4ee7f083ea4cba860c48600b694f3.js"></script>
+    
 
 
 
