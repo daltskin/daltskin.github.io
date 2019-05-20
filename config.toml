@@ -56,7 +56,7 @@ disableHugoGeneratorInject = false
   # Metadata mostly used in document's head
   description = "The online home Jamie D"
   keywords = ""
-  images = [" "]
+  images = ["img/benny.png"]
 
   homeSubtitle = "Welcome to the online home of Jamie D"
 

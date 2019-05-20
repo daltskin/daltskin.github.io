@@ -4,6 +4,7 @@ date: 2019-05-09T19:49:05+01:00
 draft: false
 toc: false
 images:
+- img/post-cover.png
 tags:
   - smarthome
 ---
