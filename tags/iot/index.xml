@@ -17,7 +17,7 @@
       <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://daltskin.github.io/posts/2019/10/direct-line-speech/</guid>
-      <description> Spooktacular fun with the Azure Bot Service - Direct Line Speech Technologies used  Azure Bot Service and Direct Line Channel Bot Framework Microsoft Cognitive Services  LUIS QnA Maker Speech SDK  Azure Functions Spotify API Raspberry Pi Halloween head  </description>
+      <description> Spooktacular fun with the Azure Bot Service - Direct Line Speech Architecture Technologies used  Azure Bot Service and Direct Line Channel Bot Framework Microsoft Cognitive Services  Dispatcher LUIS QnA Maker Speech SDK  Azure Functions Spotify API UWP Raspberry Pi running Windows 10 IoT Halloween head  Resources  https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0 https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-sdk https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-synthesis-markup https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support#text-to-speech https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0 https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&amp;amp;tabs=cs https://developer.spotify.com/  </description>
     </item>
     
   </channel>

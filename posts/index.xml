@@ -14,12 +14,16 @@
             <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
             
             <guid>https://daltskin.github.io/posts/2019/10/direct-line-speech/</guid>
-            <description> Spooktacular fun with the Azure Bot Service - Direct Line Speech Technologies used  Azure Bot Service and Direct Line Channel Bot Framework Microsoft Cognitive Services  LUIS QnA Maker Speech SDK  Azure Functions Spotify API Raspberry Pi Halloween head  </description>
+            <description> Spooktacular fun with the Azure Bot Service - Direct Line Speech Architecture Technologies used  Azure Bot Service and Direct Line Channel Bot Framework Microsoft Cognitive Services  Dispatcher LUIS QnA Maker Speech SDK  Azure Functions Spotify API UWP Raspberry Pi running Windows 10 IoT Halloween head  Resources  https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0 https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-sdk https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-synthesis-markup https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support#text-to-speech https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0 https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&amp;amp;tabs=cs https://developer.spotify.com/  </description>
             <content type="html"><![CDATA[
 
 <h2 id="spooktacular-fun-with-the-azure-bot-service-direct-line-speech">Spooktacular fun with the Azure Bot Service - Direct Line Speech</h2>
 
 <p><video src="/img/2brains.mp4" control></p>
+
+<h2 id="architecture">Architecture</h2>
+
+<p><img src="/img/2brains_architecture.jpg"></p>
 
 <h2 id="technologies-used">Technologies used</h2>
 
@@ -29,14 +33,28 @@
 <li>Microsoft Cognitive Services
 
 <ul>
+<li>Dispatcher</li>
 <li>LUIS</li>
 <li>QnA Maker</li>
 <li>Speech SDK</li>
 </ul></li>
 <li>Azure Functions</li>
 <li>Spotify API</li>
-<li>Raspberry Pi</li>
+<li>UWP</li>
+<li>Raspberry Pi running Windows 10 IoT</li>
 <li>Halloween head</li>
+</ul>
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0" target="_blank">https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-sdk" target="_blank">https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-sdk</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-synthesis-markup" target="_blank">https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-synthesis-markup</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support#text-to-speech" target="_blank">https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support#text-to-speech</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0" target="_blank">https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&amp;tabs=cs" target="_blank">https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&amp;tabs=cs</a></li>
+<li><a href="https://developer.spotify.com/" target="_blank">https://developer.spotify.com/</a></li>
 </ul>
 ]]></content>
         </item>
