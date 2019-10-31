@@ -1,26 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on Hello_world</title>
-        <link>https://daltskin.github.io/posts/</link>
-        <description>Recent content in Posts on Hello_world</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Tue, 16 Apr 2019 16:44:23 +0100</lastBuildDate>
-        <atom:link href="https://daltskin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>New Home</title>
-            <link>https://daltskin.github.io/posts/2019/04/new-home/</link>
-            <pubDate>Tue, 16 Apr 2019 16:44:23 +0100</pubDate>
-            
-            <guid>https://daltskin.github.io/posts/2019/04/new-home/</guid>
-            <description>Yes, I&amp;rsquo;ve moved my online home from https://blogs.msdn.microsoft.com/jamiedalton to here. Moving my site to Hugo using a static content builder will hopefully mean that I can blog more often, and now that I&amp;rsquo;m outside the blogs.msdn.microsoft.com domain I can write and share other technical articles or things that I&amp;rsquo;ve been working with.
+  <channel>
+    <title>Posts on Hello_world</title>
+    <link>https://daltskin.github.io/posts/</link>
+    <description>Recent content in Posts on Hello_world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 31 Oct 2019 13:08:21 +0000</lastBuildDate>
+    
+	<atom:link href="https://daltskin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test</title>
+      <link>https://daltskin.github.io/posts/2019/10/test/</link>
+      <pubDate>Thu, 31 Oct 2019 13:08:21 +0000</pubDate>
+      
+      <guid>https://daltskin.github.io/posts/2019/10/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Home</title>
+      <link>https://daltskin.github.io/posts/2019/04/new-home/</link>
+      <pubDate>Tue, 16 Apr 2019 16:44:23 +0100</pubDate>
+      
+      <guid>https://daltskin.github.io/posts/2019/04/new-home/</guid>
+      <description>Yes, I&amp;rsquo;ve moved my online home from https://blogs.msdn.microsoft.com/jamiedalton to here. Moving my site to Hugo using a static content builder will hopefully mean that I can blog more often, and now that I&amp;rsquo;m outside the blogs.msdn.microsoft.com domain I can write and share other technical articles or things that I&amp;rsquo;ve been working with.
 So speaking of which, leads me to my upcoming next post about Home Automation&amp;hellip;</description>
-            <content type="html"><![CDATA[<p>Yes, I&rsquo;ve moved my online home from <a href="https://blogs.msdn.microsoft.com/jamiedalton" target="_blank">https://blogs.msdn.microsoft.com/jamiedalton</a> to here.  Moving my site to Hugo using a static content builder will hopefully mean that I can blog more often, and now that I&rsquo;m outside the blogs.msdn.microsoft.com domain I can write and share other technical articles or things that I&rsquo;ve been working with.</p>
-
-<p>So speaking of which, leads me to my upcoming next post about Home Automation&hellip;</p>
-]]></content>
-        </item>
-        
-    </channel>
+    </item>
+    
+  </channel>
 </rss>
