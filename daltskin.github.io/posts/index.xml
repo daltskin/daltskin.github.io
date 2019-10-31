@@ -5,8 +5,36 @@
         <description>Recent content in Posts on Hello_world</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 09 May 2019 19:49:05 +0100</lastBuildDate>
+        <lastBuildDate>Thu, 31 Oct 2019 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://daltskin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Happy Halloween!</title>
+            <link>https://daltskin.github.io/posts/2019/10/happy-halloween/</link>
+            <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+            
+            <guid>https://daltskin.github.io/posts/2019/10/happy-halloween/</guid>
+            <description> The man with 2 brains Built using the following:
+ Azure Bot Service with Direct Line Speech Luis.ai QnaMaker.ai Microsoft Speech SDK Azure Functions Spotify API Raspberry Pi  </description>
+            <content type="html"><![CDATA[
+
+<h2 id="the-man-with-2-brains">The man with 2 brains</h2>
+
+<p><video src="/img/2brains.mp4" controls/></p>
+
+<p>Built using the following:</p>
+
+<ul>
+<li>Azure Bot Service with Direct Line Speech</li>
+<li>Luis.ai</li>
+<li>QnaMaker.ai</li>
+<li>Microsoft Speech SDK</li>
+<li>Azure Functions</li>
+<li>Spotify API</li>
+<li>Raspberry Pi</li>
+</ul>
+]]></content>
+        </item>
         
         <item>
             <title>Home Automation</title>

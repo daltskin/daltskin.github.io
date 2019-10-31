@@ -45,7 +45,7 @@ disableHugoGeneratorInject = false
 
 #[taxonomies]
 #  tag      = "tags"
-#  category = ""
+#  category = "categories"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -56,7 +56,7 @@ disableHugoGeneratorInject = false
   # Metadata mostly used in document's head
   description = "The online home Jamie D"
   keywords = ""
-  images = ["img/benny.png"]
+  images = ["img/link-image.jpg"]
 
   homeSubtitle = "Welcome to the online home of Jamie D"
 
