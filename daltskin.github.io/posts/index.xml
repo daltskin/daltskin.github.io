@@ -1,48 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on Hello_world</title>
-        <link>https://daltskin.github.io/posts/</link>
-        <description>Recent content in Posts on Hello_world</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 09 May 2019 19:49:05 +0100</lastBuildDate>
-        <atom:link href="https://daltskin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>Home Automation</title>
-            <link>https://daltskin.github.io/posts/2019/05/home-automation/</link>
-            <pubDate>Thu, 09 May 2019 19:49:05 +0100</pubDate>
-            
-            <guid>https://daltskin.github.io/posts/2019/05/home-automation/</guid>
-            <description>I&amp;rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and their development environment. At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&amp;rsquo;s a labour of love.
+  <channel>
+    <title>Posts on Hello_world</title>
+    <link>https://daltskin.github.io/posts/</link>
+    <description>Recent content in Posts on Hello_world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 31 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://daltskin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DirectLineSpeech</title>
+      <link>https://daltskin.github.io/posts/2019/10/directlinespeech/</link>
+      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://daltskin.github.io/posts/2019/10/directlinespeech/</guid>
+      <description>Write-up to follow..</description>
+    </item>
+    
+    <item>
+      <title>Home Automation</title>
+      <link>https://daltskin.github.io/posts/2019/05/home-automation/</link>
+      <pubDate>Thu, 09 May 2019 19:49:05 +0100</pubDate>
+      
+      <guid>https://daltskin.github.io/posts/2019/05/home-automation/</guid>
+      <description>I&amp;rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and their development environment. At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&amp;rsquo;s a labour of love.
 First things first though, home automation is largely pointless, it&amp;rsquo;s un-necessary and will likely cause you more problems than it&amp;rsquo;s worth :) However, from a developer and technology perspective - it&amp;rsquo;s AWESOME.</description>
-            <content type="html"><![CDATA[<p>I&rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and their development environment.  At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&rsquo;s a labour of love.</p>
-
-<p>First things first though, home automation is largely pointless, it&rsquo;s un-necessary and will likely cause you more problems than it&rsquo;s worth :)  However, from a developer and technology perspective - it&rsquo;s AWESOME.  You can spend literally hours configuring devices to trigger events and turn things on/off, dim or change the colour of lights etc.  All at the expense of anyone else you live with, who will most likey hate it and just say &ldquo;really?&rdquo; when you&rsquo;ve finally got the postbox to make the lamp flash on/off.</p>
-
-<p>The first smart device on the SmartThings ecosystem I toyed with was a Samsung Smart Fridge.  As well as a touch screen and speaker, this also has builtin sensors that report it&rsquo;s running temperature, how much energy it&rsquo;s using and whether either of the fridge/freezer doors are open/closed.  It also came with an ice dispenser, so my first challenge was to see if the sensors reported if it was dispensing ice or not (unfortunately it doesn&rsquo;t).  This is where you head over to the SmartThings Live Logging feature to watch all the activity within your home automation graph.  So the fall-back plan was to play &ldquo;Ice Ice Baby&rdquo; by Vanilla Ice whenever the freezer door was opened.</p>
-
-<p>I&rsquo;m an avid Spotify user and subscribe to the Premium service, this give me access to Spotify Connect - allowing me to target individual playback devices.  Crucially, Spotify has an API that allows you to control what music track gets played and on what device, as well as controlling things such as the volume.  So the next challenge was how to invoke the Spotify API from SmartThings.  I initially thought about invoking it directly from a custom SmartApp, however this would have involved a fair amount of code in Groovy, which you have little control of where it actually runs and things like rate limits.  Instead I went with a server-side approach, creating a lightweight SmartApp that invokes an Azure Function which does the grunt work - automating Spotify via the API.  To make life even easier, I discovered a nuget package by Jonas Dellinger that wraps the Spotify API into a simple SDK.</p>
-
-<p>I&rsquo;ve had some fun (and tears) with this project, but it&rsquo;s amazing what automation scenarios you can achieve.  For instance - I now have a &ldquo;Game&rdquo; mode for the entire house.  Using a little device from the team at <a href="https://konnected.io" target="_blank">https://konnected.io</a> I&rsquo;ve been able to convert the existing alarm sensors around the house into SmartThings sensors.  So, not only can I trigger different music from different sensors, I can choose where the music gets played, what lights to flash and so on ;)</p>
-
-<p>The full source code is available here: <a href="https://github.com/daltskin/ST-HomeAutomation" target="_blank">https://github.com/daltskin/ST-HomeAutomation</a></p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>New Home</title>
-            <link>https://daltskin.github.io/posts/2019/04/new-home/</link>
-            <pubDate>Tue, 16 Apr 2019 16:44:23 +0100</pubDate>
-            
-            <guid>https://daltskin.github.io/posts/2019/04/new-home/</guid>
-            <description>Yes, I&amp;rsquo;ve moved my online home from https://blogs.msdn.microsoft.com/jamiedalton to here. Moving my site to Hugo using a static content builder will hopefully mean that I can blog more often, and now that I&amp;rsquo;m outside the blogs.msdn.microsoft.com domain I can write and share other technical articles or things that I&amp;rsquo;ve been working with.
+    </item>
+    
+    <item>
+      <title>New Home</title>
+      <link>https://daltskin.github.io/posts/2019/04/new-home/</link>
+      <pubDate>Tue, 16 Apr 2019 16:44:23 +0100</pubDate>
+      
+      <guid>https://daltskin.github.io/posts/2019/04/new-home/</guid>
+      <description>Yes, I&amp;rsquo;ve moved my online home from https://blogs.msdn.microsoft.com/jamiedalton to here. Moving my site to Hugo using a static content builder will hopefully mean that I can blog more often, and now that I&amp;rsquo;m outside the blogs.msdn.microsoft.com domain I can write and share other technical articles or things that I&amp;rsquo;ve been working with.
 So speaking of which, leads me to my upcoming next post about Home Automation&amp;hellip;</description>
-            <content type="html"><![CDATA[<p>Yes, I&rsquo;ve moved my online home from <a href="https://blogs.msdn.microsoft.com/jamiedalton" target="_blank">https://blogs.msdn.microsoft.com/jamiedalton</a> to here.  Moving my site to Hugo using a static content builder will hopefully mean that I can blog more often, and now that I&rsquo;m outside the blogs.msdn.microsoft.com domain I can write and share other technical articles or things that I&rsquo;ve been working with.</p>
-
-<p>So speaking of which, leads me to my upcoming next post about Home Automation&hellip;</p>
-]]></content>
-        </item>
-        
-    </channel>
+    </item>
+    
+  </channel>
 </rss>
