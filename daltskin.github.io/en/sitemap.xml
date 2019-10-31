@@ -3,8 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://daltskin.github.io/tags/ai/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://daltskin.github.io/tags/botframework/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://daltskin.github.io/tags/cognitive-services/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://daltskin.github.io/tags/halloween/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://daltskin.github.io/posts/2019/10/happy-halloween/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://daltskin.github.io/</loc>
-    <lastmod>2019-10-31T13:08:21+00:00</lastmod>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -19,27 +44,17 @@
   
   <url>
     <loc>https://daltskin.github.io/posts/</loc>
-    <lastmod>2019-10-31T13:08:21+00:00</lastmod>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://daltskin.github.io/posts/2019/10/test/</loc>
-    <lastmod>2019-10-31T13:08:21+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://daltskin.github.io/posts/2019/05/home-automation/</loc>
-    <lastmod>2019-05-09T19:49:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://daltskin.github.io/tags/smarthome/</loc>
-    <lastmod>2019-05-09T19:49:05+01:00</lastmod>
+    <loc>https://daltskin.github.io/tags/speech/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://daltskin.github.io/tags/</loc>
-    <lastmod>2019-05-09T19:49:05+01:00</lastmod>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -50,6 +65,16 @@
                 hreflang="en"
                 href="https://daltskin.github.io/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://daltskin.github.io/posts/2019/05/home-automation/</loc>
+    <lastmod>2019-05-09T19:49:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://daltskin.github.io/tags/smarthome/</loc>
+    <lastmod>2019-05-09T19:49:05+01:00</lastmod>
   </url>
   
   <url>

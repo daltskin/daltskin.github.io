@@ -6,18 +6,19 @@
     <description>Recent content on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 31 Oct 2019 13:08:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 31 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://daltskin.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test</title>
-      <link>https://daltskin.github.io/posts/2019/10/test/</link>
-      <pubDate>Thu, 31 Oct 2019 13:08:21 +0000</pubDate>
+      <title>Happy Halloween!</title>
+      <link>https://daltskin.github.io/posts/2019/10/happy-halloween/</link>
+      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://daltskin.github.io/posts/2019/10/test/</guid>
-      <description></description>
+      <guid>https://daltskin.github.io/posts/2019/10/happy-halloween/</guid>
+      <description> The man with 2 brains Built using the following:
+ Azure Bot Service with Direct Line Speech Luis.ai QnaMaker.ai Microsoft Speech SDK Azure Functions Spotify API Raspberry Pi  </description>
     </item>
     
     <item>
