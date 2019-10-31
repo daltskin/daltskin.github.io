@@ -1,7 +1,7 @@
 ---
 title: "Home Automation"
 date: 2019-05-09T19:49:05+01:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
