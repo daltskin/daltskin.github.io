@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://daltskin.github.io/posts/2019/10/azure-bot-service-direct-line-speech/</loc>
-    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://daltskin.github.io/tags/azure-functions/</loc>
     <lastmod>2019-10-31T00:00:00+00:00</lastmod>
   </url>
@@ -24,6 +19,11 @@
   
   <url>
     <loc>https://daltskin.github.io/tags/cognitive-services/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://daltskin.github.io/posts/2019/10/direct-line-speech/</loc>
     <lastmod>2019-10-31T00:00:00+00:00</lastmod>
   </url>
   
