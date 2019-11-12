@@ -1,19 +1,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Hello_world</title>
-        <link>https://daltskin.github.io/posts/</link>
+        <link>https://jamied.me/posts/</link>
         <description>Recent content in Posts on Hello_world</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
         <lastBuildDate>Thu, 31 Oct 2019 00:00:00 +0000</lastBuildDate>
-        <atom:link href="https://daltskin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://jamied.me/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>Direct Line Speech</title>
-            <link>https://daltskin.github.io/posts/2019/10/direct-line-speech/</link>
+            <link>https://jamied.me/posts/2019/10/direct-line-speech/</link>
             <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
             
-            <guid>https://daltskin.github.io/posts/2019/10/direct-line-speech/</guid>
+            <guid>https://jamied.me/posts/2019/10/direct-line-speech/</guid>
             <description>Anne Uumellmahaye voice bot Recreating Anne Uumellmahaye using AI from the film The Man with Two Brains. Spooktacular fun with the Azure Bot Service using the Direct Line Speech channel and the Microsoft Cognitive Speech SDK.
 Architecture Technologies used  Azure Bot Service and Direct Line Channel Bot Framework Microsoft Cognitive Services  Dispatcher LUIS QnA Maker Speech SDK  Azure Functions Spotify API UWP Raspberry Pi running Windows 10 IoT Halloween head  Who&amp;rsquo;s Freddy?</description>
             <content type="html"><![CDATA[
@@ -68,10 +68,10 @@ Architecture Technologies used  Azure Bot Service and Direct Line Channel Bot Fr
         
         <item>
             <title>Home Automation</title>
-            <link>https://daltskin.github.io/posts/2019/05/home-automation/</link>
+            <link>https://jamied.me/posts/2019/05/home-automation/</link>
             <pubDate>Thu, 09 May 2019 19:49:05 +0100</pubDate>
             
-            <guid>https://daltskin.github.io/posts/2019/05/home-automation/</guid>
+            <guid>https://jamied.me/posts/2019/05/home-automation/</guid>
             <description>I&amp;rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and their development environment. At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&amp;rsquo;s a labour of love.
 First things first though, home automation is largely pointless, it&amp;rsquo;s un-necessary and will likely cause you more problems that it&amp;rsquo;s worth in the short term.</description>
             <content type="html"><![CDATA[<p>I&rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and their development environment.  At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&rsquo;s a labour of love.</p>
@@ -90,10 +90,10 @@ First things first though, home automation is largely pointless, it&amp;rsquo;s 
         
         <item>
             <title>New Home</title>
-            <link>https://daltskin.github.io/posts/2019/04/new-home/</link>
+            <link>https://jamied.me/posts/2019/04/new-home/</link>
             <pubDate>Tue, 16 Apr 2019 16:44:23 +0100</pubDate>
             
-            <guid>https://daltskin.github.io/posts/2019/04/new-home/</guid>
+            <guid>https://jamied.me/posts/2019/04/new-home/</guid>
             <description>Yes, I&amp;rsquo;ve moved my online home from https://blogs.msdn.microsoft.com/jamiedalton to here. Moving my site to Hugo using a static content builder will hopefully mean that I can blog more often, and now that I&amp;rsquo;m outside the blogs.msdn.microsoft.com domain I can write and share other technical articles or things that I&amp;rsquo;ve been working with.
 So speaking of which, leads me to my upcoming next post about Home Automation&amp;hellip;</description>
             <content type="html"><![CDATA[<p>Yes, I&rsquo;ve moved my online home from <a href="https://blogs.msdn.microsoft.com/jamiedalton" target="_blank">https://blogs.msdn.microsoft.com/jamiedalton</a> to here.  Moving my site to Hugo using a static content builder will hopefully mean that I can blog more often, and now that I&rsquo;m outside the blogs.msdn.microsoft.com domain I can write and share other technical articles or things that I&rsquo;ve been working with.</p>

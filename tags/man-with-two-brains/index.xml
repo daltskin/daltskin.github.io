@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>man with two brains on Hello_world</title>
-    <link>https://daltskin.github.io/tags/man-with-two-brains/</link>
+    <link>https://jamied.me/tags/man-with-two-brains/</link>
     <description>Recent content in man with two brains on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Thu, 31 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://daltskin.github.io/tags/man-with-two-brains/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jamied.me/tags/man-with-two-brains/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Direct Line Speech</title>
-      <link>https://daltskin.github.io/posts/2019/10/direct-line-speech/</link>
+      <link>https://jamied.me/posts/2019/10/direct-line-speech/</link>
       <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://daltskin.github.io/posts/2019/10/direct-line-speech/</guid>
+      <guid>https://jamied.me/posts/2019/10/direct-line-speech/</guid>
       <description>Anne Uumellmahaye voice bot Recreating Anne Uumellmahaye using AI from the film The Man with Two Brains. Spooktacular fun with the Azure Bot Service using the Direct Line Speech channel and the Microsoft Cognitive Speech SDK.
 Architecture Technologies used  Azure Bot Service and Direct Line Channel Bot Framework Microsoft Cognitive Services  Dispatcher LUIS QnA Maker Speech SDK  Azure Functions Spotify API UWP Raspberry Pi running Windows 10 IoT Halloween head  Who&amp;rsquo;s Freddy?</description>
     </item>

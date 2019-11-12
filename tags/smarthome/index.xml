@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>smarthome on Hello_world</title>
-    <link>https://daltskin.github.io/tags/smarthome/</link>
+    <link>https://jamied.me/tags/smarthome/</link>
     <description>Recent content in smarthome on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Thu, 09 May 2019 19:49:05 +0100</lastBuildDate>
     
-	<atom:link href="https://daltskin.github.io/tags/smarthome/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jamied.me/tags/smarthome/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Home Automation</title>
-      <link>https://daltskin.github.io/posts/2019/05/home-automation/</link>
+      <link>https://jamied.me/posts/2019/05/home-automation/</link>
       <pubDate>Thu, 09 May 2019 19:49:05 +0100</pubDate>
       
-      <guid>https://daltskin.github.io/posts/2019/05/home-automation/</guid>
+      <guid>https://jamied.me/posts/2019/05/home-automation/</guid>
       <description>I&amp;rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and their development environment. At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&amp;rsquo;s a labour of love.
 First things first though, home automation is largely pointless, it&amp;rsquo;s un-necessary and will likely cause you more problems that it&amp;rsquo;s worth in the short term.</description>
     </item>
