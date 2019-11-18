@@ -18,7 +18,7 @@
 Terraform offers it&amp;rsquo;s own HashiCorp Configuration Language (HCL), but whenever I look at any examples a bit of me wants to die - what is this strange syntax.</description>
             <content type="html"><![CDATA[
 
-<p><img src="https://get.pulumi.com/new/button.svg"></p>
+<p><img src="/img/pulumibutton.svg"></p>
 
 <h2 id="pulumi-iaac-iaac-infrastructure-as-csharp-deploying-azure-bots-with-pulumi">Pulumi IaaC =&gt; IaaC# (Infrastructure as CSharp) - Deploying Azure bots with Pulumi</h2>
 
