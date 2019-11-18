@@ -1,22 +1,135 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on Hello_world</title>
-        <link>https://jamied.me/posts/</link>
-        <description>Recent content in Posts on Hello_world</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sun, 17 Nov 2019 20:08:06 +0000</lastBuildDate>
-        <atom:link href="https://jamied.me/posts/index.xml" rel="self" type="application/rss+xml" />
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta name="google-site-verification" content="K2Exu14Kv45NN2n3fF_bBjCBgdjHvnl3zzMQ1Uz8tPk" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="Jamie D ">
+<meta name="description"
+    content="Pulumi IaaC =&amp;gt; IaaC# (Infrastructure as CSharp) - Deploying Azure bots with Pulumi I&amp;rsquo;ll admit that, until a week ago, I had never heard of Pulumi, but when they recently announced support for .NET - they got my attention. I&amp;rsquo;ve worked alot with JSON based Azure Resource Manager (ARM) templates in the past - but these quickly become complicated to author when you have many different Azure resources.
+Terraform offers it&amp;rsquo;s own HashiCorp Configuration Language (HCL), but whenever I look at any examples a bit of me wants to die - what is this strange syntax." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://jamied.me/posts/2019/11/pulumi-azure-bot-service/" />
+
+
+<title>
+    
+    Pulumi Azure Bot Service :: Hello_world  — Jamie D`
+    
+</title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://jamied.me/main.min.73f55a8d452be4a71b2960620b80252cf69abd84d63fe7501abf0a39b1a70a78.css">
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://jamied.me/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamied.me/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamied.me/favicon-16x16.png">
+<link rel="manifest" href="https://jamied.me/site.webmanifest">
+<link rel="mask-icon" href="https://jamied.me/safari-pinned-tab.svg" color="#252627">
+<link rel="shortcut icon" href="https://jamied.me/favicon.ico">
+<meta name="theme-color" content="#252627"><meta itemprop="name" content="Pulumi Azure Bot Service">
+<meta itemprop="description" content="Pulumi IaaC =&gt; IaaC# (Infrastructure as CSharp) - Deploying Azure bots with Pulumi I&rsquo;ll admit that, until a week ago, I had never heard of Pulumi, but when they recently announced support for .NET - they got my attention. I&rsquo;ve worked alot with JSON based Azure Resource Manager (ARM) templates in the past - but these quickly become complicated to author when you have many different Azure resources.
+Terraform offers it&rsquo;s own HashiCorp Configuration Language (HCL), but whenever I look at any examples a bit of me wants to die - what is this strange syntax.">
+
+
+<meta itemprop="datePublished" content="2019-11-17T20:08:06&#43;00:00" />
+<meta itemprop="dateModified" content="2019-11-17T20:08:06&#43;00:00" />
+<meta itemprop="wordCount" content="712">
+
+
+
+<meta itemprop="keywords" content="azure bot service,bot framework,devops,pulumi,terraform,automation,IaaC,azure resource manager,arm,c#,csharp," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://jamied.me/%20"/>
+
+<meta name="twitter:title" content="Pulumi Azure Bot Service"/>
+<meta name="twitter:description" content="Pulumi IaaC =&gt; IaaC# (Infrastructure as CSharp) - Deploying Azure bots with Pulumi I&rsquo;ll admit that, until a week ago, I had never heard of Pulumi, but when they recently announced support for .NET - they got my attention. I&rsquo;ve worked alot with JSON based Azure Resource Manager (ARM) templates in the past - but these quickly become complicated to author when you have many different Azure resources.
+Terraform offers it&rsquo;s own HashiCorp Configuration Language (HCL), but whenever I look at any examples a bit of me wants to die - what is this strange syntax."/>
+
+
+
+
+<meta property="article:published_time" content="2019-11-17 20:08:06 &#43;0000 UTC" />
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://jamied.me/" style="text-decoration: none;">
+    <div class="logo">
         
-        <item>
-            <title>Pulumi Azure Bot Service</title>
-            <link>https://jamied.me/posts/2019/11/pulumi-azure-bot-service/</link>
-            <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
+            <span class="logo__mark">></span>
+            <span class="logo__text">C:\Users\daltskin</span>
+            <span class="logo__cursor" style=""></span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
             
-            <guid>https://jamied.me/posts/2019/11/pulumi-azure-bot-service/</guid>
-            <description>Pulumi IaaC =&amp;gt; IaaC# (Infrastructure as CSharp) - Deploying Azure bots with Pulumi I&amp;rsquo;ll admit that, until a week ago, I had never heard of Pulumi, but when they recently announced support for .NET - they got my attention. I&amp;rsquo;ve worked alot with JSON based Azure Resource Manager (ARM) templates in the past - but these quickly become complicated to author when you have many different Azure resources.
-Terraform offers it&amp;rsquo;s own HashiCorp Configuration Language (HCL), but whenever I look at any examples a bit of me wants to die - what is this strange syntax.</description>
-            <content type="html"><![CDATA[
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://jamied.me/about/">About</a></li><li><a href="https://jamied.me/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>4 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title"><a href="https://jamied.me/posts/2019/11/pulumi-azure-bot-service/">Pulumi Azure Bot Service</a></h1>
+
+            
+
+            <div class="post-content">
+                
 
 <p><img src="https://get.pulumi.com/new/button.svg"></p>
 
@@ -208,102 +321,92 @@ $ pulumi up</code></pre></div>
 <h3 id="full-source-code-sample">Full source code sample</h3>
 
 <p>At the time of writing I&rsquo;ve submitted a PR for a full sample here: <a href="https://github.com/pulumi/examples/pull/464" target="_blank">https://github.com/pulumi/examples/pull/464</a></p>
-]]></content>
-        </item>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://jamied.me/tags/azure-bot-service">azure bot service</a></span><span class="tag"><a href="https://jamied.me/tags/bot-framework">bot framework</a></span><span class="tag"><a href="https://jamied.me/tags/devops">devops</a></span><span class="tag"><a href="https://jamied.me/tags/pulumi">pulumi</a></span><span class="tag"><a href="https://jamied.me/tags/terraform">terraform</a></span><span class="tag"><a href="https://jamied.me/tags/automation">automation</a></span><span class="tag"><a href="https://jamied.me/tags/iaac">IaaC</a></span><span class="tag"><a href="https://jamied.me/tags/azure-resource-manager">azure resource manager</a></span><span class="tag"><a href="https://jamied.me/tags/arm">arm</a></span><span class="tag"><a href="https://jamied.me/tags/c">c#</a></span><span class="tag"><a href="https://jamied.me/tags/csharp">csharp</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>712 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-11-17 20:08 &#43;0000</p>
+        </div>
+
         
-        <item>
-            <title>Direct Line Speech</title>
-            <link>https://jamied.me/posts/2019/10/direct-line-speech/</link>
-            <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+
+                    
+                        <span class="button next">
+                            <a href="https://jamied.me/posts/2019/10/direct-line-speech/">
+                                <span class="button__text">Direct Line Speech</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+
+        
+    </main>
+
+            </div>
+
             
-            <guid>https://jamied.me/posts/2019/10/direct-line-speech/</guid>
-            <description>Anne Uumellmahaye voice bot using Azure Bot Service: Direct Line Speech Recreating Anne Uumellmahaye using AI from the film The Man with Two Brains. Spooktacular fun with the Azure Bot Service using the Direct Line Speech channel and the Microsoft Cognitive Speech SDK.
-Architecture Technologies used  Azure Bot Service and Direct Line Channel Bot Framework Microsoft Cognitive Services  Dispatcher LUIS QnA Maker Speech SDK  Azure Functions Spotify API UWP Raspberry Pi running Windows 10 IoT Halloween head  Who&amp;rsquo;s Freddy?</description>
-            <content type="html"><![CDATA[
-
-<h2 id="anne-uumellmahaye-voice-bot-using-azure-bot-service-direct-line-speech">Anne Uumellmahaye voice bot using Azure Bot Service: Direct Line Speech</h2>
-
-<p>Recreating Anne Uumellmahaye using AI from the film The Man with Two Brains.  Spooktacular fun with the Azure Bot Service using the Direct Line Speech channel and the Microsoft Cognitive Speech SDK.</p>
-
-<p><video src="/img/2brains.mp4" controls></p>
-
-<h2 id="architecture">Architecture</h2>
-
-<p><img src="/img/2brains_architecture.jpg"></p>
-
-<h2 id="technologies-used">Technologies used</h2>
-
-<ul>
-<li>Azure Bot Service and Direct Line Channel</li>
-<li>Bot Framework</li>
-<li>Microsoft Cognitive Services
-
-<ul>
-<li>Dispatcher</li>
-<li>LUIS</li>
-<li>QnA Maker</li>
-<li>Speech SDK</li>
-</ul></li>
-<li>Azure Functions</li>
-<li>Spotify API</li>
-<li>UWP</li>
-<li>Raspberry Pi running Windows 10 IoT</li>
-<li>Halloween head</li>
-</ul>
-
-<h2 id="who-s-freddy">Who&rsquo;s Freddy?</h2>
-
-<p>See <a href="https://blogs.msdn.microsoft.com/jamiedalton/2016/11/03/building-a-physical-bot-using-the-botframework-freddythefishbot-futuredecoded-2016/" target="_blank">Freddy the fish</a></p>
-
-<h2 id="resources">Resources</h2>
-
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0" target="_blank">https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0</a></li>
-<li><a href="https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-sdk" target="_blank">https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-sdk</a></li>
-<li><a href="https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-synthesis-markup" target="_blank">https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/speech-synthesis-markup</a></li>
-<li><a href="https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support#text-to-speech" target="_blank">https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support#text-to-speech</a></li>
-<li><a href="https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0" target="_blank">https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0</a></li>
-<li><a href="https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&amp;tabs=cs" target="_blank">https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&amp;tabs=cs</a></li>
-<li><a href="https://developer.spotify.com/" target="_blank">https://developer.spotify.com/</a></li>
-</ul>
-]]></content>
-        </item>
-        
-        <item>
-            <title>Home Automation</title>
-            <link>https://jamied.me/posts/2019/05/home-automation/</link>
-            <pubDate>Thu, 09 May 2019 19:49:05 +0100</pubDate>
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2019</span>
             
-            <guid>https://jamied.me/posts/2019/05/home-automation/</guid>
-            <description>I&amp;rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and their development environment. At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&amp;rsquo;s a labour of love.
-First things first though, home automation is largely pointless, it&amp;rsquo;s un-necessary and will likely cause you more problems that it&amp;rsquo;s worth in the short term.</description>
-            <content type="html"><![CDATA[<p>I&rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and their development environment.  At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&rsquo;s a labour of love.</p>
-
-<p>First things first though, home automation is largely pointless, it&rsquo;s un-necessary and will likely cause you more problems that it&rsquo;s worth in the short term.  However, from a developer and technology perspective - it&rsquo;s AWESOME.  You can spend literally hours configuring devices to trigger events and turn things on/off, dim or change colour of lights etc.  All at the expense of anyone else you live with, who will most likey hate it and just say &ldquo;really?&rdquo; when you&rsquo;ve finally got the postbox to make the lamp flash on/off.</p>
-
-<p>The first smart device on the SmartThings ecosystem I acquired was a Samsung Smart Fridge.  As well as a speaker, this also has builtin sensors that report it&rsquo;s running temperature, how much energy it&rsquo;s using and whether either of the fridge/freezer doors are open/closed.  It also came with an ice dispenser, so my first challenge was to see if the sensors reported if it was dispensing ice or not (it doesn&rsquo;t).  This is where you head over to the SmartThings Live Logging feature to watch all the activity within your home automation graph.  So the fall-back plan was to play &ldquo;Ice Ice Baby&rdquo; by Vanilla Ice whenever the freezer door was opened.</p>
-
-<p>I&rsquo;m an avid Spotify user and subscribe to the Premium service, this give me access to Spotify Connect - allowing me to target individual playback devices.  Crucially, Spotify has an API that allows you to control what music track gets played and on what device as well as controlling things such as the volume.  So the next challenge was how to invoke the Spotify API from SmartThings.  I initially thought about invoking it directly from a custom SmartApp, however this would have involved a fair amount of code in Groovy and I didn&rsquo;t want to write sluggish code that was going to grind other SmartApps down or timeout.  Instead I went with a server-side approach, creating a lighter weight SmartApp that invokes an Azure Function which does the grunt work - automating Spotify via the API.  To make life even easier, I discovered a nuget package by Jonas Dellinger that wraps the Spotify API into a simple SDK.</p>
-
-<p>I&rsquo;ve had some fun (and tears) with this project, but it&rsquo;s amazing what automation scenarios you can achieve.  For instance - I now have a &ldquo;Game&rdquo; mode for the entire house.  Using a little device from the team at <a href="https://konnected.io" target="_blank">https://konnected.io</a> I&rsquo;ve been able to convert the existing alarm sensors around the house into SmartThings sensors.  So, not only can I trigger different music from different sensors, I can choose where the music gets played, what lights to flash and so on ;)</p>
-
-<p>The full source code is available here: <a href="https://github.com/daltskin/ST-HomeAutomation" target="_blank">https://github.com/daltskin/ST-HomeAutomation</a></p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>New Home</title>
-            <link>https://jamied.me/posts/2019/04/new-home/</link>
-            <pubDate>Tue, 16 Apr 2019 16:44:23 +0100</pubDate>
+                <span><a href="https://jamied.me/">Jamie D</a></span>
             
-            <guid>https://jamied.me/posts/2019/04/new-home/</guid>
-            <description>Yes, I&amp;rsquo;ve moved my online home from https://blogs.msdn.microsoft.com/jamiedalton to here. Moving my site to Hugo using a static content builder will hopefully mean that I can blog more often, and now that I&amp;rsquo;m outside the blogs.msdn.microsoft.com domain I can write and share other technical articles or things that I&amp;rsquo;ve been working with.
-So speaking of which, leads me to my upcoming next post about Home Automation&amp;hellip;</description>
-            <content type="html"><![CDATA[<p>Yes, I&rsquo;ve moved my online home from <a href="https://blogs.msdn.microsoft.com/jamiedalton" target="_blank">https://blogs.msdn.microsoft.com/jamiedalton</a> to here.  Moving my site to Hugo using a static content builder will hopefully mean that I can blog more often, and now that I&rsquo;m outside the blogs.msdn.microsoft.com domain I can write and share other technical articles or things that I&rsquo;ve been working with.</p>
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span> <a href="https://jamied.me/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
 
-<p>So speaking of which, leads me to my upcoming next post about Home Automation&hellip;</p>
-]]></content>
-        </item>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">rhazdon</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
         
-    </channel>
-</rss>
+
+
+
+
+<script type="text/javascript" src="https://jamied.me/bundle.min.4c3fb12a087ceed4a52cb5d57068a9795c7069617a01ca70f788052ad66e1791779e6c72686e1dc0ca13dc03b0203204b6566bb0dd1ee80de2b7ff4d8fe53db2.js" integrity="sha512-TD&#43;xKgh87tSlLLXVcGipeVxwaWF6Acpw94gFKtZuF5F3nmxyaG4dwMoT3AOwIDIEtlZrsN0e6A3it/9Nj&#43;U9sg=="></script>
+    <script type="text/javascript">
+        var sdkInstance="appInsightsSDK";window[sdkInstance]="appInsights";var aiName=window[sdkInstance],aisdk=window[aiName]||function(e){function n(e){t[e]=function(){var n=arguments;t.queue.push(function(){t[e].apply(t,n)})}}var t={config:e};t.initialize=!0;var i=document,a=window;setTimeout(function(){var n=i.createElement("script");n.src=e.url||"https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js",i.getElementsByTagName("script")[0].parentNode.appendChild(n)});try{t.cookie=i.cookie}catch(e){}t.queue=[],t.version=2;for(var r=["Event","PageView","Exception","Trace","DependencyData","Metric","PageViewPerformance"];r.length;)n("track"+r.pop());n("startTrackPage"),n("stopTrackPage");var s="Track"+r[0];if(n("start"+s),n("stop"+s),n("setAuthenticatedUserContext"),n("clearAuthenticatedUserContext"),n("flush"),!(!0===e.disableExceptionTracking||e.extensionConfig&&e.extensionConfig.ApplicationInsightsAnalytics&&!0===e.extensionConfig.ApplicationInsightsAnalytics.disableExceptionTracking)){n("_"+(r="onerror"));var o=a[r];a[r]=function(e,n,i,a,s){var c=o&&o(e,n,i,a,s);return!0!==c&&t["_"+r]({message:e,url:n,lineNumber:i,columnNumber:a,error:s}),c},e.autoExceptionInstrumented=!0}return t}(
+        {
+        instrumentationKey:"490dec9c-4d14-4f46-9054-0d119b76a14d"
+        }
+        );window[aiName]=aisdk,aisdk.queue&&0===aisdk.queue.length&&aisdk.trackPageView({});
+    </script>
+
+
+
+    </body>
+</html>

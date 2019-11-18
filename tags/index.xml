@@ -6,89 +6,98 @@
     <description>Recent content in Tags on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 31 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Nov 2019 20:08:06 +0000</lastBuildDate>
     
 	<atom:link href="https://jamied.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>azure functions</title>
-      <link>https://jamied.me/tags/azure-functions/</link>
-      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      <title>arm</title>
+      <link>https://jamied.me/tags/arm/</link>
+      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/azure-functions/</guid>
+      <guid>https://jamied.me/tags/arm/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>bot</title>
-      <link>https://jamied.me/tags/bot/</link>
-      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      <title>automation</title>
+      <link>https://jamied.me/tags/automation/</link>
+      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/bot/</guid>
+      <guid>https://jamied.me/tags/automation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>botframework</title>
-      <link>https://jamied.me/tags/botframework/</link>
-      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      <title>azure bot service</title>
+      <link>https://jamied.me/tags/azure-bot-service/</link>
+      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/botframework/</guid>
+      <guid>https://jamied.me/tags/azure-bot-service/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>cognitive services</title>
-      <link>https://jamied.me/tags/cognitive-services/</link>
-      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      <title>azure resource manager</title>
+      <link>https://jamied.me/tags/azure-resource-manager/</link>
+      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/cognitive-services/</guid>
+      <guid>https://jamied.me/tags/azure-resource-manager/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>iot</title>
-      <link>https://jamied.me/tags/iot/</link>
-      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      <title>bot framework</title>
+      <link>https://jamied.me/tags/bot-framework/</link>
+      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/iot/</guid>
+      <guid>https://jamied.me/tags/bot-framework/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>man with two brains</title>
-      <link>https://jamied.me/tags/man-with-two-brains/</link>
-      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      <title>c#</title>
+      <link>https://jamied.me/tags/c#/</link>
+      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/man-with-two-brains/</guid>
+      <guid>https://jamied.me/tags/c#/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>raspberry pi</title>
-      <link>https://jamied.me/tags/raspberry-pi/</link>
-      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      <title>csharp</title>
+      <link>https://jamied.me/tags/csharp/</link>
+      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/raspberry-pi/</guid>
+      <guid>https://jamied.me/tags/csharp/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>speech</title>
-      <link>https://jamied.me/tags/speech/</link>
-      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      <title>devops</title>
+      <link>https://jamied.me/tags/devops/</link>
+      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/speech/</guid>
+      <guid>https://jamied.me/tags/devops/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>smarthome</title>
-      <link>https://jamied.me/tags/smarthome/</link>
-      <pubDate>Thu, 09 May 2019 19:49:05 +0100</pubDate>
+      <title>IaaC</title>
+      <link>https://jamied.me/tags/iaac/</link>
+      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/smarthome/</guid>
+      <guid>https://jamied.me/tags/iaac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pulumi</title>
+      <link>https://jamied.me/tags/pulumi/</link>
+      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
+      
+      <guid>https://jamied.me/tags/pulumi/</guid>
       <description></description>
     </item>
     

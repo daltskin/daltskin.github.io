@@ -3,6 +3,101 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jamied.me/tags/arm/</loc>
+    <lastmod>2019-11-17T20:08:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/automation/</loc>
+    <lastmod>2019-11-17T20:08:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/azure-bot-service/</loc>
+    <lastmod>2019-11-17T20:08:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/azure-resource-manager/</loc>
+    <lastmod>2019-11-17T20:08:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/bot-framework/</loc>
+    <lastmod>2019-11-17T20:08:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/c#/</loc>
+    <lastmod>2019-11-17T20:08:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/csharp/</loc>
+    <lastmod>2019-11-17T20:08:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/devops/</loc>
+    <lastmod>2019-11-17T20:08:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/</loc>
+    <lastmod>2019-11-17T20:08:06+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://jamied.me/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamied.me/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/iaac/</loc>
+    <lastmod>2019-11-17T20:08:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/posts/</loc>
+    <lastmod>2019-11-17T20:08:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/pulumi/</loc>
+    <lastmod>2019-11-17T20:08:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/posts/2019/11/pulumi-azure-bot-service/</loc>
+    <lastmod>2019-11-17T20:08:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/</loc>
+    <lastmod>2019-11-17T20:08:06+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://jamied.me/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamied.me/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/terraform/</loc>
+    <lastmod>2019-11-17T20:08:06+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jamied.me/tags/azure-functions/</loc>
     <lastmod>2019-10-31T00:00:00+00:00</lastmod>
   </url>
@@ -28,18 +123,8 @@
   </url>
   
   <url>
-    <loc>https://jamied.me/</loc>
+    <loc>https://jamied.me/tags/direct-line-speech/</loc>
     <lastmod>2019-10-31T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://jamied.me/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamied.me/"
-                />
   </url>
   
   <url>
@@ -53,11 +138,6 @@
   </url>
   
   <url>
-    <loc>https://jamied.me/posts/</loc>
-    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jamied.me/tags/raspberry-pi/</loc>
     <lastmod>2019-10-31T00:00:00+00:00</lastmod>
   </url>
@@ -65,21 +145,6 @@
   <url>
     <loc>https://jamied.me/tags/speech/</loc>
     <lastmod>2019-10-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamied.me/tags/</loc>
-    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://jamied.me/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamied.me/tags/"
-                />
   </url>
   
   <url>

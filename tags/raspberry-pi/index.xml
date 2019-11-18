@@ -17,7 +17,7 @@
       <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jamied.me/posts/2019/10/direct-line-speech/</guid>
-      <description>Anne Uumellmahaye voice bot Recreating Anne Uumellmahaye using AI from the film The Man with Two Brains. Spooktacular fun with the Azure Bot Service using the Direct Line Speech channel and the Microsoft Cognitive Speech SDK.
+      <description>Anne Uumellmahaye voice bot using Azure Bot Service: Direct Line Speech Recreating Anne Uumellmahaye using AI from the film The Man with Two Brains. Spooktacular fun with the Azure Bot Service using the Direct Line Speech channel and the Microsoft Cognitive Speech SDK.
 Architecture Technologies used  Azure Bot Service and Direct Line Channel Bot Framework Microsoft Cognitive Services  Dispatcher LUIS QnA Maker Speech SDK  Azure Functions Spotify API UWP Raspberry Pi running Windows 10 IoT Halloween head  Who&amp;rsquo;s Freddy?</description>
     </item>
     

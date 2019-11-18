@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>csharp on Hello_world</title>
+    <link>https://jamied.me/tags/csharp/</link>
+    <description>Recent content in csharp on Hello_world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 17 Nov 2019 20:08:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://jamied.me/tags/csharp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pulumi Azure Bot Service</title>
+      <link>https://jamied.me/posts/2019/11/pulumi-azure-bot-service/</link>
+      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
+      
+      <guid>https://jamied.me/posts/2019/11/pulumi-azure-bot-service/</guid>
+      <description>Pulumi IaaC =&amp;gt; IaaC# (Infrastructure as CSharp) - Deploying Azure bots with Pulumi I&amp;rsquo;ll admit that, until a week ago, I had never heard of Pulumi, but when they recently announced support for .NET - they got my attention. I&amp;rsquo;ve worked alot with JSON based Azure Resource Manager (ARM) templates in the past - but these quickly become complicated to author when you have many different Azure resources.
+Terraform offers it&amp;rsquo;s own HashiCorp Configuration Language (HCL), but whenever I look at any examples a bit of me wants to die - what is this strange syntax.</description>
+    </item>
+    
+  </channel>
+</rss>
