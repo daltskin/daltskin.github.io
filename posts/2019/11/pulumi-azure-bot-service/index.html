@@ -9,7 +9,7 @@
     content="Jamie D ">
 <meta name="description"
     content="Pulumi IaaC =&amp;gt; IaaC# (Infrastructure as CSharp) - Deploying Azure bots with Pulumi I&amp;rsquo;ll admit that, until a week ago, I had never heard of Pulumi, but when they recently announced support for .NET - they got my attention. I&amp;rsquo;ve worked alot with JSON based Azure Resource Manager (ARM) templates in the past - but these quickly become complicated to author when you have many different Azure resources.
-Terraform offers it&amp;rsquo;s own HashiCorp Configuration Language (HCL), but whenever I look at any examples a bit of me wants to die - what is this strange syntax." />
+Whilst Terraform offers it&amp;rsquo;s own HashiCorp Configuration Language (HCL), that or working with YAML makes a bit of me want to die - the syntax seems we&amp;rsquo;ve gone back an era in computing." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="https://jamied.me/posts/2019/11/pulumi-azure-bot-service/" />
@@ -40,12 +40,12 @@ Terraform offers it&amp;rsquo;s own HashiCorp Configuration Language (HCL), but 
 <link rel="shortcut icon" href="https://jamied.me/favicon.ico">
 <meta name="theme-color" content="#252627"><meta itemprop="name" content="Pulumi Azure Bot Service">
 <meta itemprop="description" content="Pulumi IaaC =&gt; IaaC# (Infrastructure as CSharp) - Deploying Azure bots with Pulumi I&rsquo;ll admit that, until a week ago, I had never heard of Pulumi, but when they recently announced support for .NET - they got my attention. I&rsquo;ve worked alot with JSON based Azure Resource Manager (ARM) templates in the past - but these quickly become complicated to author when you have many different Azure resources.
-Terraform offers it&rsquo;s own HashiCorp Configuration Language (HCL), but whenever I look at any examples a bit of me wants to die - what is this strange syntax.">
+Whilst Terraform offers it&rsquo;s own HashiCorp Configuration Language (HCL), that or working with YAML makes a bit of me want to die - the syntax seems we&rsquo;ve gone back an era in computing.">
 
 
 <meta itemprop="datePublished" content="2019-11-17T20:08:06&#43;00:00" />
 <meta itemprop="dateModified" content="2019-11-17T20:08:06&#43;00:00" />
-<meta itemprop="wordCount" content="712">
+<meta itemprop="wordCount" content="773">
 
 
 
@@ -55,7 +55,7 @@ Terraform offers it&rsquo;s own HashiCorp Configuration Language (HCL), but when
 
 <meta name="twitter:title" content="Pulumi Azure Bot Service"/>
 <meta name="twitter:description" content="Pulumi IaaC =&gt; IaaC# (Infrastructure as CSharp) - Deploying Azure bots with Pulumi I&rsquo;ll admit that, until a week ago, I had never heard of Pulumi, but when they recently announced support for .NET - they got my attention. I&rsquo;ve worked alot with JSON based Azure Resource Manager (ARM) templates in the past - but these quickly become complicated to author when you have many different Azure resources.
-Terraform offers it&rsquo;s own HashiCorp Configuration Language (HCL), but whenever I look at any examples a bit of me wants to die - what is this strange syntax."/>
+Whilst Terraform offers it&rsquo;s own HashiCorp Configuration Language (HCL), that or working with YAML makes a bit of me want to die - the syntax seems we&rsquo;ve gone back an era in computing."/>
 
 
 
@@ -137,7 +137,9 @@ Terraform offers it&rsquo;s own HashiCorp Configuration Language (HCL), but when
 
 <p>I&rsquo;ll admit that, until a week ago, I had never heard of <a href="pulimi.com" target="_blank">Pulumi</a>, but when they recently announced <a href="https://www.pulumi.com/blog/dotnet-preview/" target="_blank">support for .NET</a> - they got my attention.  I&rsquo;ve worked alot with JSON based <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates" target="_blank">Azure Resource Manager</a> (ARM) templates in the past - but these quickly become complicated to author when you have many different Azure resources.</p>
 
-<p>Terraform offers it&rsquo;s own <a href="https://github.com/hashicorp/hcl" target="_blank">HashiCorp Configuration Language</a> (HCL), but whenever I look at any examples a bit of me wants to die - what is this strange syntax.  So, after Pulumi&rsquo;s C# announcement I wanted to take a further look and see what the noise was all about.  What better way to kick the tyres than to deploy a brand new Azure Bot Service instance directly into Azure.</p>
+<p>Whilst Terraform offers it&rsquo;s own <a href="https://github.com/hashicorp/hcl" target="_blank">HashiCorp Configuration Language</a> (HCL), that or working with YAML makes a bit of me want to die - the syntax seems we&rsquo;ve gone back an era in computing.  So, after Pulumi&rsquo;s C# announcement I wanted to take a further look and see what the noise was all about.  What better way to kick the tyres than to deploy a brand new Azure Bot Service instance directly into Azure.</p>
+
+<p>You can read about the <a href="https://www.pulumi.com/docs/intro/concepts/" target="_blank">Pulumi architecture and high level concepts</a>, to understand some of the basics and terminology.  Under the covers Pulumi uses the Azure GO SDK which calls the Azure Management API.  Once you&rsquo;ve configured your IaaC, you can then integrate it into <a href="https://www.pulumi.com/docs/guides/continuous-delivery/azure-devops/" target="_blank">Azure DevOps Pipelines</a> or <a href="https://www.pulumi.com/docs/guides/continuous-delivery/github-actions/" target="_blank">GitHub Actions</a>.</p>
 
 <h3 id="deploying-azure-bot-service-with-pulumi-c-sdk">Deploying Azure Bot Service with Pulumi C# SDK</h3>
 
@@ -217,7 +219,7 @@ Terraform offers it&rsquo;s own HashiCorp Configuration Language (HCL), but when
 <h4 id="azure-ad-application-secret">Azure AD Application Secret</h4>
 
 <p>Here we can use the additional <a href="https://www.nuget.org/packages/Pulumi.Random" target="_blank">Pulumi.Random</a> provider nuget package to generate a strong password for the secret value and use that for the application password.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">var</span> pwd = <span style="color:#66d9ef">new</span> Pulumi.Random.RandomPassword(<span style="color:#e6db74">&#34;password&#34;</span>, <span style="color:#66d9ef">new</span> Pulumi.Random.RandomPasswordArgs
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">var</span> pwd = <span style="color:#66d9ef">new</span> Random.RandomPassword(<span style="color:#e6db74">&#34;password&#34;</span>, <span style="color:#66d9ef">new</span> Random.RandomPasswordArgs
 {
     Length = <span style="color:#ae81ff">16</span>,
     MinNumeric = <span style="color:#ae81ff">1</span>,
@@ -246,14 +248,14 @@ Terraform offers it&rsquo;s own HashiCorp Configuration Language (HCL), but when
 });
 </code></pre></div>
 <h4 id="azure-application-insights">Azure Application Insights</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">var</span> appInsights = <span style="color:#66d9ef">new</span> Pulumi.Azure.AppInsights.Insights(<span style="color:#e6db74">&#34;ai&#34;</span>, <span style="color:#66d9ef">new</span> Pulumi.Azure.AppInsights.InsightsArgs
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">var</span> appInsights = <span style="color:#66d9ef">new</span> AppInsights.Insights(<span style="color:#e6db74">&#34;ai&#34;</span>, <span style="color:#66d9ef">new</span> AppInsights.InsightsArgs
 {
     ApplicationType = <span style="color:#e6db74">&#34;web&#34;</span>,
     ResourceGroupName = resourceGroup.Name
 });
 </code></pre></div>
 <h4 id="azure-application-insights-api-key">Azure Application Insights API Key</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">var</span> appInsightApiKey = <span style="color:#66d9ef">new</span> Pulumi.Azure.AppInsights.ApiKey(<span style="color:#e6db74">&#34;ai&#34;</span>, <span style="color:#66d9ef">new</span> Pulumi.Azure.AppInsights.ApiKeyArgs
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">var</span> appInsightApiKey = <span style="color:#66d9ef">new</span> AppInsights.ApiKey(<span style="color:#e6db74">&#34;ai&#34;</span>, <span style="color:#66d9ef">new</span> AppInsights.ApiKeyArgs
 {
     ApplicationInsightsId = appInsights.Id,
     ReadPermissions = <span style="color:#e6db74">&#34;api&#34;</span>,
@@ -262,11 +264,11 @@ Terraform offers it&rsquo;s own HashiCorp Configuration Language (HCL), but when
 <h4 id="azure-cognitive-service-key">Azure Cognitive Service Key</h4>
 
 <p>Universal key for any Azure Cognitive Services used by your bot.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">var</span> luis = <span style="color:#66d9ef">new</span> Pulumi.Azure.Cognitive.Account(<span style="color:#e6db74">&#34;cs&#34;</span>, <span style="color:#66d9ef">new</span> Pulumi.Azure.Cognitive.AccountArgs
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">var</span> luis = <span style="color:#66d9ef">new</span> Cognitive.Account(<span style="color:#e6db74">&#34;cs&#34;</span>, <span style="color:#66d9ef">new</span> Cognitive.AccountArgs
 {
     Kind = <span style="color:#e6db74">&#34;CognitiveServices&#34;</span>, <span style="color:#75715e">// includes LUIS
 </span><span style="color:#75715e"></span>    ResourceGroupName = resourceGroup.Name,
-    Sku = <span style="color:#66d9ef">new</span> Pulumi.Azure.Cognitive.Inputs.AccountSkuArgs() { Name = <span style="color:#e6db74">&#34;S0&#34;</span>, Tier = <span style="color:#e6db74">&#34;Standard&#34;</span> }
+    Sku = <span style="color:#66d9ef">new</span> Cognitive.Inputs.AccountSkuArgs() { Name = <span style="color:#e6db74">&#34;S0&#34;</span>, Tier = <span style="color:#e6db74">&#34;Standard&#34;</span> }
 });
 </code></pre></div>
 <h4 id="azure-app-service">Azure App Service</h4>
@@ -289,7 +291,7 @@ Terraform offers it&rsquo;s own HashiCorp Configuration Language (HCL), but when
 <h4 id="azure-bot-service">Azure Bot Service</h4>
 
 <p>Then finally the Azure Bot Service pieces it all together.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">var</span> bot = <span style="color:#66d9ef">new</span> Pulumi.Azure.Bot.WebApp(botName, <span style="color:#66d9ef">new</span> Pulumi.Azure.Bot.WebAppArgs
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">var</span> bot = <span style="color:#66d9ef">new</span> Bot.WebApp(botName, <span style="color:#66d9ef">new</span> Bot.WebAppArgs
 {
     DisplayName = botName,
     MicrosoftAppId = msa.ApplicationId,
@@ -307,9 +309,9 @@ Terraform offers it&rsquo;s own HashiCorp Configuration Language (HCL), but when
 <p>Take the below outputs and put them straight into the Bot Framework Emulator and you&rsquo;ll be able to test the newly deployed bot.  Alternatively, use the Azure Portal Azure Bot Service - Test in Webchat feature.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp"><span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> Dictionary&lt;<span style="color:#66d9ef">string</span>, <span style="color:#66d9ef">object</span>&gt;
 {
-    { <span style="color:#e6db74">&#34;Bot Endpoint&#34;</span>, Output.Format(<span style="color:#e6db74">$&#34;https://{app.DefaultSiteHostname}/api/messages&#34;</span>) },
-    { <span style="color:#e6db74">&#34;MicrosoftAppId&#34;</span>, Output.Format(<span style="color:#e6db74">$&#34;{msa.ApplicationId}&#34;</span>) },
-    { <span style="color:#e6db74">&#34;MicrosoftAppPassword&#34;</span>, Output.Format(<span style="color:#e6db74">$&#34;{msaSecret.Value}&#34;</span>) }
+    { <span style="color:#e6db74">&#34;Bot Endpoint&#34;</span>, bot.Endpoint },
+    { <span style="color:#e6db74">&#34;MicrosoftAppId&#34;</span>, msa.ApplicationId },
+    { <span style="color:#e6db74">&#34;MicrosoftAppPassword&#34;</span>, msaSecret.Value }
 };
 </code></pre></div>
 <p><img src="https://jamied.me/img/pulumibutton.svg"></p>
@@ -318,11 +320,13 @@ Terraform offers it&rsquo;s own HashiCorp Configuration Language (HCL), but when
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ pulumi stack init dev
 $ az login
 $ pulumi config set azure:location <span style="color:#e6db74">&#34;North Europe&#34;</span>
-$ pulumi config set botName <span style="color:#e6db74">&#34;PulumiBot1&#34;</span>
+$ pulumi config set botName PulumiBot1
 $ pulumi up</code></pre></div>
 <h3 id="full-source-code-sample">Full source code sample</h3>
 
-<p>At the time of writing I&rsquo;ve submitted a PR for a full sample here: <a href="https://github.com/pulumi/examples/pull/464" target="_blank">https://github.com/pulumi/examples/pull/464</a></p>
+<p><del>At the time of writing I&rsquo;ve submitted a PR for a full sample here: <a href="https://github.com/pulumi/examples/pull/464" target="_blank">https://github.com/pulumi/examples/pull/464</a></del></p>
+
+<p>Full sample published here: <a href="https://github.com/pulumi/examples/tree/master/azure-cs-botservice" target="_blank">https://github.com/pulumi/examples/tree/master/azure-cs-botservice</a></p>
 
             </div>
         </article>
@@ -334,7 +338,7 @@ $ pulumi up</code></pre></div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://jamied.me/tags/azure-bot-service">azure bot service</a></span><span class="tag"><a href="https://jamied.me/tags/bot-framework">bot framework</a></span><span class="tag"><a href="https://jamied.me/tags/devops">devops</a></span><span class="tag"><a href="https://jamied.me/tags/pulumi">pulumi</a></span><span class="tag"><a href="https://jamied.me/tags/terraform">terraform</a></span><span class="tag"><a href="https://jamied.me/tags/automation">automation</a></span><span class="tag"><a href="https://jamied.me/tags/iaac">IaaC</a></span><span class="tag"><a href="https://jamied.me/tags/azure-resource-manager">azure resource manager</a></span><span class="tag"><a href="https://jamied.me/tags/arm">arm</a></span><span class="tag"><a href="https://jamied.me/tags/c">c#</a></span><span class="tag"><a href="https://jamied.me/tags/csharp">csharp</a></span>
                 </p>
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>712 Words</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>773 Words</p>
 
             <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-11-17 20:08 &#43;0000</p>
         </div>

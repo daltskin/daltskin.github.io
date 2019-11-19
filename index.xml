@@ -18,7 +18,7 @@
       
       <guid>https://jamied.me/posts/2019/11/pulumi-azure-bot-service/</guid>
       <description>Pulumi IaaC =&amp;gt; IaaC# (Infrastructure as CSharp) - Deploying Azure bots with Pulumi I&amp;rsquo;ll admit that, until a week ago, I had never heard of Pulumi, but when they recently announced support for .NET - they got my attention. I&amp;rsquo;ve worked alot with JSON based Azure Resource Manager (ARM) templates in the past - but these quickly become complicated to author when you have many different Azure resources.
-Terraform offers it&amp;rsquo;s own HashiCorp Configuration Language (HCL), but whenever I look at any examples a bit of me wants to die - what is this strange syntax.</description>
+Whilst Terraform offers it&amp;rsquo;s own HashiCorp Configuration Language (HCL), that or working with YAML makes a bit of me want to die - the syntax seems we&amp;rsquo;ve gone back an era in computing.</description>
     </item>
     
     <item>
