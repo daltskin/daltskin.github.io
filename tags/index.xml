@@ -6,98 +6,98 @@
     <description>Recent content in Tags on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 17 Nov 2019 20:08:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Nov 2019 21:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jamied.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>arm</title>
-      <link>https://jamied.me/tags/arm/</link>
-      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
+      <title>Blazor</title>
+      <link>https://jamied.me/tags/blazor/</link>
+      <pubDate>Thu, 21 Nov 2019 21:00:00 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/arm/</guid>
+      <guid>https://jamied.me/tags/blazor/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>automation</title>
-      <link>https://jamied.me/tags/automation/</link>
-      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
+      <title>Cross-platform</title>
+      <link>https://jamied.me/tags/cross-platform/</link>
+      <pubDate>Thu, 21 Nov 2019 21:00:00 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/automation/</guid>
+      <guid>https://jamied.me/tags/cross-platform/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>azure bot service</title>
-      <link>https://jamied.me/tags/azure-bot-service/</link>
-      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
+      <title>Docker</title>
+      <link>https://jamied.me/tags/docker/</link>
+      <pubDate>Thu, 21 Nov 2019 21:00:00 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/azure-bot-service/</guid>
+      <guid>https://jamied.me/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>azure resource manager</title>
-      <link>https://jamied.me/tags/azure-resource-manager/</link>
-      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
+      <title>Electron</title>
+      <link>https://jamied.me/tags/electron/</link>
+      <pubDate>Thu, 21 Nov 2019 21:00:00 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/azure-resource-manager/</guid>
+      <guid>https://jamied.me/tags/electron/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>bot framework</title>
-      <link>https://jamied.me/tags/bot-framework/</link>
-      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
+      <title>HTML5</title>
+      <link>https://jamied.me/tags/html5/</link>
+      <pubDate>Thu, 21 Nov 2019 21:00:00 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/bot-framework/</guid>
+      <guid>https://jamied.me/tags/html5/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>c#</title>
-      <link>https://jamied.me/tags/c#/</link>
-      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
+      <title>NET Core</title>
+      <link>https://jamied.me/tags/net-core/</link>
+      <pubDate>Thu, 21 Nov 2019 21:00:00 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/c#/</guid>
+      <guid>https://jamied.me/tags/net-core/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>csharp</title>
-      <link>https://jamied.me/tags/csharp/</link>
-      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
+      <title>Solitaire</title>
+      <link>https://jamied.me/tags/solitaire/</link>
+      <pubDate>Thu, 21 Nov 2019 21:00:00 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/csharp/</guid>
+      <guid>https://jamied.me/tags/solitaire/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>devops</title>
-      <link>https://jamied.me/tags/devops/</link>
-      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
+      <title>Super Mario</title>
+      <link>https://jamied.me/tags/super-mario/</link>
+      <pubDate>Thu, 21 Nov 2019 21:00:00 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/devops/</guid>
+      <guid>https://jamied.me/tags/super-mario/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>IaaC</title>
-      <link>https://jamied.me/tags/iaac/</link>
-      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
+      <title>Web</title>
+      <link>https://jamied.me/tags/web/</link>
+      <pubDate>Thu, 21 Nov 2019 21:00:00 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/iaac/</guid>
+      <guid>https://jamied.me/tags/web/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>pulumi</title>
-      <link>https://jamied.me/tags/pulumi/</link>
-      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
+      <title>WebWindow</title>
+      <link>https://jamied.me/tags/webwindow/</link>
+      <pubDate>Thu, 21 Nov 2019 21:00:00 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/pulumi/</guid>
+      <guid>https://jamied.me/tags/webwindow/</guid>
       <description></description>
     </item>
     

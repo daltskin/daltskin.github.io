@@ -5,8 +5,60 @@
         <description>Recent content in Posts on Hello_world</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sun, 17 Nov 2019 20:08:06 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 21 Nov 2019 21:00:00 +0000</lastBuildDate>
         <atom:link href="https://jamied.me/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>WebWindow</title>
+            <link>https://jamied.me/posts/2019/11/webwindow/</link>
+            <pubDate>Thu, 21 Nov 2019 21:00:00 +0000</pubDate>
+            
+            <guid>https://jamied.me/posts/2019/11/webwindow/</guid>
+            <description>This week Steve Sanderson blogged again, this time introducing his latest wizardry WebWindow - a lightweight cross-platform webview library for .NET Core.
+He also shared the full source code and provided some great examples on what&amp;rsquo;s possible:
+I&amp;rsquo;ve spent the last couple of evenings experimenting with this a bit. Whilst it&amp;rsquo;s &amp;lsquo;super-pre-alpha quality&amp;rsquo;, it&amp;rsquo;s pretty damn awesome.
+Docker Using this in conjunction with Docker.DotNet was my first experiment. Rather than bring web content into the project, why not let Docker do the local hosting.</description>
+            <content type="html"><![CDATA[
+
+<p>This week <a href="https://twitter.com/StevenSanderson" target="_blank">Steve Sanderson</a> blogged again, this time introducing his latest wizardry <a href="https://blog.stevensanderson.com/2019/11/18/2019-11-18-webwindow-a-cross-platform-webview-for-dotnet-core/" target="_blank">WebWindow</a> - a lightweight cross-platform webview library for .NET Core.</p>
+
+<p>He also shared the full <a href="https://github.com/SteveSandersonMS/WebWindow" target="_blank">source code</a> and provided some great <a href="https://github.com/SteveSandersonMS/WebWindow/tree/master/samples" target="_blank">examples</a> on what&rsquo;s possible:</p>
+
+<p>I&rsquo;ve spent the last couple of evenings experimenting with this a bit.  Whilst it&rsquo;s &lsquo;super-pre-alpha quality&rsquo;, it&rsquo;s pretty damn awesome.</p>
+
+<h2 id="docker">Docker</h2>
+
+<p>Using this in conjunction with <a href="https://github.com/microsoft/docker.dotnet" target="_blank">Docker.DotNet</a> was my first experiment.  Rather than bring web content into the project, why not let Docker do the local hosting.  So assuming you&rsquo;ve got Docker already setup on your developer machine, this is something you can play with.</p>
+
+<p>I tried this first with the <a href="https://hub.docker.com/r/pengbai/docker-supermario/" target="_blank">docker-supermario</a> container by <a href="https://github.com/PengBAI" target="_blank">Peng BAI</a>, of Infinite Mario in HTML5 Javascript - the results were very impressive.</p>
+
+<p><video src="/video/SuperMario.mp4" controls width=800></p>
+
+<h2 id="hosted-html">Hosted HTML</h2>
+
+<p>This time I experimented with the cross-platform aspect to this.  Using a hosted website, in this case <a href="https://mrdoob.com/lab/javascript/effects/solitaire/" target="_blank">Solitaire</a> by <a href="https://twitter.com/mrdoob" target="_blank">Mr Doob</a>.</p>
+
+<p>I compiled both a standalone runtime for Windows and Linux using:</p>
+
+<h3 id="windows">Windows</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">dotnet publish -o publish -c Debug -r win10-x64 /p<span style="color:#960050;background-color:#1e0010">:</span>PublishSingleFile=true /p<span style="color:#960050;background-color:#1e0010">:</span>PublishTrimmed=true</code></pre></div>
+<h3 id="linux">Linux</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">dotnet publish -o publish -c Debug -r linux-x64 /p:PublishSingleFile<span style="color:#f92672">=</span>true /p:PublishTrimmed<span style="color:#f92672">=</span>true</code></pre></div>
+<p>The runtime sizes were 27,450KB and 36,744KB respectively.</p>
+
+<p>Then it was time to test them both.  Using <a href="https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701" target="_blank">Windows Terminal</a> and WSL (Ubuntu) here&rsquo;s what happened:</p>
+
+<p><video src="/video/Solitaire.mp4" controls width=800></p>
+
+<p>So what next?  Well, anything that&rsquo;s web related can be now hosted in this simple component.  Experimenting further, I just built a new Microsoft Teams client ;)</p>
+
+<p><img src="/img/WebWindow MS Teams.png"></p>
+
+<p>So, if you&rsquo;re a dab hand a C++ and want to help Steve advance this project, reach out to him at his repo: <a href="https://github.com/SteveSandersonMS/WebWindow" target="_blank">https://github.com/SteveSandersonMS/WebWindow</a></p>
+
+<p>My own fork containing the above samples is here: <a href="https://github.com/daltskin/WebWindow" target="_blank">https://github.com/daltskin/WebWindow</a></p>
+]]></content>
+        </item>
         
         <item>
             <title>Pulumi Azure Bot Service</title>
