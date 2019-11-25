@@ -5,8 +5,42 @@
         <description>Recent content in Posts on Hello_world</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 21 Nov 2019 21:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 25 Nov 2019 09:24:13 +0000</lastBuildDate>
         <atom:link href="https://jamied.me/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>WSL Shortcuts</title>
+            <link>https://jamied.me/posts/2019/11/wsl-shortcuts/</link>
+            <pubDate>Mon, 25 Nov 2019 09:24:13 +0000</pubDate>
+            
+            <guid>https://jamied.me/posts/2019/11/wsl-shortcuts/</guid>
+            <description>A while back I posted a couple of Windows productivity tips:
+ File Explorer &amp;lt;&amp;gt; Command Prompt
+ File Explorer &amp;gt; VS Code
+  Windows Files Explorer &amp;amp; WSL.EXE Now that Windows SubSystem Linux is here, what if we want to drop straight from Windows File Explorer to, for example, the Ubuntu command line? So, assuming you have WSL already setup, type wsl straight into the Windows Explorer bar:</description>
+            <content type="html"><![CDATA[
+
+<p>A while back I posted a couple of Windows productivity tips:</p>
+
+<ul>
+<li><p><a href="https://blogs.msdn.microsoft.com/jamiedalton/2017/08/03/windows-productivity-tip-file-explorer-command-prompt-and-back-from-the-current-directory/" target="_blank">File Explorer &lt;&gt; Command Prompt</a></p></li>
+
+<li><p><a href="https://blogs.msdn.microsoft.com/jamiedalton/2017/08/11/windows-productivity-tip-2-file-explorer-vs-code-at-the-current-directory/" target="_blank">File Explorer &gt; VS Code</a></p></li>
+</ul>
+
+<h2 id="windows-files-explorer-wsl-exe">Windows Files Explorer &amp; WSL.EXE</h2>
+
+<p>Now that <a href="https://docs.microsoft.com/en-us/windows/wsl/about" target="_blank">Windows SubSystem Linux</a> is here, what if we want to drop straight from Windows File Explorer to, for example, the Ubuntu command line?  So, assuming you have WSL already setup, type <code>wsl</code> straight into the Windows Explorer bar:</p>
+
+<p><video src="/video/WSL.mp4" controls width=800></p>
+
+<p>Pretty awesome right?</p>
+
+<p>So now you can do all sorts of useful things straight on your Windows filesystem, but from Linux.  Take for example this *.gz file I have, I don&rsquo;t have <a href="https://www.7-zip.org/" target="_blank">7-Zip</a> installed on my Windows machine, but now I don&rsquo;t need to bother installing it - as I can use the built-in gunzip support from Ubuntu:</p>
+
+<p><video src="/video/gunzip.mp4" controls width=800></p>
+]]></content>
+        </item>
         
         <item>
             <title>WebWindow</title>

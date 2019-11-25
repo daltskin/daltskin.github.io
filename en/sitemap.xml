@@ -3,6 +3,86 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jamied.me/tags/cmd/</loc>
+    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/</loc>
+    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://jamied.me/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamied.me/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/linux/</loc>
+    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/posts/</loc>
+    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/powershell/</loc>
+    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/productivity-tips/</loc>
+    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/</loc>
+    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://jamied.me/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamied.me/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/ubuntu/</loc>
+    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/windows-subsystem-for-linux/</loc>
+    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/windows-tips/</loc>
+    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/wsl/</loc>
+    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/posts/2019/11/wsl-shortcuts/</loc>
+    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jamied.me/tags/blazor/</loc>
     <lastmod>2019-11-21T21:00:00+00:00</lastmod>
   </url>
@@ -23,32 +103,12 @@
   </url>
   
   <url>
-    <loc>https://jamied.me/</loc>
-    <lastmod>2019-11-21T21:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://jamied.me/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamied.me/"
-                />
-  </url>
-  
-  <url>
     <loc>https://jamied.me/tags/html5/</loc>
     <lastmod>2019-11-21T21:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/net-core/</loc>
-    <lastmod>2019-11-21T21:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamied.me/posts/</loc>
     <lastmod>2019-11-21T21:00:00+00:00</lastmod>
   </url>
   
@@ -60,21 +120,6 @@
   <url>
     <loc>https://jamied.me/tags/super-mario/</loc>
     <lastmod>2019-11-21T21:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamied.me/tags/</loc>
-    <lastmod>2019-11-21T21:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://jamied.me/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamied.me/tags/"
-                />
   </url>
   
   <url>
