@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 25 Nov 2019 09:24:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Feb 2020 14:01:08 +0000</lastBuildDate>
     
 	<atom:link href="https://jamied.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,16 +14,25 @@
     <item>
       <title>CMD</title>
       <link>https://jamied.me/tags/cmd/</link>
-      <pubDate>Mon, 25 Nov 2019 09:24:13 +0000</pubDate>
+      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
       
       <guid>https://jamied.me/tags/cmd/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Command Line</title>
+      <link>https://jamied.me/tags/command-line/</link>
+      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
+      
+      <guid>https://jamied.me/tags/command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linux</title>
       <link>https://jamied.me/tags/linux/</link>
-      <pubDate>Mon, 25 Nov 2019 09:24:13 +0000</pubDate>
+      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
       
       <guid>https://jamied.me/tags/linux/</guid>
       <description></description>
@@ -32,7 +41,7 @@
     <item>
       <title>Powershell</title>
       <link>https://jamied.me/tags/powershell/</link>
-      <pubDate>Mon, 25 Nov 2019 09:24:13 +0000</pubDate>
+      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
       
       <guid>https://jamied.me/tags/powershell/</guid>
       <description></description>
@@ -41,7 +50,7 @@
     <item>
       <title>Productivity tips</title>
       <link>https://jamied.me/tags/productivity-tips/</link>
-      <pubDate>Mon, 25 Nov 2019 09:24:13 +0000</pubDate>
+      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
       
       <guid>https://jamied.me/tags/productivity-tips/</guid>
       <description></description>
@@ -50,7 +59,7 @@
     <item>
       <title>Ubuntu</title>
       <link>https://jamied.me/tags/ubuntu/</link>
-      <pubDate>Mon, 25 Nov 2019 09:24:13 +0000</pubDate>
+      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
       
       <guid>https://jamied.me/tags/ubuntu/</guid>
       <description></description>
@@ -59,16 +68,25 @@
     <item>
       <title>Windows Subsystem for Linux</title>
       <link>https://jamied.me/tags/windows-subsystem-for-linux/</link>
-      <pubDate>Mon, 25 Nov 2019 09:24:13 +0000</pubDate>
+      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
       
       <guid>https://jamied.me/tags/windows-subsystem-for-linux/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Windows Terminal</title>
+      <link>https://jamied.me/tags/windows-terminal/</link>
+      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
+      
+      <guid>https://jamied.me/tags/windows-terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Windows tips</title>
       <link>https://jamied.me/tags/windows-tips/</link>
-      <pubDate>Mon, 25 Nov 2019 09:24:13 +0000</pubDate>
+      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
       
       <guid>https://jamied.me/tags/windows-tips/</guid>
       <description></description>
@@ -77,27 +95,9 @@
     <item>
       <title>WSL</title>
       <link>https://jamied.me/tags/wsl/</link>
-      <pubDate>Mon, 25 Nov 2019 09:24:13 +0000</pubDate>
+      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
       
       <guid>https://jamied.me/tags/wsl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blazor</title>
-      <link>https://jamied.me/tags/blazor/</link>
-      <pubDate>Thu, 21 Nov 2019 21:00:00 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/blazor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cross-platform</title>
-      <link>https://jamied.me/tags/cross-platform/</link>
-      <pubDate>Thu, 21 Nov 2019 21:00:00 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/cross-platform/</guid>
       <description></description>
     </item>
     

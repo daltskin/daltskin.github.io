@@ -5,8 +5,75 @@
         <description>Recent content in Posts on Hello_world</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Mon, 25 Nov 2019 09:24:13 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 14 Feb 2020 14:01:08 +0000</lastBuildDate>
         <atom:link href="https://jamied.me/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>WSL Command Line</title>
+            <link>https://jamied.me/posts/2020/02/wsl-command-line/</link>
+            <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
+            
+            <guid>https://jamied.me/posts/2020/02/wsl-command-line/</guid>
+            <description>Following on from my previous post about WSL Shortcuts - Windows Terminal v0.9 Release finally introduces command line support.
+You can now combine this with an old File Explorer task bar trick to bootstrap your awesomeness.
+Windows Files Explorer &amp;amp; Windows Terminal All of command line parameters that are supported are documented here. One nice trick is using split-pane to support different platforms simultaneously. So the following will open up a pane with both Powershell and Ubuntu side-by-side :)</description>
+            <content type="html"><![CDATA[
+
+<p>Following on from my <a href="../../../2019/11/wsl-shortcuts/">previous post about WSL Shortcuts</a> - <a href="https://github.com/microsoft/terminal/releases/tag/v0.9.433.0" target="_blank">Windows Terminal v0.9 Release</a> finally introduces command line support.</p>
+
+<p>You can now combine this with an old <a href="https://blogs.msdn.microsoft.com/jamiedalton/2017/08/03/windows-productivity-tip-file-explorer-command-prompt-and-back-from-the-current-directory/" target="_blank">File Explorer task bar trick</a> to bootstrap your awesomeness.</p>
+
+<h2 id="windows-files-explorer-windows-terminal">Windows Files Explorer &amp; Windows Terminal</h2>
+
+<p>All of command line parameters that are supported are documented <a href="https://github.com/microsoft/terminal/blob/master/doc/user-docs/UsingCommandlineArguments.md" target="_blank">here</a>. One nice trick is using <code>split-pane</code> to support different platforms simultaneously.  So the following will open up a pane with both Powershell and Ubuntu side-by-side :)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">wt split-pane -p Ubuntu</code></pre></div>
+<p>In the below video, my default command line is Powershell.  I&rsquo;m then executing both a Windows batch file and a Bash script simultaneously - both are downloading images to the same folder.</p>
+
+<p><video src="/video/Windows Terminal.mp4" controls width=800></p>
+
+<h2 id="windows-terminal-starting-folder">Windows Terminal Starting Folder</h2>
+
+<p>As a side note, the default starting folder for each command line can be set in by the <code>startingDirectory</code> property for both environments in the profiles.json file eg:</p>
+
+<pre><code>{
+    &quot;acrylicOpacity&quot; : 0.75,
+    &quot;closeOnExit&quot; : true,
+    &quot;colorScheme&quot; : &quot;Campbell&quot;,
+    &quot;commandline&quot; : &quot;cmd.exe&quot;,
+    &quot;cursorColor&quot; : &quot;#FFFFFF&quot;,
+    &quot;cursorShape&quot; : &quot;bar&quot;,
+    &quot;fontFace&quot; : &quot;Consolas&quot;,
+    &quot;fontSize&quot; : 10,
+    &quot;guid&quot; : &quot;{0caa0dad-35be-5f56-a8ff-afceeeaa6101}&quot;,
+    &quot;historySize&quot; : 9001,
+    &quot;icon&quot; : &quot;ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png&quot;,
+    &quot;name&quot; : &quot;cmd&quot;,
+    &quot;padding&quot; : &quot;0, 0, 0, 0&quot;,
+    &quot;snapOnInput&quot; : true,
+    &quot;startingDirectory&quot; : &quot;c://Github&quot;,
+    &quot;useAcrylic&quot; : true
+},
+{
+    &quot;acrylicOpacity&quot; : 0.5,
+    &quot;closeOnExit&quot; : true,
+    &quot;colorScheme&quot; : &quot;Campbell&quot;,
+    &quot;commandline&quot; : &quot;wsl.exe -d Ubuntu&quot;,
+    &quot;cursorColor&quot; : &quot;#FFFFFF&quot;,
+    &quot;cursorShape&quot; : &quot;bar&quot;,
+    &quot;fontFace&quot; : &quot;Consolas&quot;,
+    &quot;fontSize&quot; : 10,
+    &quot;guid&quot; : &quot;{2c4de342-38b7-51cf-b940-2309a097f518}&quot;,
+    &quot;historySize&quot; : 9001,
+    &quot;icon&quot; : &quot;ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png&quot;,
+    &quot;name&quot; : &quot;Ubuntu&quot;,
+    &quot;padding&quot; : &quot;0, 0, 0, 0&quot;,
+    &quot;snapOnInput&quot; : true,
+    &quot;useAcrylic&quot; : false,
+    &quot;startingDirectory&quot; : &quot;c://Github&quot;,
+},
+</code></pre>
+]]></content>
+        </item>
         
         <item>
             <title>WSL Shortcuts</title>

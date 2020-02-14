@@ -4,12 +4,17 @@
   
   <url>
     <loc>https://jamied.me/tags/cmd/</loc>
-    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+    <lastmod>2020-02-14T14:01:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/command-line/</loc>
+    <lastmod>2020-02-14T14:01:08+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/</loc>
-    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+    <lastmod>2020-02-14T14:01:08+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -24,27 +29,27 @@
   
   <url>
     <loc>https://jamied.me/tags/linux/</loc>
-    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+    <lastmod>2020-02-14T14:01:08+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/posts/</loc>
-    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+    <lastmod>2020-02-14T14:01:08+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/powershell/</loc>
-    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+    <lastmod>2020-02-14T14:01:08+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/productivity-tips/</loc>
-    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+    <lastmod>2020-02-14T14:01:08+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/</loc>
-    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+    <lastmod>2020-02-14T14:01:08+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -59,22 +64,32 @@
   
   <url>
     <loc>https://jamied.me/tags/ubuntu/</loc>
-    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+    <lastmod>2020-02-14T14:01:08+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/windows-subsystem-for-linux/</loc>
-    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+    <lastmod>2020-02-14T14:01:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/windows-terminal/</loc>
+    <lastmod>2020-02-14T14:01:08+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/windows-tips/</loc>
-    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+    <lastmod>2020-02-14T14:01:08+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/wsl/</loc>
-    <lastmod>2019-11-25T09:24:13+00:00</lastmod>
+    <lastmod>2020-02-14T14:01:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/posts/2020/02/wsl-command-line/</loc>
+    <lastmod>2020-02-14T14:01:08+00:00</lastmod>
   </url>
   
   <url>
