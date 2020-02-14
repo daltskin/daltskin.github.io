@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>WSL Command Line</title>
-      <link>https://jamied.me/posts/2020/02/wsl-command-line/</link>
+      <title>Windows Terminal Command Line</title>
+      <link>https://jamied.me/posts/2020/02/windows-terminal-command-line/</link>
       <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
       
-      <guid>https://jamied.me/posts/2020/02/wsl-command-line/</guid>
+      <guid>https://jamied.me/posts/2020/02/windows-terminal-command-line/</guid>
       <description>Following on from my previous post about WSL Shortcuts - Windows Terminal v0.9 Release finally introduces command line support.
 You can now combine this with an old File Explorer task bar trick to bootstrap your awesomeness.
 Windows Files Explorer &amp;amp; Windows Terminal All of command line parameters that are supported are documented here. One nice trick is using split-pane to support different platforms simultaneously. So the following will open up a pane with both Powershell and Ubuntu side-by-side :)</description>
