@@ -6,10 +6,19 @@
     <description>Recent content on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 14 Feb 2020 14:01:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2020 16:58:32 +0100</lastBuildDate>
     
 	<atom:link href="https://jamied.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>LUIS DevOps with Github Actions</title>
+      <link>https://jamied.me/posts/2020/05/luis-devops-with-github-actions/</link>
+      <pubDate>Thu, 21 May 2020 16:58:32 +0100</pubDate>
+      
+      <guid>https://jamied.me/posts/2020/05/luis-devops-with-github-actions/</guid>
+      <description>Implementing good DevOps practices with the LUIS Cognitive Service has been traditionally hard. Largely because the initial focus of the service has been on the underlying performance and on the portal experience - making a complex machine learning problem easy to use by any developer. In fact, now the portal is so easy to use, it can be used by non-developers too, such as business folk and even content editors.</description>
+    </item>
     
     <item>
       <title>Windows Terminal Command Line</title>

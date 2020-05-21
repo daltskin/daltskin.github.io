@@ -6,10 +6,73 @@
     <description>Recent content in Tags on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 14 Feb 2020 14:01:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2020 16:58:32 +0100</lastBuildDate>
     
 	<atom:link href="https://jamied.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>bot</title>
+      <link>https://jamied.me/tags/bot/</link>
+      <pubDate>Thu, 21 May 2020 16:58:32 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/bot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>botframework</title>
+      <link>https://jamied.me/tags/botframework/</link>
+      <pubDate>Thu, 21 May 2020 16:58:32 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/botframework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cognitive services</title>
+      <link>https://jamied.me/tags/cognitive-services/</link>
+      <pubDate>Thu, 21 May 2020 16:58:32 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/cognitive-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LUIS</title>
+      <link>https://jamied.me/tags/luis/</link>
+      <pubDate>Thu, 21 May 2020 16:58:32 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/luis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>luis.ai</title>
+      <link>https://jamied.me/tags/luis.ai/</link>
+      <pubDate>Thu, 21 May 2020 16:58:32 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/luis.ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Natural Language Understanding</title>
+      <link>https://jamied.me/tags/natural-language-understanding/</link>
+      <pubDate>Thu, 21 May 2020 16:58:32 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/natural-language-understanding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLU</title>
+      <link>https://jamied.me/tags/nlu/</link>
+      <pubDate>Thu, 21 May 2020 16:58:32 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/nlu/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CMD</title>
@@ -35,69 +98,6 @@
       <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
       
       <guid>https://jamied.me/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Powershell</title>
-      <link>https://jamied.me/tags/powershell/</link>
-      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/powershell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Productivity tips</title>
-      <link>https://jamied.me/tags/productivity-tips/</link>
-      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/productivity-tips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ubuntu</title>
-      <link>https://jamied.me/tags/ubuntu/</link>
-      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Windows Subsystem for Linux</title>
-      <link>https://jamied.me/tags/windows-subsystem-for-linux/</link>
-      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/windows-subsystem-for-linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Windows Terminal</title>
-      <link>https://jamied.me/tags/windows-terminal/</link>
-      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/windows-terminal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Windows tips</title>
-      <link>https://jamied.me/tags/windows-tips/</link>
-      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/windows-tips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>WSL</title>
-      <link>https://jamied.me/tags/wsl/</link>
-      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/wsl/</guid>
       <description></description>
     </item>
     

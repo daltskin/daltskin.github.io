@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>botframework on Hello_world</title>
-    <link>https://jamied.me/tags/botframework/</link>
-    <description>Recent content in botframework on Hello_world</description>
+    <title>Natural Language Understanding on Hello_world</title>
+    <link>https://jamied.me/tags/natural-language-understanding/</link>
+    <description>Recent content in Natural Language Understanding on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Thu, 21 May 2020 16:58:32 +0100</lastBuildDate>
     
-	<atom:link href="https://jamied.me/tags/botframework/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jamied.me/tags/natural-language-understanding/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>https://jamied.me/posts/2020/05/luis-devops-with-github-actions/</guid>
       <description>Implementing good DevOps practices with the LUIS Cognitive Service has been traditionally hard. Largely because the initial focus of the service has been on the underlying performance and on the portal experience - making a complex machine learning problem easy to use by any developer. In fact, now the portal is so easy to use, it can be used by non-developers too, such as business folk and even content editors.</description>
-    </item>
-    
-    <item>
-      <title>Direct Line Speech</title>
-      <link>https://jamied.me/posts/2019/10/direct-line-speech/</link>
-      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamied.me/posts/2019/10/direct-line-speech/</guid>
-      <description>Anne Uumellmahaye voice bot using Azure Bot Service: Direct Line Speech Recreating Anne Uumellmahaye using AI from the film The Man with Two Brains. Spooktacular fun with the Azure Bot Service using the Direct Line Speech channel and the Microsoft Cognitive Speech SDK.
-Architecture Technologies used  Azure Bot Service and Direct Line Channel Bot Framework Microsoft Cognitive Services  Dispatcher LUIS QnA Maker Speech SDK  Azure Functions Spotify API UWP Raspberry Pi running Windows 10 IoT Halloween head  Who&amp;rsquo;s Freddy?</description>
     </item>
     
   </channel>

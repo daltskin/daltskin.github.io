@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta name="google-site-verification" content="K2Exu14Kv45NN2n3fF_bBjCBgdjHvnl3zzMQ1Uz8tPk" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="Jamie D ">
+<meta name="description"
+    content="Implementing good DevOps practices with the LUIS Cognitive Service has been traditionally hard. Largely because the initial focus of the service has been on the underlying performance and on the portal experience - making a complex machine learning problem easy to use by any developer. In fact, now the portal is so easy to use, it can be used by non-developers too, such as business folk and even content editors." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://jamied.me/posts/2020/05/luis-devops-with-github-actions/" />
+
+
+<title>
+    
+    LUIS DevOps with Github Actions :: Hello_world  — Jamie D`
+    
+</title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://jamied.me/main.min.73f55a8d452be4a71b2960620b80252cf69abd84d63fe7501abf0a39b1a70a78.css">
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://jamied.me/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jamied.me/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jamied.me/favicon-16x16.png">
+<link rel="manifest" href="https://jamied.me/site.webmanifest">
+<link rel="mask-icon" href="https://jamied.me/safari-pinned-tab.svg" color="#252627">
+<link rel="shortcut icon" href="https://jamied.me/favicon.ico">
+<meta name="theme-color" content="#252627"><meta itemprop="name" content="LUIS DevOps with Github Actions">
+<meta itemprop="description" content="Implementing good DevOps practices with the LUIS Cognitive Service has been traditionally hard. Largely because the initial focus of the service has been on the underlying performance and on the portal experience - making a complex machine learning problem easy to use by any developer. In fact, now the portal is so easy to use, it can be used by non-developers too, such as business folk and even content editors.">
+
+
+<meta itemprop="datePublished" content="2020-05-21T16:58:32&#43;01:00" />
+<meta itemprop="dateModified" content="2020-05-21T16:58:32&#43;01:00" />
+<meta itemprop="wordCount" content="382">
+
+
+
+<meta itemprop="keywords" content="LUIS,luis.ai,Natural Language Understanding,NLU,botframework,cognitive services,bot," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://jamied.me/%20"/>
+
+<meta name="twitter:title" content="LUIS DevOps with Github Actions"/>
+<meta name="twitter:description" content="Implementing good DevOps practices with the LUIS Cognitive Service has been traditionally hard. Largely because the initial focus of the service has been on the underlying performance and on the portal experience - making a complex machine learning problem easy to use by any developer. In fact, now the portal is so easy to use, it can be used by non-developers too, such as business folk and even content editors."/>
+
+
+
+
+<meta property="article:published_time" content="2020-05-21 16:58:32 &#43;0100 BST" />
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://jamied.me/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">C:\Users\daltskin</span>
+            <span class="logo__cursor" style=""></span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://jamied.me/about/">About</a></li><li><a href="https://jamied.me/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>2 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title"><a href="https://jamied.me/posts/2020/05/luis-devops-with-github-actions/">LUIS DevOps with Github Actions</a></h1>
+
+            
+
+            <div class="post-content">
+                
+
+<p>Implementing good DevOps practices with the LUIS Cognitive Service has been traditionally hard.  Largely because the initial focus of the service has been on the underlying performance and on the portal experience - making a complex machine learning problem easy to use by any developer.  In fact, now the portal is so easy to use, it can be used by non-developers too, such as business folk and even content editors.  The downside to this initial engineering focus, was that there was limited public API capability that you could leverage in order to automate some of the more ardous tasks typcially faced by enterprise organisations such as:</p>
+
+<ul>
+<li>Limited support for different environments</li>
+<li>No/fragmented CLI tooling</li>
+<li>Limited testing capability</li>
+</ul>
+
+<p><em>But, over the last 12+ months things have steady improved and much of these challenges have been addressed</em></p>
+
+<h3 id="luis-multiple-api-endpoints-for-authoring-predictions">LUIS Multiple API Endpoints for authoring &amp; predictions:</h3>
+
+<p>LUIS now offers a much richer public API, including separate endpoints:</p>
+
+<ul>
+<li>LUIS API Authoring: <a href="https://westus.dev.cognitive.microsoft.com/docs/services/luis-programmatic-apis-v3-0-preview" target="_blank">https://westus.dev.cognitive.microsoft.com/docs/services/luis-programmatic-apis-v3-0-preview</a></li>
+<li>LUIS API Predictions: <a href="https://westus.dev.cognitive.microsoft.com/docs/services/luis-endpoint-api-v3-0" target="_blank">https://westus.dev.cognitive.microsoft.com/docs/services/luis-endpoint-api-v3-0</a></li>
+</ul>
+
+<h3 id="convergence-of-bot-framework-luis-cli-tooling">Convergence of Bot Framework/LUIS CLI Tooling</h3>
+
+<p>What was once a fragmented toolset has now been converged into a single Bot Framework CLI tool:</p>
+
+<ul>
+<li>Bot Framework CLI: <a href="https://docs.microsoft.com/en-us/azure/bot-service/bf-cli-overview?view=azure-bot-service-4.0" target="_blank">https://docs.microsoft.com/en-us/azure/bot-service/bf-cli-overview?view=azure-bot-service-4.0</a></li>
+</ul>
+
+<h3 id="devops-focus">DevOps Focus</h3>
+
+<p>A set of DevOps tools for NLU services, including easy to use Azure DevOps Pipelines Tasks that do the heavy lifting for training/testing LUIS models:</p>
+
+<ul>
+<li>NLU.DevOps: <a href="https://github.com/microsoft/NLU.DevOps" target="_blank">https://github.com/microsoft/NLU.DevOps</a></li>
+</ul>
+
+<h2 id="luis-devops-with-github">LUIS DevOps with Github</h2>
+
+<p>Now, there is guidance and best practice advice for settingup Github Actions: <a href="https://github.com/Azure-Samples/LUIS-DevOps-Template" target="_blank">https://github.com/Azure-Samples/LUIS-DevOps-Template</a>
+which includes:</p>
+
+<ul>
+<li>Documentation</li>
+<li>End-to-end walkthrough</li>
+</ul>
+
+<p>Covering:</p>
+
+<ul>
+<li>Github flow branch management</li>
+<li>Setting up build agent dependencies</li>
+<li>Handling secrets/environment variables</li>
+<li>Azure authentication</li>
+<li>Leveraging bf &amp; NLU.DevOps cli tools</li>
+<li>Testing models</li>
+<li>Analyzing model performance</li>
+<li>Publishing models</li>
+</ul>
+
+<h3 id="continuous-integration-workflow-architecture">Continuous Integration Workflow architecture</h3>
+
+<p>For the complete <a href="https://github.com/Azure-Samples/LUIS-DevOps-Template/blob/develop/.github/workflows/luis_ci.yaml" target="_blank">CI workflow</a> you can look in the repo, but it&rsquo;s useful to understand the key stages within the process:</p>
+
+<p><img src="https://jamied.me/img/luis_ci_workflow.png"></p>
+
+<p>Note here, the initial publish of the model uses <code>curl post</code> rather than the <code>bf luis:application:publish</code> - at the time of writing this blog, there is is an issue with the bf cli tool when using the <code>--direct</code> publish switch.  However, this has now been addressed via this <a href="https://github.com/microsoft/botframework-cli/pull/798" target="_blank">PR</a> and will be in the next release of the tooling.</p>
+
+<h3 id="pull-request-workflow-architecture">Pull Request Workflow architecture</h3>
+
+<p>The <a href="https://github.com/Azure-Samples/LUIS-DevOps-Template/blob/develop/.github/workflows/luis_pr.yaml" target="_blank">PR workflow</a> is much simpler:</p>
+
+<p><img src="https://jamied.me/img/luis_pr_workflow.png"></p>
+
+<p>So, if you&rsquo;re interested in setting up Github Actions with LUIS - go check out the new resource: <a href="https://github.com/Azure-Samples/LUIS-DevOps-Template" target="_blank">https://github.com/Azure-Samples/LUIS-DevOps-Template</a></p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://jamied.me/tags/luis">LUIS</a></span><span class="tag"><a href="https://jamied.me/tags/luis.ai">luis.ai</a></span><span class="tag"><a href="https://jamied.me/tags/natural-language-understanding">Natural Language Understanding</a></span><span class="tag"><a href="https://jamied.me/tags/nlu">NLU</a></span><span class="tag"><a href="https://jamied.me/tags/botframework">botframework</a></span><span class="tag"><a href="https://jamied.me/tags/cognitive-services">cognitive services</a></span><span class="tag"><a href="https://jamied.me/tags/bot">bot</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>382 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-05-21 16:58 &#43;0100</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+
+                    
+                        <span class="button next">
+                            <a href="https://jamied.me/posts/2020/02/windows-terminal-command-line/">
+                                <span class="button__text">Windows Terminal Command Line</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://jamied.me/">Jamie D</a></span>
+            
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span> <a href="https://jamied.me/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">rhazdon</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://jamied.me/bundle.min.4c3fb12a087ceed4a52cb5d57068a9795c7069617a01ca70f788052ad66e1791779e6c72686e1dc0ca13dc03b0203204b6566bb0dd1ee80de2b7ff4d8fe53db2.js" integrity="sha512-TD&#43;xKgh87tSlLLXVcGipeVxwaWF6Acpw94gFKtZuF5F3nmxyaG4dwMoT3AOwIDIEtlZrsN0e6A3it/9Nj&#43;U9sg=="></script>
+    <script type="text/javascript">
+        var sdkInstance="appInsightsSDK";window[sdkInstance]="appInsights";var aiName=window[sdkInstance],aisdk=window[aiName]||function(e){function n(e){t[e]=function(){var n=arguments;t.queue.push(function(){t[e].apply(t,n)})}}var t={config:e};t.initialize=!0;var i=document,a=window;setTimeout(function(){var n=i.createElement("script");n.src=e.url||"https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js",i.getElementsByTagName("script")[0].parentNode.appendChild(n)});try{t.cookie=i.cookie}catch(e){}t.queue=[],t.version=2;for(var r=["Event","PageView","Exception","Trace","DependencyData","Metric","PageViewPerformance"];r.length;)n("track"+r.pop());n("startTrackPage"),n("stopTrackPage");var s="Track"+r[0];if(n("start"+s),n("stop"+s),n("setAuthenticatedUserContext"),n("clearAuthenticatedUserContext"),n("flush"),!(!0===e.disableExceptionTracking||e.extensionConfig&&e.extensionConfig.ApplicationInsightsAnalytics&&!0===e.extensionConfig.ApplicationInsightsAnalytics.disableExceptionTracking)){n("_"+(r="onerror"));var o=a[r];a[r]=function(e,n,i,a,s){var c=o&&o(e,n,i,a,s);return!0!==c&&t["_"+r]({message:e,url:n,lineNumber:i,columnNumber:a,error:s}),c},e.autoExceptionInstrumented=!0}return t}(
+        {
+        instrumentationKey:"490dec9c-4d14-4f46-9054-0d119b76a14d"
+        }
+        );window[aiName]=aisdk,aisdk.queue&&0===aisdk.queue.length&&aisdk.trackPageView({});
+    </script>
+
+
+
+    </body>
+</html>

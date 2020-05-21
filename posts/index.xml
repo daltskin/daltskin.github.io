@@ -5,8 +5,93 @@
         <description>Recent content in Posts on Hello_world</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Fri, 14 Feb 2020 14:01:08 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 21 May 2020 16:58:32 +0100</lastBuildDate>
         <atom:link href="https://jamied.me/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>LUIS DevOps with Github Actions</title>
+            <link>https://jamied.me/posts/2020/05/luis-devops-with-github-actions/</link>
+            <pubDate>Thu, 21 May 2020 16:58:32 +0100</pubDate>
+            
+            <guid>https://jamied.me/posts/2020/05/luis-devops-with-github-actions/</guid>
+            <description>Implementing good DevOps practices with the LUIS Cognitive Service has been traditionally hard. Largely because the initial focus of the service has been on the underlying performance and on the portal experience - making a complex machine learning problem easy to use by any developer. In fact, now the portal is so easy to use, it can be used by non-developers too, such as business folk and even content editors.</description>
+            <content type="html"><![CDATA[
+
+<p>Implementing good DevOps practices with the LUIS Cognitive Service has been traditionally hard.  Largely because the initial focus of the service has been on the underlying performance and on the portal experience - making a complex machine learning problem easy to use by any developer.  In fact, now the portal is so easy to use, it can be used by non-developers too, such as business folk and even content editors.  The downside to this initial engineering focus, was that there was limited public API capability that you could leverage in order to automate some of the more ardous tasks typcially faced by enterprise organisations such as:</p>
+
+<ul>
+<li>Limited support for different environments</li>
+<li>No/fragmented CLI tooling</li>
+<li>Limited testing capability</li>
+</ul>
+
+<p><em>But, over the last 12+ months things have steady improved and much of these challenges have been addressed</em></p>
+
+<h3 id="luis-multiple-api-endpoints-for-authoring-predictions">LUIS Multiple API Endpoints for authoring &amp; predictions:</h3>
+
+<p>LUIS now offers a much richer public API, including separate endpoints:</p>
+
+<ul>
+<li>LUIS API Authoring: <a href="https://westus.dev.cognitive.microsoft.com/docs/services/luis-programmatic-apis-v3-0-preview" target="_blank">https://westus.dev.cognitive.microsoft.com/docs/services/luis-programmatic-apis-v3-0-preview</a></li>
+<li>LUIS API Predictions: <a href="https://westus.dev.cognitive.microsoft.com/docs/services/luis-endpoint-api-v3-0" target="_blank">https://westus.dev.cognitive.microsoft.com/docs/services/luis-endpoint-api-v3-0</a></li>
+</ul>
+
+<h3 id="convergence-of-bot-framework-luis-cli-tooling">Convergence of Bot Framework/LUIS CLI Tooling</h3>
+
+<p>What was once a fragmented toolset has now been converged into a single Bot Framework CLI tool:</p>
+
+<ul>
+<li>Bot Framework CLI: <a href="https://docs.microsoft.com/en-us/azure/bot-service/bf-cli-overview?view=azure-bot-service-4.0" target="_blank">https://docs.microsoft.com/en-us/azure/bot-service/bf-cli-overview?view=azure-bot-service-4.0</a></li>
+</ul>
+
+<h3 id="devops-focus">DevOps Focus</h3>
+
+<p>A set of DevOps tools for NLU services, including easy to use Azure DevOps Pipelines Tasks that do the heavy lifting for training/testing LUIS models:</p>
+
+<ul>
+<li>NLU.DevOps: <a href="https://github.com/microsoft/NLU.DevOps" target="_blank">https://github.com/microsoft/NLU.DevOps</a></li>
+</ul>
+
+<h2 id="luis-devops-with-github">LUIS DevOps with Github</h2>
+
+<p>Now, there is guidance and best practice advice for settingup Github Actions: <a href="https://github.com/Azure-Samples/LUIS-DevOps-Template" target="_blank">https://github.com/Azure-Samples/LUIS-DevOps-Template</a>
+which includes:</p>
+
+<ul>
+<li>Documentation</li>
+<li>End-to-end walkthrough</li>
+</ul>
+
+<p>Covering:</p>
+
+<ul>
+<li>Github flow branch management</li>
+<li>Setting up build agent dependencies</li>
+<li>Handling secrets/environment variables</li>
+<li>Azure authentication</li>
+<li>Leveraging bf &amp; NLU.DevOps cli tools</li>
+<li>Testing models</li>
+<li>Analyzing model performance</li>
+<li>Publishing models</li>
+</ul>
+
+<h3 id="continuous-integration-workflow-architecture">Continuous Integration Workflow architecture</h3>
+
+<p>For the complete <a href="https://github.com/Azure-Samples/LUIS-DevOps-Template/blob/develop/.github/workflows/luis_ci.yaml" target="_blank">CI workflow</a> you can look in the repo, but it&rsquo;s useful to understand the key stages within the process:</p>
+
+<p><img src="/img/luis_ci_workflow.png"></p>
+
+<p>Note here, the initial publish of the model uses <code>curl post</code> rather than the <code>bf luis:application:publish</code> - at the time of writing this blog, there is is an issue with the bf cli tool when using the <code>--direct</code> publish switch.  However, this has now been addressed via this <a href="https://github.com/microsoft/botframework-cli/pull/798" target="_blank">PR</a> and will be in the next release of the tooling.</p>
+
+<h3 id="pull-request-workflow-architecture">Pull Request Workflow architecture</h3>
+
+<p>The <a href="https://github.com/Azure-Samples/LUIS-DevOps-Template/blob/develop/.github/workflows/luis_pr.yaml" target="_blank">PR workflow</a> is much simpler:</p>
+
+<p><img src="/img/luis_pr_workflow.png"></p>
+
+<p>So, if you&rsquo;re interested in setting up Github Actions with LUIS - go check out the new resource: <a href="https://github.com/Azure-Samples/LUIS-DevOps-Template" target="_blank">https://github.com/Azure-Samples/LUIS-DevOps-Template</a></p>
+]]></content>
+        </item>
         
         <item>
             <title>Windows Terminal Command Line</title>
