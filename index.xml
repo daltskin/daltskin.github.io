@@ -6,10 +6,20 @@
     <description>Recent content on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 21 May 2020 16:58:32 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2020 10:59:17 +0100</lastBuildDate>
     
 	<atom:link href="https://jamied.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GitHub Webhooks With Azure Functions</title>
+      <link>https://jamied.me/posts/2020/07/github-webhooks-with-azure-functions/</link>
+      <pubDate>Tue, 21 Jul 2020 10:59:17 +0100</pubDate>
+      
+      <guid>https://jamied.me/posts/2020/07/github-webhooks-with-azure-functions/</guid>
+      <description>Recently I wanted to build a GitHub webhook using C# Azure Functions, but could only find an example template using Node.js. Here, I set out to create a webhook to check the overall status of a build. The full code here is available here: GitHub Webhook Playground
+Check Suites Looking at the available webhook events there wasn&amp;rsquo;t an obvious event I could subscribe to get what I wanted. Currently, there isn&amp;rsquo;t an OTB event for when workflows complete.</description>
+    </item>
     
     <item>
       <title>LUIS DevOps with Github Actions</title>
@@ -91,7 +101,7 @@ First things first though, home automation is largely pointless, it&amp;rsquo;s 
       <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jamied.me/about/</guid>
-      <description>-- I work as a Software Developer Engineer within Microsoft Commercial Software Engineering, helping customers and partners develop solutions based on the Microsoft Azure platform. I&amp;rsquo;m as old as I look, with over 20 years’ experience as a Microsoft software developer. I&amp;rsquo;m passionate about the Intelligent Cloud and creating new experiences using a range of Microsoft technologies. I have a degree from the university of life and once read some books (I also have a real degree, but have learn&amp;rsquo;t far more from real industry experience).</description>
+      <description>-- I work as a Technical Program Manager within Microsoft Commercial Software Engineering, helping customers and partners develop solutions based on the Microsoft Azure platform. I&amp;rsquo;m as old as I look, with over 20 years’ experience as a Microsoft software developer. I&amp;rsquo;m passionate about the Intelligent Cloud and creating new experiences using a range of Microsoft technologies. I have a degree from the university of life and once read some books (I also have a real degree).</description>
     </item>
     
     <item>
@@ -101,16 +111,6 @@ First things first though, home automation is largely pointless, it&amp;rsquo;s 
       
       <guid>https://jamied.me/credits/</guid>
       <description>This site is powered by Hugo and uses a slightly tweaked version of the Hello Friend NG Theme by rhazdon</description>
-    </item>
-    
-    <item>
-      <title>New Home</title>
-      <link>https://jamied.me/posts/2019/04/new-home/</link>
-      <pubDate>Tue, 16 Apr 2019 16:44:23 +0100</pubDate>
-      
-      <guid>https://jamied.me/posts/2019/04/new-home/</guid>
-      <description>Yes, I&amp;rsquo;ve moved my online home from https://blogs.msdn.microsoft.com/jamiedalton to here. Moving my site to Hugo using a static content builder will hopefully mean that I can blog more often, and now that I&amp;rsquo;m outside the blogs.msdn.microsoft.com domain I can write and share other technical articles or things that I&amp;rsquo;ve been working with.
-So speaking of which, leads me to my upcoming next post about Home Automation&amp;hellip;</description>
     </item>
     
   </channel>

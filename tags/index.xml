@@ -6,10 +6,73 @@
     <description>Recent content in Tags on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 21 May 2020 16:58:32 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2020 10:59:17 +0100</lastBuildDate>
     
 	<atom:link href="https://jamied.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>azure functions</title>
+      <link>https://jamied.me/tags/azure-functions/</link>
+      <pubDate>Tue, 21 Jul 2020 10:59:17 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/azure-functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>azure relay</title>
+      <link>https://jamied.me/tags/azure-relay/</link>
+      <pubDate>Tue, 21 Jul 2020 10:59:17 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/azure-relay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>c#</title>
+      <link>https://jamied.me/tags/c#/</link>
+      <pubDate>Tue, 21 Jul 2020 10:59:17 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/c#/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>csharp</title>
+      <link>https://jamied.me/tags/csharp/</link>
+      <pubDate>Tue, 21 Jul 2020 10:59:17 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/csharp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://jamied.me/tags/github/</link>
+      <pubDate>Tue, 21 Jul 2020 10:59:17 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tunnel relay</title>
+      <link>https://jamied.me/tags/tunnel-relay/</link>
+      <pubDate>Tue, 21 Jul 2020 10:59:17 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/tunnel-relay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webhooks</title>
+      <link>https://jamied.me/tags/webhooks/</link>
+      <pubDate>Tue, 21 Jul 2020 10:59:17 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/webhooks/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>bot</title>
@@ -35,69 +98,6 @@
       <pubDate>Thu, 21 May 2020 16:58:32 +0100</pubDate>
       
       <guid>https://jamied.me/tags/cognitive-services/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LUIS</title>
-      <link>https://jamied.me/tags/luis/</link>
-      <pubDate>Thu, 21 May 2020 16:58:32 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/luis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>luis.ai</title>
-      <link>https://jamied.me/tags/luis.ai/</link>
-      <pubDate>Thu, 21 May 2020 16:58:32 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/luis.ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Natural Language Understanding</title>
-      <link>https://jamied.me/tags/natural-language-understanding/</link>
-      <pubDate>Thu, 21 May 2020 16:58:32 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/natural-language-understanding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NLU</title>
-      <link>https://jamied.me/tags/nlu/</link>
-      <pubDate>Thu, 21 May 2020 16:58:32 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/nlu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CMD</title>
-      <link>https://jamied.me/tags/cmd/</link>
-      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/cmd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Command Line</title>
-      <link>https://jamied.me/tags/command-line/</link>
-      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/command-line/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://jamied.me/tags/linux/</link>
-      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/linux/</guid>
       <description></description>
     </item>
     
