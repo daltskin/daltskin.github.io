@@ -4,37 +4,47 @@
   
   <url>
     <loc>https://jamied.me/tags/azure-functions/</loc>
-    <lastmod>2020-07-21T10:59:17+01:00</lastmod>
+    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/azure-relay/</loc>
-    <lastmod>2020-07-21T10:59:17+01:00</lastmod>
+    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/c#/</loc>
-    <lastmod>2020-07-21T10:59:17+01:00</lastmod>
+    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/csharp/</loc>
-    <lastmod>2020-07-21T10:59:17+01:00</lastmod>
+    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/github/</loc>
-    <lastmod>2020-07-21T10:59:17+01:00</lastmod>
+    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jamied.me/posts/2020/07/github-webhooks-with-azure-functions/</loc>
-    <lastmod>2020-07-21T10:59:17+01:00</lastmod>
+    <loc>https://jamied.me/tags/github-actions/</loc>
+    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/github-webhooks-with-azure-functions/</loc>
+    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/github-workflows/</loc>
+    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/</loc>
-    <lastmod>2020-07-21T10:59:17+01:00</lastmod>
+    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -49,12 +59,12 @@
   
   <url>
     <loc>https://jamied.me/posts/</loc>
-    <lastmod>2020-07-21T10:59:17+01:00</lastmod>
+    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/</loc>
-    <lastmod>2020-07-21T10:59:17+01:00</lastmod>
+    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -69,12 +79,12 @@
   
   <url>
     <loc>https://jamied.me/tags/tunnel-relay/</loc>
-    <lastmod>2020-07-21T10:59:17+01:00</lastmod>
+    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/webhooks/</loc>
-    <lastmod>2020-07-21T10:59:17+01:00</lastmod>
+    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
   </url>
   
   <url>
