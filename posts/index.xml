@@ -5,8 +5,44 @@
         <description>Recent content in Posts on Hello_world</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Tue, 21 Jul 2020 21:50:17 +0100</lastBuildDate>
+        <lastBuildDate>Sun, 16 Aug 2020 19:54:39 +0100</lastBuildDate>
         <atom:link href="https://jamied.me/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>GitHub Webhooks With C# Azure Functions and SmartThings</title>
+            <link>https://jamied.me/github-webhooks-with-azure-functions-and-smartthings/</link>
+            <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
+            
+            <guid>https://jamied.me/github-webhooks-with-azure-functions-and-smartthings/</guid>
+            <description>Ever since I saw Martin WoodWard&amp;rsquo;s Brian the Build Bunny for Team Foundation Server over 12 years ago, I&amp;rsquo;ve been fascinated by creating signals for continuous integration builds. Following on from my last post, where I walk through creating and setting up a GitHub Webhook with Azure Functions, the next logical step was to integrate this to SmartThings for complete home automation.
+SmartThings has a new REST API, which I&amp;rsquo;ve created and released a SmartThings NET library, which gives you the ability to interrogate your SmartThings home automation ecosystem entirely using dotnet.</description>
+            <content type="html"><![CDATA[
+
+<p>Ever since I saw <a href="https://github.com/martinwoodward" target="_blank">Martin WoodWard&rsquo;s</a> <a href="https://www.youtube.com/watch?time_continue=5&amp;v=Is32fWJJA-I&amp;feature=emb_logo" target="_blank">Brian the Build Bunny</a> for Team Foundation Server over 12 years ago, I&rsquo;ve been fascinated by creating signals for continuous integration builds.  Following on from my <a href="/github-webhooks-with-azure-functions">last post</a>, where I walk through creating and setting up a GitHub Webhook with Azure Functions, the next logical step was to integrate this to SmartThings for complete home automation.</p>
+
+<p>SmartThings has a new REST API, which I&rsquo;ve created and released a <a href="https://github.com/daltskin/SmartThingsNet" target="_blank">SmartThings NET library</a>, which gives you the ability to interrogate your SmartThings home automation ecosystem entirely using dotnet.  This makes it very easy to invoke SmartThings devices from a C# Azure Function, simply by adding the <a href="https://www.nuget.org/packages/SmartThingsNet/" target="_blank">SmartThings NET NuGet package</a>.</p>
+
+<p>Having an Azure Function run as a GitHub webhook gives you limitless home automation capability for your build statuses.  For example you could set off the house alarm, turn off the TV or open the blinds when the builds breaks.  Then dim the lights and play chilled music when the build succeeds.</p>
+
+<h2 id="architecture">Architecture</h2>
+
+<p><img src="/img/github_smartthings.png"></p>
+
+<p>It all starts with a commit to a repo, which triggers the workflow.  This will start the build process, then on completion, invoke the webhook with an HTTP POST of the check suites status.  The SmartThings Azure Function checks the build success/failure and then executes the corresponding SmartThings scene using the SmartThings NET library.</p>
+
+<h2 id="setup">Setup</h2>
+
+<p>To set this up, first read <a href="/github-webhooks-with-azure-functions">GitHub Webhooks with C# Azure Functions</a>, then follow the additional steps in the repo here: <a href="https://github.com/daltskin/GitHubWebhookSmartThings" target="_blank">https://github.com/daltskin/GitHubWebhookSmartThings</a></p>
+
+<h2 id="github-ci-end-to-end-demo">GitHub CI - End to End Demo</h2>
+
+<p>In the following video, I&rsquo;m using a Philips Hue light bulb, connected through SmartThings.  The GitHub repo has been configured with a workflow and has a GitHub webhook for <code>Check suites</code> enabled - calling the published Azure Function endpoint.  So any commit will trigger the workflow, which in turn will invoke the webhook (Azure Function) and then execute the relevant SmartThings scene.</p>
+
+<p><video src="/video/GitHubSmartThings.mp4" controls width=800></p>
+
+<p>Here, I make a breaking change directly to the GitHub repo via the portal, by removing the <code>using</code> statement within a class file and committing the change. This runs the CI build, which then fails (as expected).  I then flip quickly to the Azure Portal, watching the live log of the published Azure Function endpoint.  The function gets invoked by GitHub with the check suites payload.  The function then executes the broken build scene within SmartThings, turning the robot light red.  I then go back to the GitHub portal, edit the class file, re-introducing the <code>using</code> statement and commit the change.  This time the Azure Function now runs the success build scene - turning the Robot light green.</p>
+]]></content>
+        </item>
         
         <item>
             <title>GitHub Webhooks With C# Azure Functions</title>

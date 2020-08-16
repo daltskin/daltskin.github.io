@@ -6,10 +6,20 @@
     <description>Recent content in github on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 21 Jul 2020 21:50:17 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2020 19:54:39 +0100</lastBuildDate>
     
 	<atom:link href="https://jamied.me/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GitHub Webhooks With C# Azure Functions and SmartThings</title>
+      <link>https://jamied.me/github-webhooks-with-azure-functions-and-smartthings/</link>
+      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
+      
+      <guid>https://jamied.me/github-webhooks-with-azure-functions-and-smartthings/</guid>
+      <description>Ever since I saw Martin WoodWard&amp;rsquo;s Brian the Build Bunny for Team Foundation Server over 12 years ago, I&amp;rsquo;ve been fascinated by creating signals for continuous integration builds. Following on from my last post, where I walk through creating and setting up a GitHub Webhook with Azure Functions, the next logical step was to integrate this to SmartThings for complete home automation.
+SmartThings has a new REST API, which I&amp;rsquo;ve created and released a SmartThings NET library, which gives you the ability to interrogate your SmartThings home automation ecosystem entirely using dotnet.</description>
+    </item>
     
     <item>
       <title>GitHub Webhooks With C# Azure Functions</title>

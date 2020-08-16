@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 21 Jul 2020 21:50:17 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2020 19:54:39 +0100</lastBuildDate>
     
 	<atom:link href="https://jamied.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,34 +14,52 @@
     <item>
       <title>azure functions</title>
       <link>https://jamied.me/tags/azure-functions/</link>
-      <pubDate>Tue, 21 Jul 2020 21:50:17 +0100</pubDate>
+      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
       
       <guid>https://jamied.me/tags/azure-functions/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>azure relay</title>
-      <link>https://jamied.me/tags/azure-relay/</link>
-      <pubDate>Tue, 21 Jul 2020 21:50:17 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/azure-relay/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>c#</title>
       <link>https://jamied.me/tags/c#/</link>
-      <pubDate>Tue, 21 Jul 2020 21:50:17 +0100</pubDate>
+      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
       
       <guid>https://jamied.me/tags/c#/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>ci</title>
+      <link>https://jamied.me/tags/ci/</link>
+      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/ci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cicd</title>
+      <link>https://jamied.me/tags/cicd/</link>
+      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/cicd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>continousintegration</title>
+      <link>https://jamied.me/tags/continousintegration/</link>
+      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/continousintegration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>csharp</title>
       <link>https://jamied.me/tags/csharp/</link>
-      <pubDate>Tue, 21 Jul 2020 21:50:17 +0100</pubDate>
+      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
       
       <guid>https://jamied.me/tags/csharp/</guid>
       <description></description>
@@ -50,7 +68,7 @@
     <item>
       <title>github</title>
       <link>https://jamied.me/tags/github/</link>
-      <pubDate>Tue, 21 Jul 2020 21:50:17 +0100</pubDate>
+      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
       
       <guid>https://jamied.me/tags/github/</guid>
       <description></description>
@@ -59,7 +77,7 @@
     <item>
       <title>github actions</title>
       <link>https://jamied.me/tags/github-actions/</link>
-      <pubDate>Tue, 21 Jul 2020 21:50:17 +0100</pubDate>
+      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
       
       <guid>https://jamied.me/tags/github-actions/</guid>
       <description></description>
@@ -68,36 +86,18 @@
     <item>
       <title>github workflows</title>
       <link>https://jamied.me/tags/github-workflows/</link>
-      <pubDate>Tue, 21 Jul 2020 21:50:17 +0100</pubDate>
+      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
       
       <guid>https://jamied.me/tags/github-workflows/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tunnel relay</title>
-      <link>https://jamied.me/tags/tunnel-relay/</link>
-      <pubDate>Tue, 21 Jul 2020 21:50:17 +0100</pubDate>
+      <title>homeautomation</title>
+      <link>https://jamied.me/tags/homeautomation/</link>
+      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
       
-      <guid>https://jamied.me/tags/tunnel-relay/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>webhooks</title>
-      <link>https://jamied.me/tags/webhooks/</link>
-      <pubDate>Tue, 21 Jul 2020 21:50:17 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/webhooks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bot</title>
-      <link>https://jamied.me/tags/bot/</link>
-      <pubDate>Thu, 21 May 2020 16:58:32 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/bot/</guid>
+      <guid>https://jamied.me/tags/homeautomation/</guid>
       <description></description>
     </item>
     

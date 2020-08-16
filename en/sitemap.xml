@@ -4,47 +4,57 @@
   
   <url>
     <loc>https://jamied.me/tags/azure-functions/</loc>
-    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamied.me/tags/azure-relay/</loc>
-    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
+    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/c#/</loc>
-    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
+    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/ci/</loc>
+    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/cicd/</loc>
+    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/continousintegration/</loc>
+    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/csharp/</loc>
-    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
+    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/github/</loc>
-    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
+    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/github-actions/</loc>
-    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
+    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jamied.me/github-webhooks-with-azure-functions/</loc>
-    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
+    <loc>https://jamied.me/github-webhooks-with-azure-functions-and-smartthings/</loc>
+    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/github-workflows/</loc>
-    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
+    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/</loc>
-    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
+    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -58,13 +68,28 @@
   </url>
   
   <url>
+    <loc>https://jamied.me/tags/homeautomation/</loc>
+    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jamied.me/posts/</loc>
-    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
+    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/smarthome/</loc>
+    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/smartthings/</loc>
+    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamied.me/tags/</loc>
-    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
+    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -78,12 +103,22 @@
   </url>
   
   <url>
-    <loc>https://jamied.me/tags/tunnel-relay/</loc>
+    <loc>https://jamied.me/tags/webhooks/</loc>
+    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/azure-relay/</loc>
     <lastmod>2020-07-21T21:50:17+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jamied.me/tags/webhooks/</loc>
+    <loc>https://jamied.me/github-webhooks-with-azure-functions/</loc>
+    <lastmod>2020-07-21T21:50:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/tunnel-relay/</loc>
     <lastmod>2020-07-21T21:50:17+01:00</lastmod>
   </url>
   
@@ -324,11 +359,6 @@
   
   <url>
     <loc>https://jamied.me/posts/2019/05/home-automation/</loc>
-    <lastmod>2019-05-09T19:49:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamied.me/tags/smarthome/</loc>
     <lastmod>2019-05-09T19:49:05+01:00</lastmod>
   </url>
   
