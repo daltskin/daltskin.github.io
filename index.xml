@@ -6,10 +6,20 @@
     <description>Recent content on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 16 Aug 2020 19:54:39 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 22 Dec 2020 15:41:28 +0000</lastBuildDate>
     
 	<atom:link href="https://jamied.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Troubleshooting ARM DeploymentScripts</title>
+      <link>https://jamied.me/posts/2020/12/troubleshooting-arm-deploymentscripts/</link>
+      <pubDate>Tue, 22 Dec 2020 15:41:28 +0000</pubDate>
+      
+      <guid>https://jamied.me/posts/2020/12/troubleshooting-arm-deploymentscripts/</guid>
+      <description>The new ARM resource type Microsoft.Resources/deploymentScripts allows you to execute scripts within template deployments, capture the script outputs and re-use them later within the rest of the template.
+Whilst the documentation goes some way to help you monitor and troubleshoot when the script doesn&amp;rsquo;t work as planned using the provided script service storage accounts, out of the box,I didn&amp;rsquo;t find these particularly helpful to identify why I wasn&amp;rsquo;t getting the required outputs from my inline bash script.</description>
+    </item>
     
     <item>
       <title>GitHub Webhooks With C# Azure Functions and SmartThings</title>
@@ -103,15 +113,6 @@ Architecture Technologies used  Azure Bot Service and Direct Line Channel Bot Fr
       <guid>https://jamied.me/posts/2019/05/home-automation/</guid>
       <description>I&amp;rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and their development environment. At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&amp;rsquo;s a labour of love.
 First things first though, home automation is largely pointless, it&amp;rsquo;s un-necessary and will likely cause you more problems that it&amp;rsquo;s worth in the short term.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://jamied.me/about/</link>
-      <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamied.me/about/</guid>
-      <description>-- I work as a Technical Program Manager within Microsoft Commercial Software Engineering, helping customers and partners develop solutions based on the Microsoft Azure platform. I&amp;rsquo;m as old as I look, with over 20 years’ experience as a Microsoft software developer. I&amp;rsquo;m passionate about the Intelligent Cloud and creating new experiences using a range of Microsoft technologies. I have a degree from the university of life and once read some books (I also have a real degree).</description>
     </item>
     
   </channel>

@@ -5,8 +5,108 @@
         <description>Recent content in Posts on Hello_world</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sun, 16 Aug 2020 19:54:39 +0100</lastBuildDate>
+        <lastBuildDate>Tue, 22 Dec 2020 15:41:28 +0000</lastBuildDate>
         <atom:link href="https://jamied.me/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Troubleshooting ARM DeploymentScripts</title>
+            <link>https://jamied.me/posts/2020/12/troubleshooting-arm-deploymentscripts/</link>
+            <pubDate>Tue, 22 Dec 2020 15:41:28 +0000</pubDate>
+            
+            <guid>https://jamied.me/posts/2020/12/troubleshooting-arm-deploymentscripts/</guid>
+            <description>The new ARM resource type Microsoft.Resources/deploymentScripts allows you to execute scripts within template deployments, capture the script outputs and re-use them later within the rest of the template.
+Whilst the documentation goes some way to help you monitor and troubleshoot when the script doesn&amp;rsquo;t work as planned using the provided script service storage accounts, out of the box,I didn&amp;rsquo;t find these particularly helpful to identify why I wasn&amp;rsquo;t getting the required outputs from my inline bash script.</description>
+            <content type="html"><![CDATA[
+
+<p>The new ARM resource type <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-script-template" target="_blank"><code>Microsoft.Resources/deploymentScripts</code></a> allows you to execute scripts within template deployments, capture the script outputs and re-use them later within the rest of the template.</p>
+
+<p>Whilst the documentation goes some way to help you <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-script-template#monitor-and-troubleshoot-deployment-scripts" target="_blank">monitor and troubleshoot</a> when the script doesn&rsquo;t work as planned using the provided script service storage accounts, out of the box,I didn&rsquo;t find these particularly helpful to identify why I wasn&rsquo;t getting the required outputs from my inline bash script.</p>
+
+<p>In order to help yourself debug, you&rsquo;ll need to change the <code>cleanUpPreference</code> property, the default <code>onSuccess</code> will clear down the debug contents, meaning you don&rsquo;t have anywhere to grab the output logs from.  Careful here, as <code>onSuccess</code> could just mean that your script executed ok, not necessarily that it provided the result you expected.  Here I&rsquo;m setting it to <code>onExpiration</code> to the provided <code>retentionInterval</code> period.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#e6db74">&#34;properties&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> 
+{
+  <span style="color:#f92672">&#34;forceUpdateTag&#34;</span>: <span style="color:#e6db74">&#34;[parameters(&#39;utcValue&#39;)]&#34;</span>,
+  <span style="color:#f92672">&#34;AzCliVersion&#34;</span>: <span style="color:#e6db74">&#34;2.15.0&#34;</span>,
+  <span style="color:#f92672">&#34;timeout&#34;</span>: <span style="color:#e6db74">&#34;PT30M&#34;</span>,
+  <span style="color:#f92672">&#34;arguments&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+  <span style="color:#f92672">&#34;scriptContent&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+  <span style="color:#f92672">&#34;cleanupPreference&#34;</span>: <span style="color:#e6db74">&#34;OnExpiration&#34;</span>,
+  <span style="color:#f92672">&#34;retentionInterval&#34;</span>: <span style="color:#e6db74">&#34;P1D&#34;</span>
+}</code></pre></div>
+<h2 id="using-inline-scripts">Using inline scripts</h2>
+
+<p>I&rsquo;m not usually a fan of condensing multiple lines of any script (bash/powershell) into one line, which you&rsquo;ll then need to escape, so that you can smash it into a json property within the ARM template - making it totally unreadable for your future self (or unfortunate others).  However, sometimes it makes the dev-loop quicker when you&rsquo;re still working things out with the rest of your automated deployment.</p>
+
+<p>So, when your scriptContent doesn&rsquo;t work as planned, you&rsquo;ve triple-checked it works locally, what are you now supposed to do?  It&rsquo;s a black-hole debug experience, or so I initially thought&hellip;</p>
+
+<h2 id="deploymentscript-artifacts">DeploymentScript artifacts</h2>
+
+<p>As mentioned earlier, all of the script files are stored within the provided script storage account.</p>
+
+<ul>
+<li><code>azscriptinput</code>
+
+<ul>
+<li><code>DeploymentScript.sh</code> - Azure Cli deployment script execution engine uses this script to initialize context and collect outputs of user script execution</li>
+<li><code>userscript.sh</code> - The contents of the scriptContent property (not very useful)</li>
+</ul></li>
+<li><code>azscriptoutput</code>
+
+<ul>
+<li><code>executionresult.json</code> - Execution summary of script start/end time and the overall result (half-useful)</li>
+<li><code>scriptoutputs.json</code> - The json output of your bash script (only useful if the script works as intended)</li>
+</ul></li>
+</ul>
+
+<h2 id="deploymentscript-json-outputs">DeploymentScript json outputs</h2>
+
+<p>As per the <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deployment-script-template?tabs=CLI#work-with-outputs-from-cli-script" target="_blank">documentation</a> your bash script MUST output json conforming to the following schema:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+  <span style="color:#f92672">&#34;result&#34;</span>: {
+    <span style="color:#f92672">&#34;property1&#34;</span>: <span style="color:#e6db74">&#34;value&#34;</span>,
+    <span style="color:#f92672">&#34;property2&#34;</span>: <span style="color:#e6db74">&#34;value&#34;</span>
+  }
+}</code></pre></div>
+<p>And within your ARM template outputs you need to reference this output values like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#e6db74">&#34;outputs&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> {
+    <span style="color:#f92672">&#34;Property1OutputVar&#34;</span>: {
+        <span style="color:#f92672">&#34;value&#34;</span>: <span style="color:#e6db74">&#34;[reference(&#39;runBashWithOutputs&#39;).outputs.result.property1]&#34;</span>,
+        <span style="color:#f92672">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;string&#34;</span>
+    },
+    <span style="color:#f92672">&#34;Property2OutputVar&#34;</span>: {
+        <span style="color:#f92672">&#34;value&#34;</span>: <span style="color:#e6db74">&#34;[reference(&#39;runBashWithOutputs&#39;).outputs.result.property2]&#34;</span>,
+        <span style="color:#f92672">&#34;type&#34;</span>: <span style="color:#e6db74">&#34;string&#34;</span>
+    }        
+}</code></pre></div>
+<p>In my case, my inline script was executing successfully, but my actual values were empty:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+  <span style="color:#f92672">&#34;result&#34;</span>: {
+    <span style="color:#f92672">&#34;appId&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>,
+    <span style="color:#f92672">&#34;appSecret&#34;</span>: <span style="color:#e6db74">&#34;&#34;</span>
+  }
+}</code></pre></div>
+<h2 id="az-scripts-path-output-directory">AZ_SCRIPTS_PATH_OUTPUT_DIRECTORY</h2>
+
+<p>Time to add some debugging into our script, but how can we do that?  Looking in the <code>DeploymentScript.sh</code> mentioned above, you&rsquo;ll find a bunch of other variables, one of which is <code>AZ_SCRIPTS_PATH_OUTPUT_DIRECTORY</code>, so we can use this location to dump any of our custom script outputs to 😀</p>
+
+<p>So by doing the following in the inline script, we can now add some tracing inside the script, and the output will be moved into the storage account with the rest of the outputs.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#e6db74">&#34;properties&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> 
+{
+  <span style="color:#f92672">&#34;AzCliVersion&#34;</span>: <span style="color:#e6db74">&#34;2.15.0&#34;</span>,
+  <span style="color:#f92672">&#34;forceUpdateTag&#34;</span>: <span style="color:#e6db74">&#34;[parameters(&#39;utcValue&#39;)]&#34;</span>,
+  <span style="color:#f92672">&#34;timeout&#34;</span>: <span style="color:#e6db74">&#34;PT30M&#34;</span>,
+  <span style="color:#f92672">&#34;arguments&#34;</span>: <span style="color:#e6db74">&#34;[parameters(&#39;appName&#39;)]&#34;</span>,
+  <span style="color:#f92672">&#34;scriptContent&#34;</span>: <span style="color:#e6db74">&#34;appName=$1; echo $appName &gt; $AZ_SCRIPTS_PATH_OUTPUT_DIRECTORY/app; echo $(az account list) &gt; $AZ_SCRIPTS_PATH_OUTPUT_DIRECTORY/account; ...&lt;rest of script has been removed&gt;&#34;</span>,
+  <span style="color:#f92672">&#34;cleanupPreference&#34;</span>: <span style="color:#e6db74">&#34;OnExpiration&#34;</span>,
+  <span style="color:#f92672">&#34;retentionInterval&#34;</span>: <span style="color:#e6db74">&#34;P1D&#34;</span>
+}</code></pre></div>
+<p>Here you can see I&rsquo;m dumping both the input appName parameter value and the output from the <code>az account list</code> command to different files in the script storage output:</p>
+
+<p><img src="/img/deploymentscript.png" width="800"></p>
+
+<p>Hope this helps others.</p>
+]]></content>
+        </item>
         
         <item>
             <title>GitHub Webhooks With C# Azure Functions and SmartThings</title>

@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>devops on Hello_world</title>
+    <title>DevOps on Hello_world</title>
     <link>https://jamied.me/tags/devops/</link>
-    <description>Recent content in devops on Hello_world</description>
+    <description>Recent content in DevOps on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 17 Nov 2019 20:08:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Dec 2020 15:41:28 +0000</lastBuildDate>
     
 	<atom:link href="https://jamied.me/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Troubleshooting ARM DeploymentScripts</title>
+      <link>https://jamied.me/posts/2020/12/troubleshooting-arm-deploymentscripts/</link>
+      <pubDate>Tue, 22 Dec 2020 15:41:28 +0000</pubDate>
+      
+      <guid>https://jamied.me/posts/2020/12/troubleshooting-arm-deploymentscripts/</guid>
+      <description>The new ARM resource type Microsoft.Resources/deploymentScripts allows you to execute scripts within template deployments, capture the script outputs and re-use them later within the rest of the template.
+Whilst the documentation goes some way to help you monitor and troubleshoot when the script doesn&amp;rsquo;t work as planned using the provided script service storage accounts, out of the box,I didn&amp;rsquo;t find these particularly helpful to identify why I wasn&amp;rsquo;t getting the required outputs from my inline bash script.</description>
+    </item>
     
     <item>
       <title>Pulumi Azure Bot Service</title>

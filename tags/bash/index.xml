@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Azure Resource Manager on Hello_world</title>
-    <link>https://jamied.me/tags/azure-resource-manager/</link>
-    <description>Recent content in Azure Resource Manager on Hello_world</description>
+    <title>Bash on Hello_world</title>
+    <link>https://jamied.me/tags/bash/</link>
+    <description>Recent content in Bash on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Tue, 22 Dec 2020 15:41:28 +0000</lastBuildDate>
     
-	<atom:link href="https://jamied.me/tags/azure-resource-manager/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jamied.me/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>https://jamied.me/posts/2020/12/troubleshooting-arm-deploymentscripts/</guid>
       <description>The new ARM resource type Microsoft.Resources/deploymentScripts allows you to execute scripts within template deployments, capture the script outputs and re-use them later within the rest of the template.
 Whilst the documentation goes some way to help you monitor and troubleshoot when the script doesn&amp;rsquo;t work as planned using the provided script service storage accounts, out of the box,I didn&amp;rsquo;t find these particularly helpful to identify why I wasn&amp;rsquo;t getting the required outputs from my inline bash script.</description>
-    </item>
-    
-    <item>
-      <title>Pulumi Azure Bot Service</title>
-      <link>https://jamied.me/posts/2019/11/pulumi-azure-bot-service/</link>
-      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
-      
-      <guid>https://jamied.me/posts/2019/11/pulumi-azure-bot-service/</guid>
-      <description>Pulumi IaaC =&amp;gt; IaaC# (Infrastructure as CSharp) - Deploying Azure bots with Pulumi I&amp;rsquo;ll admit that, until a week ago, I had never heard of Pulumi, but when they recently announced support for .NET - they got my attention. I&amp;rsquo;ve worked alot with JSON based Azure Resource Manager (ARM) templates in the past - but these quickly become complicated to author when you have many different Azure resources.
-Whilst Terraform offers it&amp;rsquo;s own HashiCorp Configuration Language (HCL), that or working with YAML makes a bit of me want to die - the syntax seems we&amp;rsquo;ve gone back an era in computing.</description>
     </item>
     
   </channel>

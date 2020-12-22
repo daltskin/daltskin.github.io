@@ -6,10 +6,73 @@
     <description>Recent content in Tags on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 16 Aug 2020 19:54:39 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 22 Dec 2020 15:41:28 +0000</lastBuildDate>
     
 	<atom:link href="https://jamied.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ARM</title>
+      <link>https://jamied.me/tags/arm/</link>
+      <pubDate>Tue, 22 Dec 2020 15:41:28 +0000</pubDate>
+      
+      <guid>https://jamied.me/tags/arm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azure Resource Manager</title>
+      <link>https://jamied.me/tags/azure-resource-manager/</link>
+      <pubDate>Tue, 22 Dec 2020 15:41:28 +0000</pubDate>
+      
+      <guid>https://jamied.me/tags/azure-resource-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bash</title>
+      <link>https://jamied.me/tags/bash/</link>
+      <pubDate>Tue, 22 Dec 2020 15:41:28 +0000</pubDate>
+      
+      <guid>https://jamied.me/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Debugging deploymentScripts</title>
+      <link>https://jamied.me/tags/debugging-deploymentscripts/</link>
+      <pubDate>Tue, 22 Dec 2020 15:41:28 +0000</pubDate>
+      
+      <guid>https://jamied.me/tags/debugging-deploymentscripts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deployment Scripts</title>
+      <link>https://jamied.me/tags/deployment-scripts/</link>
+      <pubDate>Tue, 22 Dec 2020 15:41:28 +0000</pubDate>
+      
+      <guid>https://jamied.me/tags/deployment-scripts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://jamied.me/tags/devops/</link>
+      <pubDate>Tue, 22 Dec 2020 15:41:28 +0000</pubDate>
+      
+      <guid>https://jamied.me/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PowerShell</title>
+      <link>https://jamied.me/tags/powershell/</link>
+      <pubDate>Tue, 22 Dec 2020 15:41:28 +0000</pubDate>
+      
+      <guid>https://jamied.me/tags/powershell/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>azure functions</title>
@@ -35,69 +98,6 @@
       <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
       
       <guid>https://jamied.me/tags/ci/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cicd</title>
-      <link>https://jamied.me/tags/cicd/</link>
-      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/cicd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>continousintegration</title>
-      <link>https://jamied.me/tags/continousintegration/</link>
-      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/continousintegration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>csharp</title>
-      <link>https://jamied.me/tags/csharp/</link>
-      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/csharp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>github</title>
-      <link>https://jamied.me/tags/github/</link>
-      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>github actions</title>
-      <link>https://jamied.me/tags/github-actions/</link>
-      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/github-actions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>github workflows</title>
-      <link>https://jamied.me/tags/github-workflows/</link>
-      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/github-workflows/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>homeautomation</title>
-      <link>https://jamied.me/tags/homeautomation/</link>
-      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/homeautomation/</guid>
       <description></description>
     </item>
     
