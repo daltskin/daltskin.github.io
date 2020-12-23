@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>smartthings on Hello_world</title>
-    <link>https://jamied.me/tags/smartthings/</link>
-    <description>Recent content in smartthings on Hello_world</description>
+    <title>covid19 on Hello_world</title>
+    <link>https://jamied.me/tags/covid19/</link>
+    <description>Recent content in covid19 on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Wed, 23 Dec 2020 20:04:40 +0000</lastBuildDate>
     
-	<atom:link href="https://jamied.me/tags/smartthings/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jamied.me/tags/covid19/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>https://jamied.me/posts/2020/12/smart-home-multiplayer-bomb-disposal-game/</guid>
       <description>About 18 months ago I shared some insight into some home automation I&amp;rsquo;d added that turned the whole house into a game zone. This has been pretty useful during the recent covid lockdown and provided much entertainment for the family. This post is to explain how it works.
 Game objective Find and defuse the bomb without getting spotted. A baddie has hidden a bomb somewhere around the house, the bomb disposal team have to locate it and defuse it using the key - without activating any of the house alarm sensors.</description>
-    </item>
-    
-    <item>
-      <title>GitHub Webhooks With C# Azure Functions and SmartThings</title>
-      <link>https://jamied.me/github-webhooks-with-azure-functions-and-smartthings/</link>
-      <pubDate>Sun, 16 Aug 2020 19:54:39 +0100</pubDate>
-      
-      <guid>https://jamied.me/github-webhooks-with-azure-functions-and-smartthings/</guid>
-      <description>Ever since I saw Martin WoodWard&amp;rsquo;s Brian the Build Bunny for Team Foundation Server over 12 years ago, I&amp;rsquo;ve been fascinated by creating signals for continuous integration builds. Following on from my last post, where I walk through creating and setting up a GitHub Webhook with Azure Functions, the next logical step was to integrate this to SmartThings for complete home automation.
-SmartThings has a new REST API, which I&amp;rsquo;ve created and released a SmartThings NET library, which gives you the ability to interrogate your SmartThings home automation ecosystem entirely using dotnet.</description>
     </item>
     
   </channel>

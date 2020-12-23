@@ -6,10 +6,20 @@
     <description>Recent content in smarthome on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 16 Aug 2020 19:54:39 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 23 Dec 2020 20:04:40 +0000</lastBuildDate>
     
 	<atom:link href="https://jamied.me/tags/smarthome/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Smart Home Multiplayer Bomb Disposal Game</title>
+      <link>https://jamied.me/posts/2020/12/smart-home-multiplayer-bomb-disposal-game/</link>
+      <pubDate>Wed, 23 Dec 2020 20:04:40 +0000</pubDate>
+      
+      <guid>https://jamied.me/posts/2020/12/smart-home-multiplayer-bomb-disposal-game/</guid>
+      <description>About 18 months ago I shared some insight into some home automation I&amp;rsquo;d added that turned the whole house into a game zone. This has been pretty useful during the recent covid lockdown and provided much entertainment for the family. This post is to explain how it works.
+Game objective Find and defuse the bomb without getting spotted. A baddie has hidden a bomb somewhere around the house, the bomb disposal team have to locate it and defuse it using the key - without activating any of the house alarm sensors.</description>
+    </item>
     
     <item>
       <title>GitHub Webhooks With C# Azure Functions and SmartThings</title>

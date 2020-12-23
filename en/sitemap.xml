@@ -3,6 +3,101 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jamied.me/tags/corona/</loc>
+    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/covid/</loc>
+    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/covid19/</loc>
+    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/</loc>
+    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://jamied.me/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamied.me/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/home-automation/</loc>
+    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/lockdown/</loc>
+    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/multiplayer-game/</loc>
+    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/posts/</loc>
+    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/sensor/</loc>
+    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/smart-home/</loc>
+    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/posts/2020/12/smart-home-multiplayer-bomb-disposal-game/</loc>
+    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/smarthome/</loc>
+    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/smartthings/</loc>
+    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/spotify/</loc>
+    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/</loc>
+    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://jamied.me/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamied.me/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>https://jamied.me/tags/arm/</loc>
     <lastmod>2020-12-22T15:41:28+00:00</lastmod>
   </url>
@@ -33,43 +128,8 @@
   </url>
   
   <url>
-    <loc>https://jamied.me/</loc>
-    <lastmod>2020-12-22T15:41:28+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://jamied.me/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamied.me/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://jamied.me/posts/</loc>
-    <lastmod>2020-12-22T15:41:28+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jamied.me/tags/powershell/</loc>
     <lastmod>2020-12-22T15:41:28+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamied.me/tags/</loc>
-    <lastmod>2020-12-22T15:41:28+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://jamied.me/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamied.me/tags/"
-                />
   </url>
   
   <url>
@@ -129,16 +189,6 @@
   
   <url>
     <loc>https://jamied.me/tags/homeautomation/</loc>
-    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamied.me/tags/smarthome/</loc>
-    <lastmod>2020-08-16T19:54:39+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamied.me/tags/smartthings/</loc>
     <lastmod>2020-08-16T19:54:39+01:00</lastmod>
   </url>
   

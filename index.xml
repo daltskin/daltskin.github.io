@@ -6,10 +6,20 @@
     <description>Recent content on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 22 Dec 2020 15:41:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Dec 2020 20:04:40 +0000</lastBuildDate>
     
 	<atom:link href="https://jamied.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Smart Home Multiplayer Bomb Disposal Game</title>
+      <link>https://jamied.me/posts/2020/12/smart-home-multiplayer-bomb-disposal-game/</link>
+      <pubDate>Wed, 23 Dec 2020 20:04:40 +0000</pubDate>
+      
+      <guid>https://jamied.me/posts/2020/12/smart-home-multiplayer-bomb-disposal-game/</guid>
+      <description>About 18 months ago I shared some insight into some home automation I&amp;rsquo;d added that turned the whole house into a game zone. This has been pretty useful during the recent covid lockdown and provided much entertainment for the family. This post is to explain how it works.
+Game objective Find and defuse the bomb without getting spotted. A baddie has hidden a bomb somewhere around the house, the bomb disposal team have to locate it and defuse it using the key - without activating any of the house alarm sensors.</description>
+    </item>
     
     <item>
       <title>Troubleshooting ARM DeploymentScripts</title>
@@ -103,16 +113,6 @@ Whilst Terraform offers it&amp;rsquo;s own HashiCorp Configuration Language (HCL
       <guid>https://jamied.me/posts/2019/10/direct-line-speech/</guid>
       <description>Anne Uumellmahaye voice bot using Azure Bot Service: Direct Line Speech Recreating Anne Uumellmahaye using AI from the film The Man with Two Brains. Spooktacular fun with the Azure Bot Service using the Direct Line Speech channel and the Microsoft Cognitive Speech SDK.
 Architecture Technologies used  Azure Bot Service and Direct Line Channel Bot Framework Microsoft Cognitive Services  Dispatcher LUIS QnA Maker Speech SDK  Azure Functions Spotify API UWP Raspberry Pi running Windows 10 IoT Halloween head  Who&amp;rsquo;s Freddy?</description>
-    </item>
-    
-    <item>
-      <title>Home Automation</title>
-      <link>https://jamied.me/posts/2019/05/home-automation/</link>
-      <pubDate>Thu, 09 May 2019 19:49:05 +0100</pubDate>
-      
-      <guid>https://jamied.me/posts/2019/05/home-automation/</guid>
-      <description>I&amp;rsquo;ve been experimenting/playing with home automation for a while now, specifically SmartThings and their development environment. At first I was overwhelmed by it all as it seemed a steep learning curve, getting to grips with the Groovy IDE and terminology such as device handlers and SmartApps - but now it&amp;rsquo;s a labour of love.
-First things first though, home automation is largely pointless, it&amp;rsquo;s un-necessary and will likely cause you more problems that it&amp;rsquo;s worth in the short term.</description>
     </item>
     
   </channel>

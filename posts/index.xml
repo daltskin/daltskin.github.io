@@ -5,8 +5,67 @@
         <description>Recent content in Posts on Hello_world</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Tue, 22 Dec 2020 15:41:28 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 23 Dec 2020 20:04:40 +0000</lastBuildDate>
         <atom:link href="https://jamied.me/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Smart Home Multiplayer Bomb Disposal Game</title>
+            <link>https://jamied.me/posts/2020/12/smart-home-multiplayer-bomb-disposal-game/</link>
+            <pubDate>Wed, 23 Dec 2020 20:04:40 +0000</pubDate>
+            
+            <guid>https://jamied.me/posts/2020/12/smart-home-multiplayer-bomb-disposal-game/</guid>
+            <description>About 18 months ago I shared some insight into some home automation I&amp;rsquo;d added that turned the whole house into a game zone. This has been pretty useful during the recent covid lockdown and provided much entertainment for the family. This post is to explain how it works.
+Game objective Find and defuse the bomb without getting spotted. A baddie has hidden a bomb somewhere around the house, the bomb disposal team have to locate it and defuse it using the key - without activating any of the house alarm sensors.</description>
+            <content type="html"><![CDATA[
+
+<p><img src="/img/tnt.jpg" width="400"></p>
+
+<p>About 18 months ago I shared some insight into some <a href="https://jamied.me/posts/2019/05/home-automation/" target="_blank">home automation</a> I&rsquo;d added that turned the whole house into a game zone.  This has been pretty useful during the recent covid lockdown and provided much entertainment for the family.  This post is to explain how it works.</p>
+
+<h2 id="game-objective">Game objective</h2>
+
+<p>Find and defuse the bomb without getting spotted.  A baddie has hidden a bomb somewhere around the house, the bomb disposal team have to locate it and defuse it using the key - without activating any of the house alarm sensors.</p>
+
+<p>Each room has a motion sensor - so you need to be a ninja to get in and out of a room without setting any off.  Check each room until you find the bomb, use the special disarm key to disable the bomb and end the game.  If you trigger a sensor, an alarm will sound and lights will flash - you&rsquo;ve failed your objective.</p>
+
+<h2 id="how-it-works">How it works</h2>
+
+<h3 id="motion-sensors">Motion sensors</h3>
+
+<p>The game is designed on the SmartThings platform, using motion sensors that are registered as devices for each room. Our house had an existing hard-wired alarm installation, which I added a Konnected Alarm Interface Panel to, exposing each PIR onto the SmartThings platform as a motion sensor device.</p>
+
+<p><img src="/img/konnected.png"></p>
+
+<p>Existing hard-wired PIRs become a SmartThings motion sensor.  Allowing you to create automations based off any detected movement.
+<img src="/img/sensors.png"></p>
+
+<h3 id="smartthings-groovy-app">SmartThings Groovy app</h3>
+
+<p>I then wrote a custom SmartThings app which detects any motion sensor movement.  On movement detection, the app sets the configured color and flash duration of multiple Philips Hue light bulbs around the house.  In addition, it also invokes an Azure Function to playback music, full source available <a href="https://github.com/daltskin/ST-HomeAutomation" target="_blank">here</a>.  I&rsquo;ve made the app customisable so you can easily change the in-game settings.</p>
+
+<p><img src="/img/groovy.jpg" width="400"></p>
+
+<h3 id="playing-music">Playing music</h3>
+
+<p>An important part of the game ambience and to provide feedback is playing a sound/music whenever a motion sensor has been triggered.  I&rsquo;m using an Azure Function to call the Spotify API to play a given track from a provided playlist.  The function allows you to seek to a position in a track, and to set how long to play for.  Allowing you to playback a sample from any given song.  Currently I&rsquo;m using Run by AWOLNATION, recently popular on TikTok.  Another nice feature is the ability to select which Spotify audio device to play back on, allowing me to use the otherwise defunct Harmon Kardon Invoke 😀.</p>
+
+<h3 id="arming-disarming-the-bomb">Arming/Disarming the bomb</h3>
+
+<p>The SmartThings platform allows you to create different &ldquo;modes&rdquo; for your house automation such as Home/Away/Night etc.  Most normal people add additional modes for Movies etc, whilst I geeked out on this and created a <code>Game</code> mode.  Which allows my groovy app to only trigger if the relevant mode is active.  I&rsquo;ve also created a SmartThings scene called <code>Game mode</code>, so to start the game, I can simply ask Alexa - &ldquo;Turn on Game mode&rdquo;.  Which will immediately activate all of the motion sensors around the house ready for action.</p>
+
+<p>To disarm the bomb, we had fun creating some TNT out of an old cardboard box, a repurposed light gun and a SmartThings multi-purpose sensor.</p>
+
+<p><img src="/img/parts.png"></p>
+
+<p>The multi-purpose sensor allows the magnetic piece to be removed, and thus becomes the &ldquo;denotation disarm key&rdquo;.  The rest of the sensor is embedded in the bomb.</p>
+
+<p><img src="/img/bomb.png"></p>
+
+<p>When the magnet is added, it disarms the bomb by changing the game mode back to the default (home) - using this simple SmartThings Automation:</p>
+
+<p><img src="/img/disarm.jpg" width="400"></p>
+]]></content>
+        </item>
         
         <item>
             <title>Troubleshooting ARM DeploymentScripts</title>
