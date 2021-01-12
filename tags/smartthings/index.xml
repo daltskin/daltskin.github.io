@@ -6,10 +6,20 @@
     <description>Recent content in smartthings on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 23 Dec 2020 20:04:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Jan 2021 11:32:52 +0000</lastBuildDate>
     
 	<atom:link href="https://jamied.me/tags/smartthings/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Google Nest SmartThings Integration</title>
+      <link>https://jamied.me/posts/2021/01/google-nest-smartthings-integration/</link>
+      <pubDate>Tue, 12 Jan 2021 11:32:52 +0000</pubDate>
+      
+      <guid>https://jamied.me/posts/2021/01/google-nest-smartthings-integration/</guid>
+      <description>Google Nest is now officially supported on SmartThings, until now I&amp;rsquo;d been using the awesome Nest Manager by Tonesto7 - but decided to take the plunge and see what this new integration looks like.
+This blog takes you through the process of migrating your Nest account over to Google Nest, then integrating any Nest devices you have into your SmartThings environment. The process is easy, but long winded, it&amp;rsquo;s also irreversible, so this will show you what to expect during the SmartThings migration.</description>
+    </item>
     
     <item>
       <title>Smart Home Multiplayer Bomb Disposal Game / Escape Room</title>

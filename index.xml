@@ -6,10 +6,20 @@
     <description>Recent content on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 23 Dec 2020 20:04:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Jan 2021 11:32:52 +0000</lastBuildDate>
     
 	<atom:link href="https://jamied.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Google Nest SmartThings Integration</title>
+      <link>https://jamied.me/posts/2021/01/google-nest-smartthings-integration/</link>
+      <pubDate>Tue, 12 Jan 2021 11:32:52 +0000</pubDate>
+      
+      <guid>https://jamied.me/posts/2021/01/google-nest-smartthings-integration/</guid>
+      <description>Google Nest is now officially supported on SmartThings, until now I&amp;rsquo;d been using the awesome Nest Manager by Tonesto7 - but decided to take the plunge and see what this new integration looks like.
+This blog takes you through the process of migrating your Nest account over to Google Nest, then integrating any Nest devices you have into your SmartThings environment. The process is easy, but long winded, it&amp;rsquo;s also irreversible, so this will show you what to expect during the SmartThings migration.</description>
+    </item>
     
     <item>
       <title>Smart Home Multiplayer Bomb Disposal Game / Escape Room</title>
@@ -103,16 +113,6 @@ Docker Using this in conjunction with Docker.DotNet was my first experiment. Rat
       <guid>https://jamied.me/posts/2019/11/pulumi-azure-bot-service/</guid>
       <description>Pulumi IaaC =&amp;gt; IaaC# (Infrastructure as CSharp) - Deploying Azure bots with Pulumi I&amp;rsquo;ll admit that, until a week ago, I had never heard of Pulumi, but when they recently announced support for .NET - they got my attention. I&amp;rsquo;ve worked alot with JSON based Azure Resource Manager (ARM) templates in the past - but these quickly become complicated to author when you have many different Azure resources.
 Whilst Terraform offers it&amp;rsquo;s own HashiCorp Configuration Language (HCL), that or working with YAML makes a bit of me want to die - the syntax seems we&amp;rsquo;ve gone back an era in computing.</description>
-    </item>
-    
-    <item>
-      <title>Direct Line Speech</title>
-      <link>https://jamied.me/posts/2019/10/direct-line-speech/</link>
-      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jamied.me/posts/2019/10/direct-line-speech/</guid>
-      <description>Anne Uumellmahaye voice bot using Azure Bot Service: Direct Line Speech Recreating Anne Uumellmahaye using AI from the film The Man with Two Brains. Spooktacular fun with the Azure Bot Service using the Direct Line Speech channel and the Microsoft Cognitive Speech SDK.
-Architecture Technologies used  Azure Bot Service and Direct Line Channel Bot Framework Microsoft Cognitive Services  Dispatcher LUIS QnA Maker Speech SDK  Azure Functions Spotify API UWP Raspberry Pi running Windows 10 IoT Halloween head  Who&amp;rsquo;s Freddy?</description>
     </item>
     
   </channel>

@@ -3,6 +3,81 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jamied.me/tags/google/</loc>
+    <lastmod>2021-01-12T11:32:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/posts/2021/01/google-nest-smartthings-integration/</loc>
+    <lastmod>2021-01-12T11:32:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/</loc>
+    <lastmod>2021-01-12T11:32:52+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://jamied.me/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamied.me/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/home-automation/</loc>
+    <lastmod>2021-01-12T11:32:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/nest/</loc>
+    <lastmod>2021-01-12T11:32:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/posts/</loc>
+    <lastmod>2021-01-12T11:32:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/smart-home/</loc>
+    <lastmod>2021-01-12T11:32:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/smarthome/</loc>
+    <lastmod>2021-01-12T11:32:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/smartthings/</loc>
+    <lastmod>2021-01-12T11:32:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/</loc>
+    <lastmod>2021-01-12T11:32:52+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://jamied.me/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamied.me/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/thermostat/</loc>
+    <lastmod>2021-01-12T11:32:52+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jamied.me/tags/corona/</loc>
     <lastmod>2020-12-23T20:04:40+00:00</lastmod>
   </url>
@@ -23,26 +98,6 @@
   </url>
   
   <url>
-    <loc>https://jamied.me/</loc>
-    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://jamied.me/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamied.me/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://jamied.me/tags/home-automation/</loc>
-    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jamied.me/tags/lockdown/</loc>
     <lastmod>2020-12-23T20:04:40+00:00</lastmod>
   </url>
@@ -53,17 +108,7 @@
   </url>
   
   <url>
-    <loc>https://jamied.me/posts/</loc>
-    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jamied.me/tags/sensor/</loc>
-    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamied.me/tags/smart-home/</loc>
     <lastmod>2020-12-23T20:04:40+00:00</lastmod>
   </url>
   
@@ -73,33 +118,8 @@
   </url>
   
   <url>
-    <loc>https://jamied.me/tags/smarthome/</loc>
-    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamied.me/tags/smartthings/</loc>
-    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jamied.me/tags/spotify/</loc>
     <lastmod>2020-12-23T20:04:40+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamied.me/tags/</loc>
-    <lastmod>2020-12-23T20:04:40+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://jamied.me/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamied.me/tags/"
-                />
   </url>
   
   <url>

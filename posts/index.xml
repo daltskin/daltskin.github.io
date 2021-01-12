@@ -5,8 +5,40 @@
         <description>Recent content in Posts on Hello_world</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Wed, 23 Dec 2020 20:04:40 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 12 Jan 2021 11:32:52 +0000</lastBuildDate>
         <atom:link href="https://jamied.me/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Google Nest SmartThings Integration</title>
+            <link>https://jamied.me/posts/2021/01/google-nest-smartthings-integration/</link>
+            <pubDate>Tue, 12 Jan 2021 11:32:52 +0000</pubDate>
+            
+            <guid>https://jamied.me/posts/2021/01/google-nest-smartthings-integration/</guid>
+            <description>Google Nest is now officially supported on SmartThings, until now I&amp;rsquo;d been using the awesome Nest Manager by Tonesto7 - but decided to take the plunge and see what this new integration looks like.
+This blog takes you through the process of migrating your Nest account over to Google Nest, then integrating any Nest devices you have into your SmartThings environment. The process is easy, but long winded, it&amp;rsquo;s also irreversible, so this will show you what to expect during the SmartThings migration.</description>
+            <content type="html"><![CDATA[<p>Google Nest is now officially supported on SmartThings, until now I&rsquo;d been using the awesome <a href="https://github.com/tonesto7/nest-manager" target="_blank">Nest Manager by Tonesto7</a> - but decided to take the plunge and see what this new integration looks like.</p>
+
+<p>This blog takes you through the process of migrating your Nest account over to Google Nest, then integrating any Nest devices you have into your SmartThings environment.  The process is easy, but long winded, it&rsquo;s also <strong>irreversible</strong>, so this will show you what to expect during the SmartThings migration.</p>
+
+<p>From the SmartThings application:</p>
+
+<ol>
+<li>Select &ldquo;Add device&rdquo; and then Google Nest: <img src="/img/nest01.jpg" width="250"></li>
+<li>Select your Nest device from the options Cameras/Doorbells/Thermostats (here I&rsquo;ve selected Thermostats): <img src="/img/nest02.jpg" width="250"></li>
+<li>Start the Nest account migration process: <img src="/img/nest03.jpg" width="250"></li>
+<li>Enable Third Party cookies within your browser: <img src="/img/nest04.jpg" width="250"><br><img src="/img/nest05.jpg" width="250"><br><img src="/img/nest06.jpg" width="250"><br><img src="/img/nest07.jpg" width="250"><br><img src="/img/nest08.jpg" width="250"><br><img src="/img/nest09.jpg" width="250"></li>
+<li>Allow Nest access to your Google account: <img src="/img/nest10.jpg" width="250"></li>
+<li>Sign into Nest: <img src="/img/nest11.jpg" width="250"></li>
+<li>Disconnect existing &ldquo;Works with Nest&rdquo; connections: <img src="/img/nest12.jpg" width="250"><br><img src="/img/nest13.jpg" width="250"><br><img src="/img/nest14.jpg" width="250"></li>
+<li>Agree to the Google T&amp;Cs: <img src="/img/nest15.jpg" width="250"><br><img src="/img/nest16.jpg" width="250"><br><img src="/img/nest17.jpg" width="250"><br><img src="/img/nest18.jpg" width="250"><br><img src="/img/nest19.jpg" width="250"></li>
+<li>Select your email alerts: <img src="/img/nest20.jpg" width="250"><br><img src="/img/nest21.jpg" width="250"><br><img src="/img/nest22.jpg" width="250"></li>
+<li>Allow SmartThings to control Google Nest: <img src="/img/nest23.jpg" width="250"><br><img src="/img/nest24.jpg" width="250"><br><img src="/img/nest25.jpg" width="250"><br><img src="/img/nest26.jpg" width="250"><br><img src="/img/nest27.jpg" width="250"><br><img src="/img/nest28.jpg" width="250"></li>
+<li>Complete setup: <img src="/img/nest29.jpg" width="250"><br><img src="/img/nest30.jpg" width="250"></li>
+<li>View your new Nest device: <img src="/img/nest31.jpg" width="250"></li>
+<li>View Nest automation options: <img src="/img/nest32.jpg" width="250"></li>
+</ol>
+]]></content>
+        </item>
         
         <item>
             <title>Smart Home Multiplayer Bomb Disposal Game / Escape Room</title>
