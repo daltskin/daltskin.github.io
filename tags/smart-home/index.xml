@@ -6,10 +6,20 @@
     <description>Recent content in smart home on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 12 Jan 2021 11:32:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Jan 2021 18:20:51 +0000</lastBuildDate>
     
 	<atom:link href="https://jamied.me/tags/smart-home/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ikea Tradfri switch hack</title>
+      <link>https://jamied.me/posts/2021/01/ikea-tradfri-switch-hack/</link>
+      <pubDate>Mon, 25 Jan 2021 18:20:51 +0000</pubDate>
+      
+      <guid>https://jamied.me/posts/2021/01/ikea-tradfri-switch-hack/</guid>
+      <description>Here I&amp;rsquo;m modifying an Ikea Tradfri Wireless Dimmer switch, one of the cheapest Zigbee buttons on the market at £6, into an industrial mechanical switch.
+I wanted a rugged button to control some smart home devices, the Fibaro The Button, whilst looks great, IMHO it&amp;rsquo;s over priced at nearly £50. This post looks to create a much cheaper alternative and have some fun with a soldering iron along the way.</description>
+    </item>
     
     <item>
       <title>Google Nest SmartThings Integration</title>

@@ -6,10 +6,20 @@
     <description>Recent content on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 12 Jan 2021 11:32:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Jan 2021 18:20:51 +0000</lastBuildDate>
     
 	<atom:link href="https://jamied.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ikea Tradfri switch hack</title>
+      <link>https://jamied.me/posts/2021/01/ikea-tradfri-switch-hack/</link>
+      <pubDate>Mon, 25 Jan 2021 18:20:51 +0000</pubDate>
+      
+      <guid>https://jamied.me/posts/2021/01/ikea-tradfri-switch-hack/</guid>
+      <description>Here I&amp;rsquo;m modifying an Ikea Tradfri Wireless Dimmer switch, one of the cheapest Zigbee buttons on the market at £6, into an industrial mechanical switch.
+I wanted a rugged button to control some smart home devices, the Fibaro The Button, whilst looks great, IMHO it&amp;rsquo;s over priced at nearly £50. This post looks to create a much cheaper alternative and have some fun with a soldering iron along the way.</description>
+    </item>
     
     <item>
       <title>Google Nest SmartThings Integration</title>
@@ -103,16 +113,6 @@ Windows Files Explorer &amp;amp; Windows Terminal All of command line parameters
 He also shared the full source code and provided some great examples on what&amp;rsquo;s possible:
 I&amp;rsquo;ve spent the last couple of evenings experimenting with this a bit. Whilst it&amp;rsquo;s &amp;lsquo;super-pre-alpha quality&amp;rsquo;, it&amp;rsquo;s pretty damn awesome.
 Docker Using this in conjunction with Docker.DotNet was my first experiment. Rather than bring web content into the project, why not let Docker do the local hosting.</description>
-    </item>
-    
-    <item>
-      <title>Pulumi Azure Bot Service</title>
-      <link>https://jamied.me/posts/2019/11/pulumi-azure-bot-service/</link>
-      <pubDate>Sun, 17 Nov 2019 20:08:06 +0000</pubDate>
-      
-      <guid>https://jamied.me/posts/2019/11/pulumi-azure-bot-service/</guid>
-      <description>Pulumi IaaC =&amp;gt; IaaC# (Infrastructure as CSharp) - Deploying Azure bots with Pulumi I&amp;rsquo;ll admit that, until a week ago, I had never heard of Pulumi, but when they recently announced support for .NET - they got my attention. I&amp;rsquo;ve worked alot with JSON based Azure Resource Manager (ARM) templates in the past - but these quickly become complicated to author when you have many different Azure resources.
-Whilst Terraform offers it&amp;rsquo;s own HashiCorp Configuration Language (HCL), that or working with YAML makes a bit of me want to die - the syntax seems we&amp;rsquo;ve gone back an era in computing.</description>
     </item>
     
   </channel>

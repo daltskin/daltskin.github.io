@@ -5,8 +5,59 @@
         <description>Recent content in Posts on Hello_world</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Tue, 12 Jan 2021 11:32:52 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 25 Jan 2021 18:20:51 +0000</lastBuildDate>
         <atom:link href="https://jamied.me/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Ikea Tradfri switch hack</title>
+            <link>https://jamied.me/posts/2021/01/ikea-tradfri-switch-hack/</link>
+            <pubDate>Mon, 25 Jan 2021 18:20:51 +0000</pubDate>
+            
+            <guid>https://jamied.me/posts/2021/01/ikea-tradfri-switch-hack/</guid>
+            <description>Here I&amp;rsquo;m modifying an Ikea Tradfri Wireless Dimmer switch, one of the cheapest Zigbee buttons on the market at £6, into an industrial mechanical switch.
+I wanted a rugged button to control some smart home devices, the Fibaro The Button, whilst looks great, IMHO it&amp;rsquo;s over priced at nearly £50. This post looks to create a much cheaper alternative and have some fun with a soldering iron along the way.</description>
+            <content type="html"><![CDATA[
+
+<p><img src="/img/ikea button box.jpg" width="400"/></p>
+
+<p>Here I&rsquo;m modifying an <a href="https://www.ikea.com/gb/en/p/tradfri-wireless-dimmer-white-00468432/" target="_blank">Ikea Tradfri Wireless Dimmer</a> switch, one of the cheapest Zigbee buttons on the market at £6, into an industrial mechanical switch.</p>
+
+<p><img src="/img/ikea button modification.jpg" width="400"/></p>
+
+<p>I wanted a rugged button to control some smart home devices, the Fibaro <a href="https://www.fibaro.com/en/products/the-button/" target="_blank">The Button</a>, whilst looks great, IMHO it&rsquo;s over priced at nearly £50.  This post looks to create a much cheaper alternative and have some fun with a soldering iron along the way.</p>
+
+<p>The Ikea button is tiny at 45mm x 45mm, 16mm deep and runs off a single CR2032 coin battery.  It has 2 micro switch based buttons that can detect either being <code>pressed</code> or <code>held</code> within the SmartThings environment.</p>
+
+<p>Let&rsquo;s take this this button apart and see what&rsquo;s inside.  Before doing any modifications (at your own risk), I recommend you first pair this device with your existing home automation environment so that you can test the buttons are working correctly.</p>
+
+<h2 id="ikea-tradfri-wireless-dimmer-teardown">Ikea Tradfri Wireless Dimmer Teardown</h2>
+
+<p><img src="/img/ikea button teardown.jpg" width="400"></p>
+
+<h2 id="circuit-board">Circuit board</h2>
+
+<p><img src="/img/ikea button board.jpg" width="400"></p>
+
+<p>We can add a mechanical switch inline across either the purple or red terminals shown below on either of the onboard micro switches S1 or S2.</p>
+
+<p><img src="/img/ikea button board annotated.jpg" width="400"></p>
+
+<p>I decided to completely remove the micro switches and hoped to use their existing copper pads, but in removing them, the copper seating got damaged so I needed to put the new inline switch for S1 across one existing switch pad and R7 and the S2 switch from one remaining pad to R6.  Then used some hot glue to secure the new wires connections in place.</p>
+
+<p><img src="/img/ikea button board glue.jpg" width="400"></p>
+
+<h2 id="industrial-button">Industrial button</h2>
+
+<p>I used this industrial style switch, which I got from Ebay for £8, which had just enough space for the Ikea smart button.  It was then a simple case of putting the wires for both the S1 and S2 switches in either side of the new mechanical switch terminals.</p>
+
+<p><img src="/img/ikea mechanical internal.jpg" width="400"></p>
+
+<h2 id="new-mechanical-button">New mechanical button</h2>
+
+<p>The final result, a light weight industrial switch, which can detect either button being pressed or held.
+<img src="/img/ikea mechanical button.jpg" width="400"></p>
+]]></content>
+        </item>
         
         <item>
             <title>Google Nest SmartThings Integration</title>

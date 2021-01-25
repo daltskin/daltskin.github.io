@@ -6,42 +6,60 @@
     <description>Recent content in Tags on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 12 Jan 2021 11:32:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Jan 2021 18:20:51 +0000</lastBuildDate>
     
 	<atom:link href="https://jamied.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>google</title>
-      <link>https://jamied.me/tags/google/</link>
-      <pubDate>Tue, 12 Jan 2021 11:32:52 +0000</pubDate>
+      <title>button</title>
+      <link>https://jamied.me/tags/button/</link>
+      <pubDate>Mon, 25 Jan 2021 18:20:51 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/google/</guid>
+      <guid>https://jamied.me/tags/button/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hack</title>
+      <link>https://jamied.me/tags/hack/</link>
+      <pubDate>Mon, 25 Jan 2021 18:20:51 +0000</pubDate>
+      
+      <guid>https://jamied.me/tags/hack/</guid>
       <description></description>
     </item>
     
     <item>
       <title>home automation</title>
       <link>https://jamied.me/tags/home-automation/</link>
-      <pubDate>Tue, 12 Jan 2021 11:32:52 +0000</pubDate>
+      <pubDate>Mon, 25 Jan 2021 18:20:51 +0000</pubDate>
       
       <guid>https://jamied.me/tags/home-automation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>nest</title>
-      <link>https://jamied.me/tags/nest/</link>
-      <pubDate>Tue, 12 Jan 2021 11:32:52 +0000</pubDate>
+      <title>ikea</title>
+      <link>https://jamied.me/tags/ikea/</link>
+      <pubDate>Mon, 25 Jan 2021 18:20:51 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/nest/</guid>
+      <guid>https://jamied.me/tags/ikea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>industrial</title>
+      <link>https://jamied.me/tags/industrial/</link>
+      <pubDate>Mon, 25 Jan 2021 18:20:51 +0000</pubDate>
+      
+      <guid>https://jamied.me/tags/industrial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>smart home</title>
       <link>https://jamied.me/tags/smart-home/</link>
-      <pubDate>Tue, 12 Jan 2021 11:32:52 +0000</pubDate>
+      <pubDate>Mon, 25 Jan 2021 18:20:51 +0000</pubDate>
       
       <guid>https://jamied.me/tags/smart-home/</guid>
       <description></description>
@@ -50,7 +68,7 @@
     <item>
       <title>smarthome</title>
       <link>https://jamied.me/tags/smarthome/</link>
-      <pubDate>Tue, 12 Jan 2021 11:32:52 +0000</pubDate>
+      <pubDate>Mon, 25 Jan 2021 18:20:51 +0000</pubDate>
       
       <guid>https://jamied.me/tags/smarthome/</guid>
       <description></description>
@@ -59,45 +77,27 @@
     <item>
       <title>smartthings</title>
       <link>https://jamied.me/tags/smartthings/</link>
-      <pubDate>Tue, 12 Jan 2021 11:32:52 +0000</pubDate>
+      <pubDate>Mon, 25 Jan 2021 18:20:51 +0000</pubDate>
       
       <guid>https://jamied.me/tags/smartthings/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>thermostat</title>
-      <link>https://jamied.me/tags/thermostat/</link>
-      <pubDate>Tue, 12 Jan 2021 11:32:52 +0000</pubDate>
+      <title>switch</title>
+      <link>https://jamied.me/tags/switch/</link>
+      <pubDate>Mon, 25 Jan 2021 18:20:51 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/thermostat/</guid>
+      <guid>https://jamied.me/tags/switch/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>corona</title>
-      <link>https://jamied.me/tags/corona/</link>
-      <pubDate>Wed, 23 Dec 2020 20:04:40 +0000</pubDate>
+      <title>zigbee</title>
+      <link>https://jamied.me/tags/zigbee/</link>
+      <pubDate>Mon, 25 Jan 2021 18:20:51 +0000</pubDate>
       
-      <guid>https://jamied.me/tags/corona/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>covid</title>
-      <link>https://jamied.me/tags/covid/</link>
-      <pubDate>Wed, 23 Dec 2020 20:04:40 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/covid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>covid19</title>
-      <link>https://jamied.me/tags/covid19/</link>
-      <pubDate>Wed, 23 Dec 2020 20:04:40 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/covid19/</guid>
+      <guid>https://jamied.me/tags/zigbee/</guid>
       <description></description>
     </item>
     
