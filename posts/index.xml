@@ -5,8 +5,94 @@
         <description>Recent content in Posts on Hello_world</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Mon, 25 Jan 2021 18:20:51 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 04 Feb 2021 20:15:14 +0000</lastBuildDate>
         <atom:link href="https://jamied.me/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Saving Lockdown</title>
+            <link>https://jamied.me/posts/2021/02/saving-lockdown/</link>
+            <pubDate>Thu, 04 Feb 2021 20:15:14 +0000</pubDate>
+            
+            <guid>https://jamied.me/posts/2021/02/saving-lockdown/</guid>
+            <description>Emergency surgery on the Xbox Kinect Phew! Tonight I saved lockdown in our household by fixing the Xbox Kinect :) Not many people seam to care or use the Kinect anymore, it was ahead of it&amp;rsquo;s time and never really got the traction it deserved. However, Just Dance 2021 (and previous versions) still supports it on the Xbox One.
+Just Dance screen time is one I don&amp;rsquo;t mind the kids having, I&amp;rsquo;m an ex-breaker, so always happy to encourage dancing and listening to music.</description>
+            <content type="html"><![CDATA[
+
+<h2 id="emergency-surgery-on-the-xbox-kinect">Emergency surgery on the Xbox Kinect</h2>
+
+<p>Phew! Tonight I saved lockdown in our household by fixing the Xbox Kinect :)  Not many people seam to care or use the Kinect anymore, it was ahead of it&rsquo;s time and never really got the traction it deserved.  However, <a href="https://www.ubisoft.com/en-gb/game/just-dance/2021" target="_blank">Just Dance 2021</a> (and previous versions) still supports it on the Xbox One.</p>
+
+<p>Just Dance screen time is one I don&rsquo;t mind the kids having, I&rsquo;m an ex-breaker, so always happy to encourage dancing and listening to music.  In previous UK lockdown(s), given the choice of watching Joe Wicks on YouTube every morning vs a family dance-off, Just Dance was always the firm favourite for our daily exercise.</p>
+
+<h2 id="it-s-dead-daddy">&ldquo;It&rsquo;s dead Daddy&rdquo;</h2>
+
+<p>So when I was told that the Kinect was dead, I was gutted, not for me, but for the family. It was time to get the screwdriver and perform whatever surgery I could to revive this little box of tricks.</p>
+
+<h2 id="probably-just-a-fuse">&ldquo;Probably just a fuse&rdquo;</h2>
+
+<p>Optimistically I declared &ldquo;it&rsquo;s probably just a fuse&rdquo;, which actually was true.  Problem is, replacing it is a PITA.</p>
+
+<h2 id="step-by-step">Step by Step</h2>
+
+<p>If your Xbox Kinect is completely dead ie. displays no lights, nada - then chances are it&rsquo;s the internal fuse.  If it still works, but has other issues, this guide is NOT for you.</p>
+
+<p>You&rsquo;ll need a replacement 102 degree, 3 Amp fuse like this <a href="https://www.ebay.co.uk/itm/121428294599" target="_blank">one</a>.</p>
+
+<p>First off, remove the stickers that cover the torx screws.  I used some tweezers to gently pry this off.</p>
+
+<p><img src="/img/Kinect1.jpg" width="400"></p>
+
+<p>There are 4 torx screws on both sides of the stand, the top row are security torx screws which are fiddly to remove.  I managed to remove 2 of them using a normal torx screwdriver, the other two I used a small flat-head between the center pin and one of the star edges to gently rotate the screw. Luckily they weren&rsquo;t that tight so this wasn&rsquo;t too tricky.</p>
+
+<p><img src="/img/Kinect2.jpg" width="400"></p>
+
+<p>Now you can lift off the bottom casing to reveal 9 gold torx screws.</p>
+
+<p><img src="/img/Kinect3.jpg" width="400"></p>
+
+<p>Both side panels will pop out.</p>
+
+<p><img src="/img/Kinect4.jpg" width="400"></p>
+
+<p>There are two black torx screws on either side, once removed the top case can be removed.</p>
+
+<p><img src="/img/Kinect5.jpg" width="400"></p>
+
+<p>Now remove the 9 gold torx screws from the circuit board</p>
+
+<p><img src="/img/Kinect6.jpg" width="400"></p>
+
+<p>This should release the remaining part of the unit.</p>
+
+<p><img src="/img/Kinect7.jpg" width="400"></p>
+
+<p>The fuse can be removed by putting some tweezers around the fuse connector (see arrow) and applying a small amount of horizontal force (from left to right).</p>
+
+<p><img src="/img/Kinect8.jpg" width="400"></p>
+
+<p><img src="/img/Kinect9.jpg" width="400"></p>
+
+<p>Remove the fuse from the connector, then twist the crimp connectors off of the fuse.</p>
+
+<p><img src="/img/Kinect10.jpg" width="400"></p>
+
+<p>Trim the new fuse.  Here I&rsquo;ve soldered the crimp connectors back on - if doing so, be careful not to overheat the fuse.</p>
+
+<p><img src="/img/Kinect11.jpg" width="400"></p>
+
+<p>Then fit the crimp connectors back into the connector housing.</p>
+
+<p><img src="/img/Kinect11.jpg" width="400"></p>
+
+<p><img src="/img/Kinect12.jpg" width="400"></p>
+
+<p>Before re-assembling plug in and check all working (obvs being careful of the exposed electronics)</p>
+
+<p><img src="/img/Kinect13.jpg" width="400"></p>
+
+<p>Now unplug, piece back together and get you dancing shoes on 💃</p>
+]]></content>
+        </item>
         
         <item>
             <title>Ikea Tradfri switch hack</title>
