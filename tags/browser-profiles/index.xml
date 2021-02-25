@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>browser profiles on Hello_world</title>
+    <link>https://jamied.me/tags/browser-profiles/</link>
+    <description>Recent content in browser profiles on Hello_world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 25 Feb 2021 19:26:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://jamied.me/tags/browser-profiles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Working with multiple browser profiles</title>
+      <link>https://jamied.me/posts/2021/02/working-with-multiple-browser-profiles/</link>
+      <pubDate>Thu, 25 Feb 2021 19:26:16 +0000</pubDate>
+      
+      <guid>https://jamied.me/posts/2021/02/working-with-multiple-browser-profiles/</guid>
+      <description>Now that Edge (chromium) is so damn good on Windows I use only one browser, but manage multiple profiles within it. So I have profiles for work, personal and customer projects. I can then open a dedicated browser within each profile and be working purely in that context keeping me productive.
+One thing you might like to do is create a shortcut to a specific browser profile. With a browser profile already running you can select the Pin to taskbar option by right clicking on the running browser here:</description>
+    </item>
+    
+  </channel>
+</rss>

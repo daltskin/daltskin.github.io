@@ -5,8 +5,124 @@
         <description>Recent content in Posts on Hello_world</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 04 Feb 2021 20:15:14 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 25 Feb 2021 19:26:16 +0000</lastBuildDate>
         <atom:link href="https://jamied.me/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Working with multiple browser profiles</title>
+            <link>https://jamied.me/posts/2021/02/working-with-multiple-browser-profiles/</link>
+            <pubDate>Thu, 25 Feb 2021 19:26:16 +0000</pubDate>
+            
+            <guid>https://jamied.me/posts/2021/02/working-with-multiple-browser-profiles/</guid>
+            <description>Now that Edge (chromium) is so damn good on Windows I use only one browser, but manage multiple profiles within it. So I have profiles for work, personal and customer projects. I can then open a dedicated browser within each profile and be working purely in that context keeping me productive.
+One thing you might like to do is create a shortcut to a specific browser profile. With a browser profile already running you can select the Pin to taskbar option by right clicking on the running browser here:</description>
+            <content type="html"><![CDATA[
+
+<p>Now that <a href="https://www.microsoft.com/en-us/edge" target="_blank">Edge</a> (chromium) is so damn good on Windows I use only one browser, but manage multiple profiles within it.  So I have profiles for work, personal and customer projects.  I can then open a dedicated browser within each profile and be working purely in that context keeping me productive.</p>
+
+<p><img src="/img/browserprofiles.png"></p>
+
+<p>One thing you might like to do is create a shortcut to a specific browser profile.  With a browser profile already running you can select the <code>Pin to taskbar</code> option by right clicking on the running browser here:</p>
+
+<p><img src="/img/pinprofile.png"></p>
+
+<p>What this is doing is creating a shortcut to <code>msedge.exe</code> with the appropriate arguments to select the corresponding profile such as this:</p>
+
+<p><code>C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe&quot; --profile-directory=&quot;Profile 3&quot; --flag-switches-begin --flag-switches-end</code></p>
+
+<p>Under the hood, the profiles are managed within <code>C:\Users\%USERPROFILE%\AppData\Local\Microsoft\Edge\User Data</code>, so if you&rsquo;ve created multiple profiles you&rsquo;ll see directories such as:</p>
+
+<ul>
+<li>Default</li>
+<li>Profile 1</li>
+<li>Profile 2</li>
+<li>Profile 3</li>
+<li>Profile 4</li>
+</ul>
+
+<p>However, there is no immediate way to resolve the profile name with the underlying profile id, even from within the profiles screen:</p>
+
+<p><img src="/img/single profile.png"></p>
+
+<p>So how can you determine that the &ldquo;Customer A&rdquo; profile is &ldquo;Profile 3&rdquo;?  Well, if you type the following url within a specific browser profile it will show you the underlying profile directory:</p>
+
+<p><code>edge://version</code></p>
+
+<p>Side note, you can also do this with Chrome:</p>
+
+<p><code>chrome://version</code></p>
+
+<p><img src="/img/edge version.png"></p>
+
+<h1 id="a-browser-selector-using-browser-profiles">A Browser selector using browser profiles</h1>
+
+<p><img src="/img/browserpicker.png"></p>
+
+<p>So whilst being able to create your own shortcuts, or pinning profiles to the Taskbar for specific profiles is useful.  It would be really productive if you could have the right browser profile automatically opened whenever you click on a hyperlink.</p>
+
+<p><a href="https://github.com/mortenn/BrowserPicker" target="_blank">BrowserPicker</a> is a nifty utility by <a href="https://github.com/mortenn" target="_blank">Morten Nilsen</a> that either lets you pick your preferred browser on the fly, or by a set of predefined rules.  A nice <a href="https://github.com/mortenn/BrowserPicker/pull/27" target="_blank">addition</a> by my colleague <a href="https://github.com/stuartleeks" target="_blank">Stuart Leeks</a>, is that you can specify the CommandArgs for a browser.  This essentially allows you to use pass the above mentioned command switches for Edge (or Chrome), so that you can add each browser profile as a separate browser.</p>
+
+<p><img src="/img/addbrowser.png"></p>
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th></th>
+<th>Edge Customer A</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Command</td>
+<td></td>
+<td>C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</td>
+</tr>
+
+<tr>
+<td>CommandArgs</td>
+<td></td>
+<td>--profile-directory=&ldquo;Profile 3&rdquo;</td>
+</tr>
+
+<tr>
+<td>Icon</td>
+<td></td>
+<td>C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</td>
+</tr>
+</tbody>
+</table>
+
+<p>Each browser profile can then be targeted using rules, such as the start of the full url eg:</p>
+
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th></th>
+<th>Browser</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>|prefix|<a href="https://dev.azure.com/customerA" target="_blank">https://dev.azure.com/customerA</a></td>
+<td></td>
+<td>Edge Customer A</td>
+</tr>
+
+<tr>
+<td>|prefix|<a href="https://dev.azure.com/customerB" target="_blank">https://dev.azure.com/customerB</a></td>
+<td></td>
+<td>Edge Customer B</td>
+</tr>
+</tbody>
+</table>
+
+<p>Stuart also added a <a href="https://github.com/mortenn/BrowserPicker/issues/23#issuecomment-760314233" target="_blank">regex rule</a> too :)</p>
+]]></content>
+        </item>
         
         <item>
             <title>Saving Lockdown</title>
