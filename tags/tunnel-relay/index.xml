@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>GitHub Webhooks With C# Azure Functions</title>
-      <link>https://jamied.me/github-webhooks-with-azure-functions/</link>
+      <title>GitHub Webhooks With Azure Functions</title>
+      <link>https://jamied.me/posts/2020/07/github-webhooks-with-azure-functions/</link>
       <pubDate>Tue, 21 Jul 2020 21:50:17 +0100</pubDate>
       
-      <guid>https://jamied.me/github-webhooks-with-azure-functions/</guid>
+      <guid>https://jamied.me/posts/2020/07/github-webhooks-with-azure-functions/</guid>
       <description>Recently I wanted to build a GitHub webhook using C# Azure Functions, but could only find an example template using Node.js. Here, I set out to create a webhook to check the overall status of a build. This is something I was doing around 10 years ago with Team Foundation Server, so thought it would be fun to get this up and running with GitHub Actions.
 Check Suites Looking at the available webhook events there wasn&amp;rsquo;t an obvious event I could subscribe to get what I wanted.</description>
     </item>
