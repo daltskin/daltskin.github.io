@@ -6,10 +6,19 @@
     <description>Recent content on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 25 Feb 2021 19:26:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Apr 2021 21:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://jamied.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tamiya Wild Willy WR02 - Lockdown project</title>
+      <link>https://jamied.me/posts/2021/04/tamiya-wild-willy-wr02-lockdown-project/</link>
+      <pubDate>Wed, 07 Apr 2021 21:00:00 +0100</pubDate>
+      
+      <guid>https://jamied.me/posts/2021/04/tamiya-wild-willy-wr02-lockdown-project/</guid>
+      <description>During lockdown I wanted something to do that didn&amp;rsquo;t involve a computer screen as I was spending crazy hours at the keyboard. I&amp;rsquo;ve (literally) home automated the shit out of my house already, so instead, returned to an old childhood hobby. As a kid I loved building and racing Tamiya RC cars, my first one was the entry level Tamiya Falcon, I then worked my way through some of their models with the Tamiya Hotshot being one of my favourites.</description>
+    </item>
     
     <item>
       <title>Working with multiple browser profiles</title>
@@ -98,17 +107,6 @@ Check Suites Looking at the available webhook events there wasn&amp;rsquo;t an o
       
       <guid>https://jamied.me/posts/2020/05/luis-devops-with-github-actions/</guid>
       <description>Implementing good DevOps practices with the LUIS Cognitive Service has been traditionally hard. Largely because the initial focus of the service has been on the underlying performance and on the portal experience - making a complex machine learning problem easy to use by any developer. In fact, now the portal is so easy to use, it can be used by non-developers too, such as business folk and even content editors.</description>
-    </item>
-    
-    <item>
-      <title>Windows Terminal Command Line</title>
-      <link>https://jamied.me/posts/2020/02/windows-terminal-command-line/</link>
-      <pubDate>Fri, 14 Feb 2020 14:01:08 +0000</pubDate>
-      
-      <guid>https://jamied.me/posts/2020/02/windows-terminal-command-line/</guid>
-      <description>Following on from my previous post about WSL Shortcuts - Windows Terminal v0.9 Release finally introduces command line support.
-You can now combine this with an old File Explorer task bar trick to bootstrap your awesomeness.
-Windows Files Explorer &amp;amp; Windows Terminal All of command line parameters that are supported are documented here. One nice trick is using split-pane to support different platforms simultaneously. So the following will open up a pane with both Powershell and Ubuntu side-by-side :)</description>
     </item>
     
   </channel>

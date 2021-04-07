@@ -5,8 +5,133 @@
         <description>Recent content in Posts on Hello_world</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 25 Feb 2021 19:26:16 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 07 Apr 2021 21:00:00 +0100</lastBuildDate>
         <atom:link href="https://jamied.me/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Tamiya Wild Willy WR02 - Lockdown project</title>
+            <link>https://jamied.me/posts/2021/04/tamiya-wild-willy-wr02-lockdown-project/</link>
+            <pubDate>Wed, 07 Apr 2021 21:00:00 +0100</pubDate>
+            
+            <guid>https://jamied.me/posts/2021/04/tamiya-wild-willy-wr02-lockdown-project/</guid>
+            <description>During lockdown I wanted something to do that didn&amp;rsquo;t involve a computer screen as I was spending crazy hours at the keyboard. I&amp;rsquo;ve (literally) home automated the shit out of my house already, so instead, returned to an old childhood hobby. As a kid I loved building and racing Tamiya RC cars, my first one was the entry level Tamiya Falcon, I then worked my way through some of their models with the Tamiya Hotshot being one of my favourites.</description>
+            <content type="html"><![CDATA[
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><a href="/img/ww/wr02_1.jpg"><img src="/img/ww/wr02_1_thm.jpg"></a></td>
+<td><a href="/img/ww/wr02_2.jpg"><img src="/img/ww/wr02_2_thm.jpg"></a></td>
+<td><a href="/img/ww/wr02_3.jpg"><img src="/img/ww/wr02_3_thm.jpg"></a></td>
+</tr>
+
+<tr>
+<td><a href="/img/ww/wr02_4.jpg"><img src="/img/ww/wr02_4_thm.jpg"></a></td>
+<td><a href="/img/ww/wr02_5.jpg"><img src="/img/ww/wr02_5_thm.jpg"></a></td>
+<td><a href="/img/ww/wr02_6.jpg"><img src="/img/ww/wr02_6_thm.jpg"></a></td>
+</tr>
+
+<tr>
+<td><a href="/img/ww/wr02_7.jpg"><img src="/img/ww/wr02_7_thm.jpg"></a></td>
+<td><a href="/img/ww/wr02_8.jpg"><img src="/img/ww/wr02_8_thm.jpg"></a></td>
+<td><a href="/img/ww/wr02_9.jpg"><img src="/img/ww/wr02_9_thm.jpg"></a></td>
+</tr>
+</tbody>
+</table>
+
+<p>During lockdown I wanted something to do that didn&rsquo;t involve a computer screen as I was spending crazy hours at the keyboard.  I&rsquo;ve (literally) home automated the shit out of my house already, so instead, returned to an old childhood hobby.  As a kid I loved building and racing Tamiya RC cars, my first one was the entry level Tamiya Falcon, I then worked my way through some of their models with the Tamiya Hotshot being one of my favourites.  However, a couple that were out of my paper-round money reach, were the Bigwig and the Wild Willy.  So when looking for a kit to build during lockdown, I wanted something that would be fun to build and drive, and most importantly, one my son could control easily on grass.  So the Wily Willy WR02 was an easy choice.</p>
+
+<p>Now this is finally built, I have to say, it&rsquo;s one of the most fun RC cars I&rsquo;ve ever used.  It handles really well, the steering is great and is much quicker than I thought it would ever be.  One of the best things is that the RC controller allows me to reduce the throttle between 0-100%, meaning I can set it to 25% give it to the boy and he can give the trigger full beans without the car veering off uncontrollably into the nearest concrete pillar.</p>
+
+<h2 id="hop-ups">Hop-ups</h2>
+
+<p>I&rsquo;m a geek, so had to make some obligatory upgrades along the way, including:</p>
+
+<ul>
+<li><a href="https://www.jk-rc.co.uk/rc-accessories/new-genuine-hobbywing-quicrun-wp-1060-waterproof-brushed-electronic-speed-controller-esc-2328-p" target="_blank">Hobbywing Quicrun ESC</a></li>
+<li><a href="https://www.jk-rc.co.uk/tamiya-rc-spares/new-tamiya-540-sport-tuned-motor-53068-hop-up-upgrade-p" target="_blank">Tamiya 540 Sport Tuned (black can)</a></li>
+<li><a href="https://www.ebay.co.uk/itm/Bearing-Set-for-TAMIYA-WILD-WILLY-2-COMPLETE-16-Metal-Seal-58242-Hop-up-Upgrade/114307532169" target="_blank">Full bearing set</a></li>
+<li><a href="https://www.amazon.co.uk/gp/product/B07N86CXXL/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&amp;psc=1" target="_blank">Receiver PCB conformal coating</a></li>
+<li><a href="https://www.ebay.co.uk/itm/4x-Aluminum-12mm-Hex-Wheel-Hubs-Set-12mm-11mm-10mm-9mm-8mm-Thickness-for-RC-Cars/391888611747?var=660867311133" target="_blank">Aluminium 12mm hex wheel jubs</a></li>
+</ul>
+
+<h2 id="adding-leds-headlamps-and-tail-lights">Adding LEDs headlamps and tail lights</h2>
+
+<p><video src="/img/ww/lights/lights.mp4" controls width=400></p>
+
+<p>Then it was time to pimp it up with some LEDs.  I couldn&rsquo;t find a guide on how to do this, so here are the steps that I took including the parts I used.</p>
+
+<p>Part list:</p>
+
+<ul>
+<li>Front head lamps - <a href="https://www.ebay.co.uk/itm/For-Tamiya-Holiday-Buggy-Monster-Beetle-Blitzer-Wild-Willy-RC-Car-Led-Light-Kit/363080367948" target="_blank">Tamiya Car LED Light Kit</a></li>
+<li>Rear lights - <a href="https://www.ebay.co.uk/itm/20PCS-0-5W-8mm-Red-Straw-Hat-High-power-LED-Leds-Light-Lamp-StrawHat/153088622049" target="_blank">8mm Red Straw Hat LEDs</a></li>
+<li>LED light controller - <a href="https://www.ebay.co.uk/itm/LED-Lamp-Light-Control-Switch-Panel-System-Turn-on-Off-3CH-RC-Car-Vehicle-Car-Ti/352773268608?epid=15028170670&amp;hash=item5222ece480:g:ZJUAAOSwAu5f1HeD" target="_blank">RC on/off</a></li>
+</ul>
+
+<h3 id="step-1-front-grill-template">Step 1 - Front grill template</h3>
+
+<p>Create a template out of cardboard of the front grill to position the head lamps. Use the template to mark out on the chassis where the lights will come through, and remove the plastic that obstructs them.</p>
+
+<p><a href="/img/ww/lights/wr02_11.jpg"><img src="/img/ww/lights/wr02_11_thm.jpg"></a></p>
+
+<p>Then use the template to drill out the holes for the new lights on the front grill.</p>
+
+<p><a href="/img/ww/lights/wr02_2.jpg"><img src="/img/ww/lights/wr02_2_thm.jpg"></a></p>
+
+<h3 id="step-2-trim-the-head-lamps">Step 2 - Trim the head lamps</h3>
+
+<p>Trim the bottom off the head lamp holders.</p>
+
+<p><a href="/img/ww/lights/wr02_1.jpg"><img src="/img/ww/lights/wr02_1_thm.jpg"></a></p>
+
+<p>This will allow them to sit flush against the inside of the front grill.</p>
+
+<p><a href="/img/ww/lights/wr02_5.jpg"><img src="/img/ww/lights/wr02_5_thm.jpg"></a></p>
+
+<h3 id="step-3-attach-the-head-lamps">Step 3 - Attach the head lamps</h3>
+
+<p>Using a glue gun carefully glue the head lamps in position.</p>
+
+<p><a href="/img/ww/lights/wr02_7.jpg"><img src="/img/ww/lights/wr02_7_thm.jpg"></a></p>
+
+<h3 id="step-4-paint">Step 4 - Paint</h3>
+
+<p>Mask up the lights and complete you paint job.</p>
+
+<p><a href="/img/ww/lights/wr02_8.jpg"><img src="/img/ww/lights/wr02_8_thm.jpg"></a></p>
+
+<p><a href="/img/ww/lights/wr02_13.jpg"><img src="/img/ww/lights/wr02_13_thm.jpg"></a></p>
+
+<h3 id="step-5-head-lamp-leds">Step 5 - Head lamp LEDs</h3>
+
+<p>Feed the front LEDs into the lamp holders.</p>
+
+<p><a href="/img/ww/lights/wr02_6.jpg"><img src="/img/ww/lights/wr02_6_thm.jpg"></a></p>
+
+<h3 id="step-6-tail-light-leds">Step 6 - Tail light LEDs</h3>
+
+<p>For the tail lights, drill out a slightly smaller hole than the base of the straw hat LEDs - so they can poke through back panel, but not fall out.</p>
+
+<p><a href="/img/ww/lights/wr02_4.jpg"><img src="/img/ww/lights/wr02_4_thm.jpg"></a></p>
+
+<h3 id="step-7-wiring">Step 7 - Wiring</h3>
+
+<p>Tidy up the wiring loom, I cut this down to size and re-soldered as there was a fair bit of excess.</p>
+
+<p><a href="/img/ww/lights/wr02_3.jpg"><img src="/img/ww/lights/wr02_3_thm.jpg"></a></p>
+
+<p><a href="/img/ww/lights/wr02_9.jpg"><img src="/img/ww/lights/wr02_9_thm.jpg"></a></p>
+]]></content>
+        </item>
         
         <item>
             <title>Working with multiple browser profiles</title>

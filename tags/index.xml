@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 25 Feb 2021 19:26:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Apr 2021 21:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://jamied.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>untagged</title>
+      <link>https://jamied.me/tags/untagged/</link>
+      <pubDate>Wed, 07 Apr 2021 21:00:00 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/untagged/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>browser</title>
@@ -89,15 +98,6 @@
       <pubDate>Thu, 04 Feb 2021 20:15:14 +0000</pubDate>
       
       <guid>https://jamied.me/tags/just-dance-2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kinect</title>
-      <link>https://jamied.me/tags/kinect/</link>
-      <pubDate>Thu, 04 Feb 2021 20:15:14 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/kinect/</guid>
       <description></description>
     </item>
     
