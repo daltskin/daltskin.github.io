@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vscode remote on Hello_world</title>
+    <link>https://jamied.me/tags/vscode-remote/</link>
+    <description>Recent content in vscode remote on Hello_world</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 12 May 2022 12:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://jamied.me/tags/vscode-remote/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Connecting to a headless Raspberry Pi without a network</title>
+      <link>https://jamied.me/posts/2022/05/connecting-to-a-headless-raspberry-pi-without-a-network/</link>
+      <pubDate>Thu, 12 May 2022 12:00:00 +0100</pubDate>
+      
+      <guid>https://jamied.me/posts/2022/05/connecting-to-a-headless-raspberry-pi-without-a-network/</guid>
+      <description>When travelling, connecting to a Raspberry Pi can be problematic if you there is no wifi or a shared network available. I discovered this trick a few years ago whilst stuck in an airport lounge, and have been meaning to blog it for my future self. Until, a couple of weeks ago I faced the same challenge in an office where there was no network, or means to connect a headless RPi and debug some Python.</description>
+    </item>
+    
+  </channel>
+</rss>

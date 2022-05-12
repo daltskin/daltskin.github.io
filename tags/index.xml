@@ -6,10 +6,82 @@
     <description>Recent content in Tags on Hello_world</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 07 Apr 2021 21:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 12 May 2022 12:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://jamied.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>debugging</title>
+      <link>https://jamied.me/tags/debugging/</link>
+      <pubDate>Thu, 12 May 2022 12:00:00 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/debugging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>headless</title>
+      <link>https://jamied.me/tags/headless/</link>
+      <pubDate>Thu, 12 May 2022 12:00:00 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/headless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://jamied.me/tags/python/</link>
+      <pubDate>Thu, 12 May 2022 12:00:00 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspberry pi</title>
+      <link>https://jamied.me/tags/raspberry-pi/</link>
+      <pubDate>Thu, 12 May 2022 12:00:00 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rpi</title>
+      <link>https://jamied.me/tags/rpi/</link>
+      <pubDate>Thu, 12 May 2022 12:00:00 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/rpi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssh</title>
+      <link>https://jamied.me/tags/ssh/</link>
+      <pubDate>Thu, 12 May 2022 12:00:00 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VS Code</title>
+      <link>https://jamied.me/tags/vs-code/</link>
+      <pubDate>Thu, 12 May 2022 12:00:00 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/vs-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vscode remote</title>
+      <link>https://jamied.me/tags/vscode-remote/</link>
+      <pubDate>Thu, 12 May 2022 12:00:00 +0100</pubDate>
+      
+      <guid>https://jamied.me/tags/vscode-remote/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hop-ups</title>
@@ -26,78 +98,6 @@
       <pubDate>Wed, 07 Apr 2021 21:00:00 +0100</pubDate>
       
       <guid>https://jamied.me/tags/leds/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>lockdown</title>
-      <link>https://jamied.me/tags/lockdown/</link>
-      <pubDate>Wed, 07 Apr 2021 21:00:00 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/lockdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rc</title>
-      <link>https://jamied.me/tags/rc/</link>
-      <pubDate>Wed, 07 Apr 2021 21:00:00 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/rc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tamiya</title>
-      <link>https://jamied.me/tags/tamiya/</link>
-      <pubDate>Wed, 07 Apr 2021 21:00:00 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/tamiya/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>wild willy</title>
-      <link>https://jamied.me/tags/wild-willy/</link>
-      <pubDate>Wed, 07 Apr 2021 21:00:00 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/wild-willy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>wr02</title>
-      <link>https://jamied.me/tags/wr02/</link>
-      <pubDate>Wed, 07 Apr 2021 21:00:00 +0100</pubDate>
-      
-      <guid>https://jamied.me/tags/wr02/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>browser</title>
-      <link>https://jamied.me/tags/browser/</link>
-      <pubDate>Thu, 25 Feb 2021 19:26:16 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/browser/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>browser picker</title>
-      <link>https://jamied.me/tags/browser-picker/</link>
-      <pubDate>Thu, 25 Feb 2021 19:26:16 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/browser-picker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>browser profiles</title>
-      <link>https://jamied.me/tags/browser-profiles/</link>
-      <pubDate>Thu, 25 Feb 2021 19:26:16 +0000</pubDate>
-      
-      <guid>https://jamied.me/tags/browser-profiles/</guid>
       <description></description>
     </item>
     

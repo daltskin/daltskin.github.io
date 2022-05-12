@@ -3,8 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jamied.me/posts/2022/05/connecting-to-a-headless-raspberry-pi-without-a-network/</loc>
+    <lastmod>2022-05-12T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/debugging/</loc>
+    <lastmod>2022-05-12T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/headless/</loc>
+    <lastmod>2022-05-12T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jamied.me/</loc>
-    <lastmod>2021-04-07T21:00:00+01:00</lastmod>
+    <lastmod>2022-05-12T12:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -15,6 +30,56 @@
                 hreflang="en"
                 href="https://jamied.me/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/posts/</loc>
+    <lastmod>2022-05-12T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/python/</loc>
+    <lastmod>2022-05-12T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/raspberry-pi/</loc>
+    <lastmod>2022-05-12T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/rpi/</loc>
+    <lastmod>2022-05-12T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/ssh/</loc>
+    <lastmod>2022-05-12T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/</loc>
+    <lastmod>2022-05-12T12:00:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://jamied.me/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamied.me/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/vs-code/</loc>
+    <lastmod>2022-05-12T12:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamied.me/tags/vscode-remote/</loc>
+    <lastmod>2022-05-12T12:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -33,28 +98,8 @@
   </url>
   
   <url>
-    <loc>https://jamied.me/posts/</loc>
-    <lastmod>2021-04-07T21:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jamied.me/tags/rc/</loc>
     <lastmod>2021-04-07T21:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamied.me/tags/</loc>
-    <lastmod>2021-04-07T21:00:00+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://jamied.me/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamied.me/tags/"
-                />
   </url>
   
   <url>
@@ -584,11 +629,6 @@
   
   <url>
     <loc>https://jamied.me/tags/man-with-two-brains/</loc>
-    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jamied.me/tags/raspberry-pi/</loc>
     <lastmod>2019-10-31T00:00:00+00:00</lastmod>
   </url>
   
